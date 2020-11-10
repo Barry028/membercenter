@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/**
+ * ==   Pages > Upload Photo
+ */
+
+.uploadPhoto-content {
+  font-size: 0;
+  padding: 0 0.5rem;
+
+  .file-upload {
+    background-color: #f5f6fa;
+    border: 1px dotted #d4d4d4;
+    border-radius: 4px;
+    padding: .75rem;
+    text-align: center;
+
+    #resultPhoto {
+      height: 140px;
+      width: 110px;
+    }
+
+    input[type='file'] {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .uploadPhoto-lt-title {
+    font-size: 1rem;
+    margin-top: .75rem;
+    text-align: center;
+  }
+
+  .uploadPhoto-btn-block {
+    margin: 1rem 0;
+    text-align: center;
+
+    .btn:first-child {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  .uploadPhoto-content .uploadPhoto-btn-block .btn {
+    margin-bottom: 0.5rem;
+
+    &:first-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.uploadPhoto-separate {
+  border-left: 1px dotted #EBEEEF;
+}
+
+.uploadPhoto-content {
+  .uploadPhoto-rt-title {
+    font-size: 1.125rem;
+    margin: .75rem 0;
+  }
+
+  .uploadPhoto-rt-ltbox, .uploadPhoto-rt-rtbox {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .uploadPhoto-rt-ltbox {
+    width: 106px;
+  }
+
+  .uploadPhoto-rt-rtbox {
+    padding: 0 0 0 .5rem;
+    width: calc(100% - 106px);
+  }
+}
+
+.uploadPhoto-rt-rtbox {
+  span {
+    color: #434C64;
+    font-weight: bolder;
+    margin-left: .5rem;
+  }
+
+  .check-img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+.uploadPhoto-bt-txt {
+  background: #EBEEEF;
+  margin: .5rem 0 .75rem;
+  padding: .25rem;
+  font-size: .875rem;
+}
+
+.er-img-block {
+  display: inline-block;
+  padding: .25rem .5rem;
+  text-align: left;
+  vertical-align: top;
+  width: 33.333333%;
+}
+
+.er-img {
+  display: block;
+  margin-bottom: .25rem;
+  width: 4.5rem;
+}
+
+#photoStep_2 {
+  display: none;
+
+  .user_photo_cropper {
+    width: 20rem;
+    margin: auto;
+  }
+}

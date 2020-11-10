@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Components > Loading
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+#logo_loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.72);
+    transition: all .25s ease-in-out;
+    z-index: 9999;
+
+    .logo-animation {
+        position: absolute;
+        left: 46%;
+        top: 46%;
+        transform: translate(-50%, -50%);
+        animation: logo 1s .25s ease-in-out infinite;
+
+        .logo-container {
+            transform: scale(0.375);
+            position: absolute;
+
+            &:nth-of-type(1) {
+                left: 2.25rem;
+            }
+
+            &:nth-of-type(2) {
+                left: 4.5rem;
+            }
+
+            &:nth-of-type(3) {
+                left: 6.75rem;
+            }
+
+            .square {
+                position: absolute;
+                width: 50px;
+                height: 54px;
+
+                &.square-one {
+                    background: #d5263c;
+                    top: 100px;
+                    animation: ascend-1 .25s .25s 1 forwards;
+                }
+
+                &.square-two {
+                    background: #dd1d35;
+                    top: 112px;
+                    animation: ascend-2 .25s .25s 1 forwards;
+                }
+
+                &.square-three {
+                    background: #d81b33;
+                    top: 104px;
+                }
+
+                &.square-four {
+                    background: #d6172f;
+                    border-radius: 4px;
+                    transform: rotate(-65deg);
+                    width: 60px;
+                    height: 60px;
+                    top: -16px;
+                    left: -18px;
+                    animation: morph .25s .25s 1 backwards;
+                }
+
+                &.square-five {
+                    background: #d62239;
+                    transform: rotate(-65deg);
+                    width: 48px;
+                    height: 46px;
+                    top: 0;
+                    left: -24px;
+                    animation: morph .25s .25s 1 backwards;
+                }
+            }
+        }
+    }
+}
+
+@keyframes ascend-1 {
+    0% {
+        top: 104px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes ascend-2 {
+    0% {
+        top: 104px;
+    }
+
+    100% {
+        top: 52px;
+    }
+}
+
+@keyframes morph {
+    0% {
+        transform: rotate(-45deg) skew(15deg, 15deg);
+        opacity: 0;
+    }
+
+    98% {
+        opacity: 1;
+    }
+
+    100% {
+        top: 26px;
+        left: 1px;
+        transform: rotate(-15deg) skew(-15deg, -15deg);
+        opacity: 1;
+    }
+}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+        transform: scale3d(0.5, 0.5, 0.5);
+    }
+
+    10%,
+    20% {
+        transform: scale3d(0.875, 0.875, 0.875) rotate(-3deg);
+    }
+
+    50% {
+        transform: scale3d(1, 1, 1) rotate(3deg);
+    }
+
+    80%,
+    90% {
+        transform: scale3d(1.125, 1.125, 1.125) rotate(-3deg);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+        opacity: 1;
+    }
+}
+
+// .loading {
+//     font-size: 0;
+//     opacity: .72;
+
+//     .jb-one {
+//         display: inline-block;
+//         font-size: 6rem;
+//         animation: loading .4s infinite alternate;
+//         color: rgb(213, 9, 24);
+//         background: rgb(213, 9, 24);
+//         background: -moz-linear-gradient(0deg, rgba(213, 9, 24, 1) 0%, rgba(255, 75, 43, 1) 100%);
+//         background: -webkit-linear-gradient(0deg, rgba(213, 9, 24, 1) 0%, rgba(255, 75, 43, 1) 100%);
+//         background: linear-gradient(0deg, rgba(213, 9, 24, 1) 0%, rgba(255, 75, 43, 1) 100%);
+//         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d50918", endColorstr="#ff4b2b", GradientType=1);
+//         -webkit-background-clip: text;
+//         -webkit-text-fill-color: transparent;
+
+//         &:not(:last-child) {
+//             margin-right: .175rem;
+//         }
+
+//         &:nth-child(2) {
+//             animation-delay: .1s;
+//         }
+
+//         &:nth-child(3) {
+//             animation-delay: .2s;
+//         }
+
+//         &:before:nth-child(4) {
+//             animation-delay: .3s;
+//         }
+//     }
+// }
+
+// @keyframes loading {
+//     0% {
+//         transform: scale(1);
+//     }
+
+//     100% {
+//         transform: scale(0.8);
+//     }
+// }
+
+.loader-data {
+    width: 100%;
+    height: 10rem;
+
+    .loading-cnt {
+        @include position-ab-center;
+
+        .loading {
+            &--default {
+                border-radius: 50%;
+                width: 24px;
+                height: 24px;
+                border: 0.25rem solid rgba($dark, 0.44);
+                border-top-color: white;
+                animation: spinload  1s infinite linear;
+            }
+
+            &--pulse {
+                width: 6px;
+                height: 24px;
+                background: rgba($dark, 0.44);
+                animation: pulseload 750ms infinite;
+                animation-delay: 250ms;
+                margin: .75rem auto;
+
+                &:before,
+                &:after {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    height: 16px;
+                    width: 6px;
+                    background: rgba($dark, 0.44);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    animation: pulseload 750ms infinite;
+                }
+
+                &:before {
+                    left: -8px;
+                }
+
+                &:after {
+                    left: 8px;
+                    animation-delay: 500ms;
+                }
+            }&--txt {
+            font-size: $font-size-md;
+            animation: fadeIn 1.25s infinite;
+        }
+        }
+        
+    }
+}
+
+@keyframes spinload {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulseload {
+    50% {
+        background: $white;
+    }
+}

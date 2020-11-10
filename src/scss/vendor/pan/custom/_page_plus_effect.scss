@@ -1,0 +1,28 @@
+.plus_effect {
+    &-explanation {
+        width: 100%;
+        height: 290px;
+        margin-bottom: 1.8rem;
+
+        > .inner {
+            width: 100%;
+            border: 1px solid #ebebeb;
+            border-radius: 4px;
+        }
+        .txt {
+            font-size: 20px;
+            color: #8797aa;
+            line-height: 1.45;
+        }
+
+    }
+
+    &-btn {
+        .btn {
+            display: table;
+            margin: auto;
+            padding: 0.6rem 2rem;
+        }
+    }
+}
+

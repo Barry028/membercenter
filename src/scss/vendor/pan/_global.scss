@@ -1,0 +1,47 @@
+// > global
+.cf {
+	zoom: 1;
+
+	&:before, &:after {
+		content: ""; display: table; height: 0; overflow: hidden; flex-basis: 0; order: 1;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+
+.td-u {
+	text-decoration: underline;
+}
+
+
+.btn--border--red1 {
+	border-color: #f57373;
+	background-color: transparent;
+	&:hover {
+		background-color: #f57373;
+		color: #fff;
+	}
+}
+.text--red1 {
+	color: #f57373;
+}
+
+.inner-table {
+	display: table;
+}
+
+.inner-tablerow {
+	display: table-row;
+}
+
+.inner-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.align-center {
+	text-align: center;
+}

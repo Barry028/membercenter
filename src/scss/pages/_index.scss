@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Pages > Index
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.card {
+    &.member-card {
+        border-bottom: currentcolor 3px solid;
+        margin: 0.5rem 0 0;
+        padding: 1rem 0.75rem 0.75rem;
+        transition: $transition-base;
+
+        @include shd--hv--ver_5;
+
+        @media (max-width: 1080px) {
+            padding: 0.75rem 0.5rem 0.5rem;
+        }
+
+        &-darkblue {
+            color: $primary;
+
+            .rounded-icon {
+                background-color: lighten($primary, 45%);
+            }
+
+            .count {
+                &:hover {
+                    color: darken($primary, 10%);
+                }
+            }
+        }
+
+        &-green {
+            color: $positive;
+
+            .rounded-icon {
+                background-color: lighten($positive, 52.5%);
+            }
+
+            .count {
+                &:hover {
+                    color: darken($positive, 10%);
+                }
+            }
+        }
+
+        &-pink {
+            color: $pink;
+
+            .rounded-icon {
+                background-color: lighten($pink, 20%);
+            }
+
+            .count {
+                &:hover {
+                    color: darken($pink, 10%);
+                }
+            }
+        }
+
+        .badge {
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+
+            @include absolute($R: 0.5rem, $T: 0.5rem);
+
+            z-index: 1;
+
+            &:hover {
+                box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12);
+            }
+
+            // &:before {
+            //     content: '';
+
+            //     @media (max-width: 1224px) {
+            //         content: '';
+            //     }
+            // }
+        }
+
+        .rounded-icon {
+            border-radius: 50%;
+
+            @include inline-block--middle;
+            @include size(4rem, 4rem);
+
+            @media (max-width: 1080px) {
+                @include size(3rem, 3rem);
+            }
+
+            i {
+                font-size: 1.75rem;
+
+                @include position-ab-center;
+            }
+        }
+
+        figcaption {
+            padding-left: 0.5rem;
+
+            @include inline-block--middle;
+
+            width: calc(100% - 4rem);
+
+            @media (max-width: 1080px) {
+                width: calc(100% - 3rem);
+            }
+
+            .title {
+                color: initial;
+                font-size: $font-size-md;
+
+                @include font-size($font-size-md !important);
+
+                margin-bottom: 0.5rem;
+                margin-top: 0.25rem;
+            }
+
+            .count,a {
+                color: currentcolor;
+                font-size: 2.25rem;
+                line-height: initial;
+                margin-left: 0.5rem;
+                text-decoration: none;
+
+                @media (max-width: 1080px) {
+                    font-size: 1.75rem;
+                }
+            }
+
+            .info {
+                color: $default;
+                font-size: 1.25rem;
+
+                @include absolute($R: 0, $B: -0.5rem);
+            }
+
+            .remark {
+                color: $lightgrey;
+                font-size: $font-size-xxs;
+                margin-left: $default-num * 0.25;
+            }
+        }
+    }
+
+    &.bouns-card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.025);
+        padding: $default-num * 0.875;
+        text-align: left;
+
+        img {
+            width: $default-num * 3.25;
+        }
+
+        h3 {
+            font-size: $font-size-base;
+
+            @include inline-block--middle;
+        }
+
+        figcaption {
+            margin-top: $default-num * 0.75;
+            text-align: right;
+
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                border-top: $border-width $border-style-solid $border-color_2;
+                width: 100%;
+            }
+        }
+
+        .text {
+            font-size: $font-size-xs;
+            padding: ($default-num * 0.75) 0;
+
+            strong {
+                color: $primary;
+                font-size: $h4-font-size;
+            }
+        }
+    }
+
+    &.blcok-card {
+        margin-bottom: $default-num;
+        margin-top: $default-num;
+        text-align: center;
+
+        img {
+            border-radius: $border-radius-sm--px;
+            padding: pxTorem(4px) pxTorem(4px) pxTorem(10px);
+            width: 100%;
+        }
+
+        .text {
+            font-size: $font-size-xs;
+            margin-bottom: $default-num * 0.625;
+        }
+
+        figcaption {
+            margin: 0 pxTorem(14px) pxTorem(14px) pxTorem(14px);
+        }
+    }
+}
+
+.billboard {
+    margin-bottom: $default-num * 0.5;
+
+    li {
+        border-bottom: $border-width $border-style-dashed $border-color_1;
+        padding: ($default-num * 0.5) $default-num ($default-num * 0.25);
+        transition: $transition-base;
+
+        &:hover {
+            background-color: $solitudeblue;
+        }
+    }
+
+    .new-date {
+        display: block;
+        font-size: $input-btn-font-size-xxs;
+
+        strong {
+            margin-right: $default-num * 0.75;
+        }
+    }
+
+    .text {
+        display: block;
+        padding: ($default-num * 0.25) 0;
+        text-align: left;
+    }
+}
+
+#match0:checked ~ #match0-content,
+#match1:checked ~ #match1-content,
+#match2:checked ~ #match2-content,
+#match3:checked ~ #match3-content,
+#match4:checked ~ #match4-content {
+    display: block;
+}

@@ -1,0 +1,128 @@
+.candidate_alerts__inbox-main .notification_type {
+    right: auto;
+    position: inherit;
+    top: 1rem;
+}
+
+.ca_inbox_corp_item-bd p {
+    padding: 1rem;
+}
+
+.ca_inbox_corp_item-bd .bgcolor-warning {
+    background-color: rgba(250, 235, 215, 0.56);
+}
+
+.ca_inbox_corp_item-ft {
+    text-align: center;
+}
+
+.reply_template .reply-title {
+    font-weight: normal;
+}
+
+.reply_template .reply-title span {
+    color: #0E86D4;
+}
+
+.ca_inbox_reply_item-hd {
+    background: #F9F9F9;
+    border-bottom: #E4E8EB 1px solid;
+    padding: 1rem;
+}
+
+.ca_inbox_reply {
+    overflow: unset;
+    display: none;
+}
+
+.ca_inbox_reply > .inner {
+    padding: 0;
+}
+
+.ca_inbox_reply .reply_content,
+.ca_inbox_reply .reply_btns {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.maybe_item .ca-notice {
+    display: inline-block;
+    vertical-align: middle;
+    padding: .125rem .625rem;
+    margin-left: .5rem;
+    border-radius: 4px;
+    color: #fff;
+    font-size: .75rem;
+}
+
+.fileUpload {
+    padding-top: 1rem;
+}
+
+.fileUpload i {
+    color: #fa626b;
+}
+
+.wish-choose .wish-title {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.wish-choose .wishs-no {
+    border: 1px solid #a7b1b6;
+    border-radius: 4px;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.wish-choose .wishs-no:hover {
+    background-color: #ebebeb;
+}
+
+.wish-choose .owl-carousel .owl-nav {
+    position: initial;
+}
+
+.wish-choose .owl-carousel .owl-nav i {
+    line-height: inherit
+}
+
+.wish-choose .owl-carousel .owl-nav [class*='owl-']:hover {
+    background-color: #D6D6D6;
+}
+
+.wish-choose .owl-carousel .owl-next,
+.wish-choose .owl-carousel .owl-prev {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    font-size: 20px;
+    color: #D6D6D6;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.wish-choose .owl-carousel .owl-prev {
+    left: 0px;
+}
+
+.wish-choose .owl-carousel .owl-next {
+    right: 0px;
+}
+
+.ca_inbox_replied {
+    display: none;
+}
+
+.ca_inbox_replied-hd .box-toggle {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: #72828a
+}
+.ca_inbox_replied-hd .box-toggle.open {
+    transform: translateY(-50%) rotate(180deg)
+}

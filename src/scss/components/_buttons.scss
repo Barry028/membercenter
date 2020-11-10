@@ -1,0 +1,303 @@
+@charset "utf-8";
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Components > Buttons
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.btn {
+    background-color: $whitesmoke;
+    border: 1px solid $whitesmoke;
+    color: $body-color;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    white-space: nowrap;
+
+    @include inline-block--middle;
+    @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+    @include transition($btn-transition);
+
+    @include hover {
+        color: $body-color;
+        text-decoration: none;
+    }
+
+
+    &:not(:disabled):not(.disabled):not(.btn--disabled):focus,
+    &:not(:disabled):not(.disabled):not(.btn--disabled).focus {
+        outline: 0;
+        box-shadow: $btn-focus-box-shadow;
+    }
+
+    &.btn--disabled,
+    &.disabled,
+    &:disabled {
+        cursor: not-allowed;
+        opacity: $btn-disabled-opacity;
+
+        @include box-shadow(none);
+    }
+
+    &:not(:disabled):not(.disabled):not(.btn--disabled):active,
+    &:not(:disabled):not(.disabled):not(.btn--disabled).active {
+        @include box-shadow($btn-active-box-shadow);
+
+        // &:focus:not(:disabled):not(.disabled):not(.btn--disabled) {
+        //   @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+   
+    }
+
+    // Border Button
+    &.btn--border {
+        color: lighten($dark, 60%);
+        border-color: lighten($dark, 75%);
+        background-color: #fff;
+
+        &:hover {
+            &:not(.btn--disabled) {
+                color: #374c57;
+                background-color: lighten($dark, 80%);
+                border-color: lighten($dark, 75%);
+            }
+        }
+
+        &:not(:disabled):not(.disabled):not(.btn--disabled) {
+            &:focus,
+            &.focus {
+                box-shadow: 0 0 0 0.125rem rgba($dark, 0.08);
+            }
+
+            &:active,
+            &.active {
+                color: #374c57;
+                background-color: lighten($dark, 80%);
+                border-color: lighten($dark, 75%);
+
+                &.focus, &:focus {
+                    box-shadow: inset 0 3px 5px rgba($dark, 0.125), 0 0 0 0.125rem rgba($dark, 0.08);
+                }
+            }
+        }
+
+        &:disabled,
+        &.btn--disabled,
+        &.disabled {
+            color: lighten($dark, 75%);
+            background-color: transparent;
+        }
+    }
+
+    // Link Buttons
+    &.btn--link {
+        font-weight: $font-weight-normal;
+        color: $link-color;
+        text-decoration: $link-decoration;
+
+        @include hover {
+            color: $link-hover-color;
+            text-decoration: $link-hover-decoration;
+        }
+
+
+        &:focus,
+        &.focus {
+            text-decoration: $link-hover-decoration;
+            box-shadow: none;
+        }
+
+        &:disabled,
+        &.disabled {
+            color: $btn-link-disabled-color;
+            pointer-events: none;
+        }
+
+        // No need for an active state here
+   
+    }
+
+    // iCon Buttons
+    &.btn--icon {
+        padding-left: 0;
+        padding-right: 0;
+        min-width: 12rem;
+
+        &.btn--icon--sm {
+            min-width: 8rem;
+            i {
+                font-size: 0.9375rem;
+            }
+        }
+
+        &.btn--icon--md {
+            min-width: 10rem;
+            i {
+                font-size: 1.125rem;
+            }
+        }
+
+        &.btn--icon--lg {
+            min-width: 14rem;
+        }
+
+        span {
+            padding-right: 2.375rem;
+        }
+
+        i {
+            @include position-ab-y-center;
+
+            right: 0;
+            border-left: 1px solid rgba($white, 0.66);
+            display: block;
+            width: 2.5rem;
+            text-align: center;
+            font-size: 1.375rem;
+        }
+    }
+
+    // Delete Buttons
+    &.btn--delete {
+        background-color: $btn_light;
+        color: $dark;
+        border: $border-width $border-style-solid rgba($dark, 0.02);
+        font-size: $font-size-md;
+
+        &:not(:disabled):not(.disabled):not(.btn--disabled) {
+            &:hover {
+                color: $white;
+                background-color: $pink;
+                border-color: darken($pink, 5%);
+            }
+
+            &:focus,
+            &.focus {
+                box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(35, 49, 56, 0.075), 0 0 0 0.125rem rgba(255, 159, 176, 0.5);
+            }
+
+            &:active,
+            &.active {
+                color: $white;
+                background-color: darken($pink, 5%);
+                border-color: darken($pink, 10%);
+
+                &:focus,
+                &.focus {
+                    box-shadow: inset 0 3px 5px rgba(35, 49, 56, 0.125), 0 0 0 0.125rem rgba(255, 159, 176, 0.5);
+                }
+            }
+
+            &.disabled,
+            &:disabled {
+                color: $white;
+                background-color: #ff8ea2;
+                border-color: #ff8ea2;
+            }
+        }
+    }
+
+    // Square Buttons
+    &.btn--square {
+        width: 2rem;
+        height: 2rem;
+        padding: 0;
+
+        i {
+            font-size: 1rem;
+
+            @include position-ab-center;
+        }
+
+        &--md {
+            width: 2.25rem;
+            height: 2.25rem;
+            padding: 0;
+
+            i {
+                font-size: 1.25rem;
+
+                @include position-ab-center;
+            }
+        }
+
+        &--lg {
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 0;
+
+            i {
+                font-size: 1.375rem;
+
+                @include position-ab-center;
+            }
+        }
+    }
+
+    // Button Sizes
+    &.btn--lg {
+        @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-line-height-lg, $border-radius--px);
+    }
+
+    &.btn--md {
+        @include button-size($btn-padding-y-md, $btn-padding-x-md, $btn-font-size-md, $btn-line-height-md, $border-radius--px);
+    }
+
+    &.btn--sm {
+        @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-line-height-sm, $border-radius--px);
+    }
+
+    &.btn--xs {
+        @include button-size($btn-padding-y-xs, $btn-padding-x-xs, $btn-font-size-xs, $btn-line-height-xs, $border-radius--px);
+    }
+
+    &.btn--xxs {
+        @include button-size($btn-padding-y-xxs, $btn-padding-x-xxs, $btn-font-size-xxs, $btn-line-height-xxs, $border-radius--px);
+    }
+
+    // Block Button
+    &.btn--block {
+        display: block;
+        width: 100%;
+
+        + .btn.btn-block {
+            margin-top: $btn-block-spacing-y;
+        }
+    }
+}
+
+a.btn.disabled,
+fieldset:disabled a.btn {
+    pointer-events: none;
+}
+
+.show > .btn.btn--border.dropdown-toggle {
+    color: #374c57;
+    background-color: lighten($dark, 80%);
+    border-color: lighten($dark, 75%);
+}
+
+// Buttons Colors
+@each $color, $value in $btn-colors {
+    .btn.btn--#{$color} {
+        @include button-variant($value, $value);
+    }
+}
+
+// Buttons Border Each
+@each $color, $value in $btn-colors {
+    .btn.btn--border--#{$color} {
+        @include button-outline-variant($value);
+    }
+}
+
+// Buttons 3D Each
+@each $color, $value in $btn-colors {
+    .btn.btn--#{$color}--3d {
+        @include button-3d-variant($value);
+    }
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    &.btn--block {
+        width: 100%;
+    }
+}

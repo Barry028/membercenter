@@ -1,0 +1,15 @@
+// Name cf
+// 清除浮動
+// Return
+@mixin cf() {
+	zoom: 1;
+
+	&:before, &:after {
+		content: ""; display: table; height: 0; overflow: hidden; flex-basis: 0; order: 1;
+	}
+
+	&:after {
+		clear: both;
+	}
+
+}

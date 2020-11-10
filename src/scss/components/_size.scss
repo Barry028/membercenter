@@ -1,0 +1,10 @@
+@charset "utf-8";
+/**
+ * ==   Components > Size
+ */
+
+@for $i from 0 through 20 {
+  .w--#{$i * 5} {
+    width: #{$i * 5}% !important;
+  }
+}

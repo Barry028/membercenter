@@ -1,0 +1,9 @@
+<svg id="swith_off" data-name="swith off" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24648" data-name="Rectangle 24648" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_100113" data-name="Path 100113" d="M16.25,17.75H7.75a5.75,5.75,0,1,1,0-11.5h8.5a5.75,5.75,0,0,1,0,11.5Zm-8.5-10a4.25,4.25,0,0,0,0,8.5h8.5a4.25,4.25,0,0,0,0-8.5Z" fill="#fff"/>
+    <path id="Path_100114" data-name="Path 100114" d="M8,15.25A3.25,3.25,0,1,1,11.25,12,3.25,3.25,0,0,1,8,15.25Zm0-5A1.75,1.75,0,1,0,9.75,12,1.75,1.75,0,0,0,8,10.25Z" fill="#fff"/>
+  </g>
+</svg>

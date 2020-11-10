@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="move" transform="translate(-1192 -487)">
+    <path id="Rectangle_23611" data-name="Rectangle 23611" d="M2,0H48a0,0,0,0,1,0,0V48a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(1192 487)" fill="#444" opacity="0"/>
+    <path id="move-arrows" d="M6.922,22.922,0,16,6.922,9.078v5.33h7.486V6.922H9.078L16,0l6.922,6.922h-5.33v7.486h7.486V9.078L32,16l-6.922,6.922v-5.33H17.592v7.486h5.33L16,32,9.078,25.078h5.33V17.592H6.922Z" transform="translate(1200 495)" fill="gray"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="positive-badge" transform="translate(-1203.16 -613.4)">
+    <rect id="Rectangle_23867" data-name="Rectangle 23867" width="48" height="48" transform="translate(1203.16 613.4)" fill="gray" opacity="0"/>
+    <path id="Path_9615" data-name="Path 9615" d="M1227.91,616.4h-12.25v26.634c0,.247.458.37.726.2l11.524-7.5,11.524,7.5c.268.174.726.051.726-.2V616.4Z" fill="#d75a4a"/>
+    <rect id="Rectangle_2345" data-name="Rectangle 2345" width="24.5" height="5.482" transform="translate(1215.66 616.4)" fill="#c03b2b"/>
+    <g id="Group_7378" data-name="Group 7378">
+      <path id="Path_9616" data-name="Path 9616" d="M1227.66,628.4l5.1,9.875,11.4,1.583-8.25,7.687,1.95,10.855-10.2-5.125-10.2,5.125,1.95-10.855-8.25-7.686,11.4-1.583Z" fill="#ffd923"/>
+    </g>
+  </g>
+</svg>

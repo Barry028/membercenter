@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-1{fill:#808fa5}.cls-2{fill:#dae1e5}
+        </style>
+    </defs>
+    <g id="re_icon_autobiography" transform="translate(-7023 4713)">
+        <path id="Path_88602" d="M75 331h1.094v1.094H75zm0 0" class="cls-1" data-name="Path 88602" transform="translate(6957.734 -5027.266)"/>
+        <path id="Path_88605" d="M135.547 91a.547.547 0 1 0 .547.547.547.547 0 0 0-.547-.547zm0 0" class="cls-1" data-name="Path 88605" transform="translate(6899.922 -4796.016)"/>
+        <circle id="Ellipse_2024" cx="14" cy="14" r="14" class="cls-2" data-name="Ellipse 2024" transform="translate(7023 -4713)"/>
+        <path id="Path_88601" d="M10.938 271H0v5.469h10.938zm-6.016 4.375H1.641v-3.281h3.281zm4.375 0H6.016v-1.094H9.3zm0-2.187H6.016v-1.094H9.3zm0 0" class="cls-1" data-name="Path 88601" transform="translate(7030 -4969.453)"/>
+        <path id="Path_88603" d="M2.734 8.24a2.738 2.738 0 0 1 2.735-2.735 1.641 1.641 0 1 1 1.64-1.64 1.643 1.643 0 0 1-1.64 1.64A2.738 2.738 0 0 1 8.2 8.24v.547h2.734V0H0v8.786h2.734zm0 0" class="cls-1" data-name="Path 88603" transform="translate(7030 -4708.333)"/>
+        <path id="Path_88604" d="M105 182.641v.547h3.281v-.547a1.641 1.641 0 0 0-3.281 0zm0 0" class="cls-1" data-name="Path 88604" transform="translate(6928.828 -4882.734)"/>
+        <path id="Path_88606" d="M330 91h2.188v8.75H330zm0 0" class="cls-1" data-name="Path 88606" transform="translate(6712.031 -4796.016)"/>
+        <path id="Path_88607" d="M90 366.505h10.938V361H98.75v3.281H90zm0 0" class="cls-1" data-name="Path 88607" transform="translate(6943.281 -5056.172)"/>
+    </g>
+</svg>

@@ -1,0 +1,223 @@
+@charset "utf-8";
+/**
+ * ==   Pages > CompanyHistory
+ */
+
+.btns-wrap {
+  font-size: 0;
+}
+
+.btns-wrap .checkbox-text {
+  font-size: 0.75rem;
+  color: $grey;
+}
+
+.heart-item,
+.del-item {
+  display: inline-block;
+  vertical-align: middle;
+  border-left: $border-style-solid 1px $border-color_1;
+  text-align: center;
+  width: 50%;
+}
+
+.heart-item input[type="checkbox"],
+.del-item input[type="checkbox"] {
+  display: none;
+}
+
+.heart-item input[type="checkbox"] + label {
+  display: inline-block;
+  border: 1px solid lighten($lightgrey, 10%);
+  color: $lightgrey;
+  margin: 0.25rem 1rem 0.5rem;
+}
+
+.heart-item .text-collect {
+  font-size: 0.75rem;
+  display: inline-block;
+  color: $grey;
+}
+
+.heart-item.heart-item.heart-item i,
+.del-item.del-item.del-item i {
+  line-height: 1.875;
+}
+
+.heart-item span {
+  font-size: .75rem;
+}
+
+.heart-item .already {
+  display: none;
+}
+
+.heart-item input[type="checkbox"]:checked + label + .checkbox-text .already {
+  display: inline-block;
+  color: lighten($danger, 10%);
+}
+
+.heart-item input[type="checkbox"]:checked + label + .checkbox-text .none {
+  display: none;
+}
+
+.del-item label {
+  display: inline-block;
+  margin: 0.25rem 1rem 0.5rem;
+}
+
+.heart-item input[type="checkbox"]:checked + label {
+  background-color: $pink;
+  color: $white;
+  border-color: lighten($pink, 10%);
+}
+
+.del-item input[type=checkbox]:checked + label {
+  background-color: $danger;
+  color: $white;
+  border-color: lighten($danger, 10%);
+}
+
+.set_industry {
+  margin-bottom: 1rem;
+
+  .btn-setting {
+    width: 1.25rem;
+    height: 1.25rem;
+    padding: 0;
+    border: none;
+    background-color: $primary;
+    border-radius: 4px;
+    color: $white;
+    cursor: pointer;
+    line-height: initial;
+    transition: $transition-base;
+
+    &:hover {
+      background-color: darken($primary, 10%);
+    }
+  }
+
+  .setting-content {
+    color: $dark;
+    font-size: $font-size-sm;
+    display: none;
+    margin-top: .25rem;
+  }
+}
+
+.company_history_content {
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  &-hd {
+    margin-bottom: 1rem;
+
+    .txt {
+      margin-right: 0.8rem;
+    }
+  }
+
+  &-bd {
+    font-size: 1rem;
+  }
+
+  &-ft {
+    .ft-btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+.ch_item {
+  background-color: #fbfcfc;
+  border-radius: 4px;
+  border: #eff3f5 1px solid;
+  border-left: #DEE2E4 3px solid;
+  box-shadow: 0 2px 1px 0 rgba(35, 49, 56, 0.12);
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  width: 100%;
+
+  &-img {
+    width: percentage(120 / 790);
+  }
+
+  &-text {
+    width: percentage(390 / 790);
+  }
+
+  &-link {
+    width: percentage(150 / 790);
+  }
+
+  &-btns {
+    width: percentage(130 / 790);
+  }
+
+  &:not(.noJob) {
+      border-left: lighten($secondary, 10%) 3px solid;
+  }
+
+  &-img {
+    .corp-img-container {
+      height: 80px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+
+      .image {
+        @include absolute($T: 0, $L: 0);
+
+        height: 100%;
+        width: 100%;
+        background: no-repeat center;
+        background-size: cover;
+      }
+    }
+  }
+
+  &-text {
+    @include padding("x", 1rem);
+  }
+
+  &-link {
+    @include padding("x", 0.75rem);
+  }
+}
+
+.ch-time {
+  color: $lightgrey;
+  font-size: $font-size-xs;
+  margin-bottom: .25rem;
+}
+
+.ch-corp_name {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 220px;
+
+  .txt {
+    @include ellipsis;
+
+    display: block;
+  }
+}
+
+.ch-corp_addr {
+  @include inline-block--middle;
+
+  color: $lightgrey;
+  font-size: $font-size-xs;
+}
+
+.ch-corp_other {
+  padding-top: .375rem;
+  font-size: $font-size-xs;
+}
+

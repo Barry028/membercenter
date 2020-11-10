@@ -1,0 +1,129 @@
+@charset "utf-8";
+/**
+ * ==   Pages > MemberEdit
+ */
+
+.profile-member-left,
+.profile-info {
+	vertical-align: top;
+}
+
+.profile-member-left {
+	display: inline-block;
+	width: 25%;
+}
+
+.profile-member-left .profile-pic .upload {
+	font-size: 1rem
+}
+
+.profile-member-left .profile-pic .upload i {
+	font-size: 2rem;
+    vertical-align: bottom;
+}
+
+
+.profile-member-left .btn--fb,
+.profile-member-left .btn--border--fb {
+
+}
+
+.profile-info {
+	display: inline-block;
+	border: 1px solid #DCEBF7;
+	margin-left: 1.5rem;
+	width: calc(75% - 1.5rem);
+}
+
+.profile-info .profile-info-row {
+    display: table;
+    width: 100%;
+}
+
+.profile-info-row .profile-info-name,
+.profile-info-row .profile-info-value {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+@media all and (max-width:768px) {
+	.profile-member-left {
+		display: block;
+		margin: 0 auto;
+		width: 20rem;
+	}
+
+	.profile-info,
+	.profile-info-row {
+		width: 100%;
+	}
+
+	.profile-info {
+		margin-top: 1rem;
+	}
+
+	.profile-info-row {
+		display: inline-table;
+	}
+
+}
+
+.profile-info-name {
+background-color: #DCE8F1;
+    border-bottom: dotted 1px #fff;
+    color: #3C4856;
+    padding: .375rem 0;
+    text-align: center;
+    width: 8.5rem;
+}
+
+.profile-info-name i {
+	color: #A7B1B6;
+	font-size: 1rem;
+	position: absolute;
+	left: 1rem;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.profile-info-value {
+	background-color: #fff;
+	border-bottom: dotted 1px #DCE8F1;
+	padding: .5rem .75rem;
+}
+
+.edit_vaule span.edit_vaule_input,
+.edit_vaule span.edit_vaule_input_not {
+	border-bottom: #A7B1B6 1px dashed;
+	cursor: pointer;
+	margin-right: .25rem;
+	padding-bottom: .125rem;
+	user-select: none;
+}
+
+.edit_vaule span.edit_vaule_input:hover,
+.edit_vaule span.edit_vaule_input_not:hover,
+.edit_vaule i {
+	color: $primary;
+}
+
+.edit_vaule i {
+	cursor: pointer;
+	font-size: 1.125rem;
+	vertical-align: middle;
+}
+
+.edit_vaule i:hover {
+	color: #3C4856;
+}
+
+.edit_vaule a {
+	font-size: .75rem
+}
+
+.inline_editor .edit_vaule_open {
+	display: none;
+	opacity: 0;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Components > Arrows
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.c-arrow {
+  border-color: transparent;
+  border-style: $border-style-dashed;
+  border-width: 3px;
+  font-size: inherit;
+
+  @include inline-block--middle;
+
+  &.arrowR {
+    border-left-color: currentcolor;
+    border-left-style: solid;
+
+    &:hover {
+      border-left-color: currentcolor;
+    }
+  }
+
+  &.arrowL {
+    border-right-color: currentcolor;
+    border-right-style: solid;
+
+    &:hover {
+      border-right-color: currentcolor;
+    }
+  }
+
+  &.arrowT {
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+
+    &:hover {
+      border-bottom-color: currentcolor;
+    }
+  }
+
+  &.arrowB {
+    border-top-color: currentcolor;
+    border-top-style: solid;
+
+    &:hover {
+      border-top-color: currentcolor;
+    }
+  }
+}

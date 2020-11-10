@@ -1,0 +1,19 @@
+.version_preview {
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px dotted #cdd8e3;
+    .title {
+        margin-bottom: 0.6rem;
+        color: #0a3d62;
+        font-size: 1rem;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+
+    &_item {
+        > .inner {
+            height: 120px;
+            background-color: #0a3d62;
+        }
+    }
+}

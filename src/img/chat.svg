@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="chat" transform="translate(3908 -15883)">
+    <g id="chat-2" data-name="chat" transform="translate(-3904 15887)">
+      <g id="Path_92051" data-name="Path 92051" opacity="0">
+        <path id="Path_91595" data-name="Path 91595" d="M38.5,38.5H.5V.5h38Z" transform="translate(0.5 0.5)" fill="gray"/>
+        <path id="Path_91596" data-name="Path 91596" d="M2,2V38H38V2H2M0,0H40V40H0Z" fill="#707070"/>
+      </g>
+      <g id="bubble-speech" transform="translate(2.858 2.858)">
+        <path id="Path_92049" data-name="Path 92049" d="M23.766,88.516H4.6A4.6,4.6,0,0,0,0,93.1v13.8a4.6,4.6,0,0,0,4.6,4.6h.464l-1.418,3.26c-.344.788-.094,1.186.086,1.352a.822.822,0,0,0,.576.212,1.7,1.7,0,0,0,.78-.226l8.75-4.6h9.93a4.6,4.6,0,0,0,4.6-4.6V93.1a4.6,4.6,0,0,0-4.6-4.6ZM6.6,101.746a1.734,1.734,0,1,1,1.734-1.734A1.734,1.734,0,0,1,6.6,101.746Zm7.908,0a1.734,1.734,0,1,1,1.734-1.734,1.734,1.734,0,0,1-1.734,1.734Zm7.248,0a1.734,1.734,0,1,1,1.734-1.734,1.734,1.734,0,0,1-1.734,1.734Zm0,0" transform="translate(0 -82.588)" fill="gray"/>
+        <path id="Path_92050" data-name="Path 92050" d="M112.97,0H93.8a4.6,4.6,0,0,0-4.542,3.918h17.79a6.6,6.6,0,0,1,6.6,6.6V22.94a4.6,4.6,0,0,0,3.92-4.54V4.6a4.6,4.6,0,0,0-4.6-4.6Zm0,0" transform="translate(-83.278)" fill="gray"/>
+      </g>
+    </g>
+    <rect id="Rectangle_23833" data-name="Rectangle 23833" width="48" height="48" transform="translate(-3908 15883)" fill="#fff" opacity="0"/>
+  </g>
+</svg>

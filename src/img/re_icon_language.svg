@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-1{fill:#dae1e5}.cls-2,.cls-3,.cls-4{fill:#808fa5}.cls-2,.cls-4{opacity:0}.cls-4{stroke:#707070}.cls-5,.cls-6{stroke:none}.cls-6{fill:#707070}.cls-7{fill:none}
+        </style>
+    </defs>
+    <g id="re_icon_language" transform="translate(-7023 4793)">
+        <circle id="Ellipse_2024" cx="14" cy="14" r="14" class="cls-1" data-name="Ellipse 2024" transform="translate(7023 -4793)"/>
+        <g id="Group_83238" data-name="Group 83238" transform="translate(7027.2 -4781.8)">
+            <g id="Path_88422" class="cls-2" data-name="Path 88422">
+                <path d="M12.567 12.567H.5V.5h12.067v12.067z" class="cls-5"/>
+                <path d="M1 1v11.067h11.067V1H1M0 0h13.067v13.067H0V0z" class="cls-6"/>
+            </g>
+            <path id="Subtraction_3" d="M1.118 10.453A1.118 1.118 0 0 1 0 9.344V1.128A1.127 1.127 0 0 1 1.128 0h8.216a1.118 1.118 0 0 1 1.109 1.118v8.226a1.118 1.118 0 0 1-1.109 1.109H1.118zm4.094-2.307a5.049 5.049 0 0 0 2.92.924h.01a.462.462 0 1 0 0-.924 4.136 4.136 0 0 1-2.19-.638 5.109 5.109 0 0 0 1.413-3.087h.767a.462.462 0 0 0 0-.924H5.674V1.805a.462.462 0 0 0-.924 0V3.5H2.282a.462.462 0 0 0 0 .924h.767a5.108 5.108 0 0 0 1.423 3.084 4.136 4.136 0 0 1-2.19.638.462.462 0 0 0 0 .924h.01a5.049 5.049 0 0 0 2.92-.924zm0-1.192A4.168 4.168 0 0 1 4 4.449h2.422a4.168 4.168 0 0 1-1.211 2.5z" class="cls-3" data-name="Subtraction 3" transform="translate(1.307 1.307)"/>
+        </g>
+        <g id="Group_83237" data-name="Group 83237" transform="translate(7033.733 -4789.267)">
+            <g id="Group_82222" data-name="Group 82222">
+                <g id="Rectangle_22929" class="cls-4" data-name="Rectangle 22929">
+                    <path d="M0 0h13.067v13.067H0z" class="cls-5"/>
+                    <path d="M.5.5h12.067v12.067H.5z" class="cls-7"/>
+                </g>
+            </g>
+            <g id="Group_83224" data-name="Group 83224" transform="translate(1.307 1.307)">
+                <g id="Group_83212" data-name="Group 83212" transform="translate(4.252 3.457)">
+                    <g id="Group_83211" data-name="Group 83211">
+                        <path id="Path_88538" d="M328.141 309.12l-.97 2.606h1.941z" class="cls-3" data-name="Path 88538" transform="translate(-327.17 -309.12)"/>
+                    </g>
+                </g>
+                <g id="Group_83214" data-name="Group 83214">
+                    <g id="Group_83213" data-name="Group 83213">
+                        <path id="Path_88539" d="M238.38 229.333h-8.217a1.128 1.128 0 0 0-1.128 1.128v8.217a1.118 1.118 0 0 0 1.128 1.109h8.217a1.118 1.118 0 0 0 1.109-1.109v-8.226a1.118 1.118 0 0 0-1.109-1.119zM236.718 238a.435.435 0 0 1-.048.018h.009a.444.444 0 0 1-.572-.257l-.545-1.479h-2.588l-.545 1.479a.434.434 0 0 1-.416.286.387.387 0 0 1-.148 0 .434.434 0 0 1-.277-.619l2.264-6.091a.453.453 0 0 1 .416-.305.444.444 0 0 1 .416.305l2.255 6.091a.434.434 0 0 1-.221.572z" class="cls-3" data-name="Path 88539" transform="translate(-229.036 -229.333)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

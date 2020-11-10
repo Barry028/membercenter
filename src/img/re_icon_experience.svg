@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-1{fill:#dae1e5}.cls-2{fill:#808fa5}
+        </style>
+    </defs>
+    <g id="re_icon_experience" transform="translate(-6673 4833)">
+        <circle id="Ellipse_2024" cx="14" cy="14" r="14" class="cls-1" data-name="Ellipse 2024" transform="translate(6673 -4833)"/>
+        <g id="portfolio_1_" data-name="portfolio (1)" transform="translate(6678.834 -4826)">
+            <path id="Path_88627" d="M211 240h2.871v.957H211zm0 0" class="cls-2" data-name="Path 88627" transform="translate(-204.269 -232.344)"/>
+            <path id="Path_88628" d="M13.251 83.554h-2.692v.479a.478.478 0 0 1-.479.479H6.253a.478.478 0 0 1-.479-.479v-.479H3.082a1.434 1.434 0 0 1-1.362-.981L0 77.41v10.45a1.437 1.437 0 0 0 1.436 1.44H14.9a1.437 1.437 0 0 0 1.436-1.436V77.411l-1.721 5.162a1.434 1.434 0 0 1-1.362.981zm0 0" class="cls-2" data-name="Path 88628" transform="translate(0 -74.941)"/>
+            <path id="Path_88629" d="M35.066 0h-3.828A1.437 1.437 0 0 0 29.8 1.436v.479h-3.991l1.8 5.415a.478.478 0 0 0 .454.327h2.697v-.479a.478.478 0 0 1 .479-.479h3.828a.478.478 0 0 1 .479.479v.479h2.692a.478.478 0 0 0 .454-.327l1.8-5.415H36.5v-.479A1.437 1.437 0 0 0 35.066 0zM30.76 1.914v-.478a.479.479 0 0 1 .479-.479h3.828a.479.479 0 0 1 .479.479v.479zm0 0" class="cls-2" data-name="Path 88629" transform="translate(-24.986)"/>
+        </g>
+    </g>
+</svg>

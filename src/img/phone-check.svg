@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="phone-check" transform="translate(-32 -143)">
+    <g id="Group_73881" data-name="Group 73881" transform="translate(-3264 -2568)">
+      <g id="Rectangle_21117" data-name="Rectangle 21117" transform="translate(3296 2711)" fill="#34495e" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="20" height="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+      </g>
+      <path id="mobile-phone.1" d="M14.821,0H5.893A.893.893,0,0,0,5,.893V16.964a.893.893,0,0,0,.893.893h8.929a.893.893,0,0,0,.893-.893V.893A.893.893,0,0,0,14.821,0ZM8.571,1.429h3.571v.714H8.571Zm1.75,15.279a1,1,0,1,1,1-1A1,1,0,0,1,10.321,16.707ZM15,13.571H5.714v-10H15Z" transform="translate(3295.286 2711.714)" fill="#34495e"/>
+    </g>
+    <g id="Group_73882" data-name="Group 73882" transform="translate(-7 -74)">
+      <circle id="Ellipse_1929" data-name="Ellipse 1929" cx="4" cy="4" r="4" transform="translate(51 217)" fill="#2ecc71"/>
+      <g id="checked_1_" data-name="checked (1)" transform="translate(52.6 218.6)">
+        <g id="Group_73870" data-name="Group 73870" transform="translate(0)">
+          <path id="Path_78139" data-name="Path 78139" d="M4.609,19.938a.5.5,0,0,0-.649.091L1.611,22.9l-.782-.881a.5.5,0,0,0-.652-.068.383.383,0,0,0-.077.58l1.54,1.738,3.07-3.749A.384.384,0,0,0,4.609,19.938Z" transform="translate(0 -19.859)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

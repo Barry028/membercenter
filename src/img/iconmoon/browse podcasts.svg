@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225.487" height="262.402" viewBox="0 0 225.487 262.402">
+  <g id="browse_podcasts" data-name="browse podcasts" transform="translate(-694.489 -390.192)">
+    <g id="Ellipse_40" data-name="Ellipse 40">
+      <circle id="Ellipse_2111" data-name="Ellipse 2111" cx="28.056" cy="28.056" r="28.056" transform="translate(779.203 474.927)" fill="#33618f"/>
+    </g>
+    <g id="Group_753" data-name="Group 753">
+      <g id="Group_752" data-name="Group 752">
+        <g id="Path_851" data-name="Path 851">
+          <path id="Path_91604" data-name="Path 91604" d="M835.015,581.849h-.1a27.686,27.686,0,0,0,.416-4.051,28.056,28.056,0,1,0-56.111,0,27.554,27.554,0,0,0,.417,4.051h-.1l.25,1.483v.184l8.9,52.627h.083a18.6,18.6,0,0,0,36.957,0h.15l8.9-52.627v-.184Z" fill="#33618f"/>
+        </g>
+      </g>
+    </g>
+    <g id="Path_852" data-name="Path 852">
+      <path id="Path_91605" data-name="Path 91605" d="M859.037,602.97a.5.5,0,0,1-.231-.944,111.721,111.721,0,1,0-103.077,0,.5.5,0,1,1-.461.887,112.723,112.723,0,1,1,104,0A.505.505,0,0,1,859.037,602.97Z" fill="#33618f"/>
+    </g>
+    <g id="Path_853" data-name="Path 853">
+      <path id="Path_91606" data-name="Path 91606" d="M859.236,557.227a.5.5,0,0,1-.347-.86,74.315,74.315,0,1,0-105.081-1.839q.9.936,1.838,1.838a.5.5,0,0,1-.694.721q-.95-.915-1.864-1.863a75.315,75.315,0,1,1,106.495,1.862A.5.5,0,0,1,859.236,557.227Z" fill="#33618f"/>
+    </g>
+  </g>
+</svg>

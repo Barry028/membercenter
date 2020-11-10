@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="chart" transform="translate(20520 -9416)">
+    <rect id="Rectangle_23892" data-name="Rectangle 23892" width="48" height="48" rx="4" transform="translate(-20520 9416)" fill="gray" opacity="0"/>
+    <g id="bar-chart" transform="translate(-20575 9275)">
+      <rect id="Rectangle_22889" data-name="Rectangle 22889" width="9.558" height="13.302" transform="translate(61 166.441)" fill="gray"/>
+      <rect id="Rectangle_22890" data-name="Rectangle 22890" width="9.558" height="20.471" transform="translate(74.221 159.272)" fill="gray"/>
+      <rect id="Rectangle_22891" data-name="Rectangle 22891" width="9.558" height="29.743" transform="translate(87.442 150)" fill="gray"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/**
+ * ==   Components > Logos
+ */
+
+.jb- {
+    &df-one-border {
+        &:before {
+            content: "\e978";
+        }
+    }
+
+    &df-one {
+        &:before {
+            content: "\e900";
+        }
+    }
+
+    &df-ones-border {
+        &:before {
+            content: "\e979";
+        }
+    }
+
+    &df-ones {
+        &:before {
+            content: "\e901";
+        }
+    }
+
+    &mc-logo {
+        display: inline-table;
+
+        > font {
+            &:not(:first-child):before {
+                margin-left: -3.9462890625em;
+            }
+
+            &:nth-child(1):before {
+                content: "\e902";
+            }
+
+            &:nth-child(2):before {
+                content: "\e903";
+            }
+
+            &:nth-child(3):before {
+                content: "\e904";
+            }
+
+            &:nth-child(4):before {
+                content: "\e905";
+            }
+
+            &:nth-child(5):before {
+                content: "\e906";
+            }
+
+            &:nth-child(6):before {
+                content: "\e907";
+            }
+        }
+    }
+}
+
+.logo {
+    &--xs {
+        font-size: 1rem;
+    }
+
+    &--sm {
+        font-size: 1.5rem;
+    }
+
+    &--md {
+        font-size: 2rem;
+    }
+
+    &--lg {
+        font-size: 2.5rem;
+    }
+
+    &--xlg {
+        font-size: 3rem;
+    }
+
+    &--xxlg {
+        font-size: 4rem;
+    }
+}

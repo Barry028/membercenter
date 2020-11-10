@@ -1,0 +1,262 @@
+@charset "utf-8";
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Components > BoxShadows
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+@mixin shd-none {
+  box-shadow: none;
+}
+
+.shd-none {
+  @include shd-none;
+}
+
+@mixin shd-paper {
+  content: '';
+  width: 50%;
+  max-width: 22rem;
+  box-shadow: 0 1rem 0.625rem rgba(0, 0, 0, 0.36);
+  z-index: -1;
+
+  @include absolute($T: 80%, $B: 1rem);
+}
+
+@mixin shd-paper-lt {
+  @include shd-paper;
+
+  left: .375rem;
+  transform: rotate(-3deg);
+}
+
+@mixin shd-paper-rt {
+  @include shd-paper;
+
+  right: .375rem;
+  transform: rotate(3deg);
+}
+
+.shd-betw {
+  &:after {
+    @include shd-paper-lt;
+  }
+
+  &:before {
+    @include shd-paper-rt;
+  }
+}
+
+.shd-lt {
+  &:before {
+    @include shd-paper-lt;
+  }
+}
+
+.shd-rt {
+  &:after {
+    @include shd-paper-rt;
+  }
+}
+
+@mixin shd--ver_1 {
+  box-shadow: $shd--ver_01;
+}
+
+.shd--ver_1 {
+  @include shd--ver_1;
+}
+
+@mixin shd--ver_2 {
+  box-shadow: $shd--ver_02;
+}
+
+.shd--ver_2 {
+  @include shd--ver_2;
+}
+
+@mixin shd--ver_3 {
+  box-shadow: $shd--ver_03;
+}
+
+.shd--ver_3 {
+  @include shd--ver_3;
+}
+
+@mixin shd--ver_4 {
+  box-shadow: $shd--ver_04;
+}
+
+.shd--ver_4 {
+  @include shd--ver_4;
+}
+
+@mixin shd--ver_5 {
+  box-shadow: $shd--ver_05;
+}
+
+.shd--ver_5 {
+  @include shd--ver_5;
+}
+
+@mixin shd--ver_6 {
+  box-shadow: $shd--ver_06;
+}
+
+.shd--ver_6 {
+  @include shd--ver_6;
+}
+
+@mixin shd--ver_7 {
+  box-shadow: $shd--ver_07;
+}
+
+.shd--ver_7 {
+  @include shd--ver_7;
+}
+
+@mixin shd--ver_8 {
+  box-shadow: $shd--ver_08;
+}
+
+.shd--ver_8 {
+  @include shd--ver_8;
+}
+
+@mixin shd--ver_9 {
+  box-shadow: $shd--ver_09;
+}
+
+.shd--ver_9 {
+  @include shd--ver_9;
+}
+
+@mixin shd--ver_10 {
+  box-shadow: $shd--ver_10;
+}
+
+.shd--ver_10 {
+  @include shd--ver_10;
+}
+
+@mixin shd--ver_11 {
+  box-shadow: $shd--ver_11;
+}
+
+.shd--ver_11 {
+  @include shd--ver_11;
+}
+
+@mixin shd--ver_12 {
+  box-shadow: $shd--ver_12;
+}
+
+.shd--ver_12 {
+  @include shd--ver_12;
+}
+
+@mixin shd--ver_13 {
+  box-shadow: $shd--ver_13;
+}
+
+.shd--ver_13 {
+  @include shd--ver_13;
+}
+
+@mixin shd--ver_14 {
+  box-shadow: $shd--ver_14;
+}
+
+.shd--ver_14 {
+  @include shd--ver_14;
+}
+
+@mixin shd--ver_15 {
+  box-shadow: $shd--ver_15;
+}
+
+.shd--ver_15 {
+  @include shd--ver_15;
+}
+
+@mixin shd--ver_16 {
+  box-shadow: $shd--ver_16;
+}
+
+.shd--ver_16 {
+  @include shd--ver_16;
+}
+
+@mixin shd--ver_17 {
+  box-shadow: $shd--ver_17;
+}
+
+.shd--ver_17 {
+  @include shd--ver_17;
+}
+
+@mixin shd--ver_18 {
+  box-shadow: $shd--ver_18;
+}
+
+.shd--ver_18 {
+  @include shd--ver_18;
+}
+
+@mixin shd--hv--ver_1 {
+  box-shadow: $shd--hv--ver--01;
+
+  &:hover {
+    box-shadow: $shd--hv--ver--01--hv;
+  }
+}
+
+.shd--hv--ver_1 {
+  @include shd--hv--ver_1;
+}
+
+@mixin shd--hv--ver_2 {
+  box-shadow: $shd--hv--ver--02;
+
+  &:hover {
+    top: -2px;
+    box-shadow: $shd--hv--ver--02--hv;
+  }
+}
+
+.shd--hv--ver_2 {
+  @include shd--hv--ver_2;
+}
+
+@mixin shd--hv--ver_3 {
+  box-shadow: $shd--hv--ver--03;
+
+  &:hover {
+    box-shadow: $shd--hv--ver--03--hv;
+  }
+}
+
+.shd--hv--ver_3 {
+  @include shd--hv--ver_3;
+}
+
+@mixin shd--hv--ver_4 {
+  box-shadow: $shd--hv--ver--04;
+
+  &:hover {
+    box-shadow: $shd--hv--ver--04--hv;
+  }
+}
+
+.shd--hv--ver_4 {
+  @include shd--hv--ver_4;
+}
+
+@mixin shd--hv--ver_5 {
+  box-shadow: $shd--hv--ver--05;
+
+  &:hover {
+    box-shadow: $shd--hv--ver--05--hv;
+  }
+}
+
+.shd--hv--ver_5 {
+  @include shd--hv--ver_5;
+}

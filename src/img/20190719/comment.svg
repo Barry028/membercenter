@@ -1,0 +1,10 @@
+<svg id="comment" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24505" data-name="Rectangle 24505" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99808" data-name="Path 99808" d="M12,20.62a.77.77,0,0,1-.53-.21L7.94,16.88H4.75A2.75,2.75,0,0,1,2,14.13v-8A2.75,2.75,0,0,1,4.75,3.38h14.5A2.75,2.75,0,0,1,22,6.12v8a2.75,2.75,0,0,1-2.75,2.75H16.06L12.53,20.4a.77.77,0,0,1-.53.22ZM4.75,4.88A1.24,1.24,0,0,0,3.5,6.12v8a1.25,1.25,0,0,0,1.25,1.25h3.5a.74.74,0,0,1,.53.21L12,18.81l3.22-3.22a.74.74,0,0,1,.53-.21h3.5a1.25,1.25,0,0,0,1.25-1.25v-8a1.24,1.24,0,0,0-1.25-1.24Z" fill="#fff"/>
+    <rect id="Rectangle_24506" data-name="Rectangle 24506" width="6" height="1.5" rx="0.75" transform="translate(9 7.75)" fill="#fff"/>
+    <rect id="Rectangle_24507" data-name="Rectangle 24507" width="6" height="1.5" rx="0.75" transform="translate(9 10.75)" fill="#fff"/>
+  </g>
+</svg>

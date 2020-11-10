@@ -1,0 +1,12 @@
+<svg id="link2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24560" data-name="Rectangle 24560" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99919" data-name="Path 99919" d="M18,16.25H13a.75.75,0,1,1,0-1.5h5A2.65,2.65,0,0,0,20.5,12,2.65,2.65,0,0,0,18,9.25H15a.75.75,0,0,1,0-1.5h3A4.15,4.15,0,0,1,22,12a4.15,4.15,0,0,1-4,4.25Z" fill="#fff"/>
+    <path id="Path_99920" data-name="Path 99920" d="M6,16.25A4.15,4.15,0,0,1,2,12,4.15,4.15,0,0,1,6,7.75a.75.75,0,1,1,0,1.5A2.65,2.65,0,0,0,3.5,12,2.65,2.65,0,0,0,6,14.75a.75.75,0,1,1,0,1.5Z" fill="#fff"/>
+    <path id="Path_99921" data-name="Path 99921" d="M15,12.75H9a.75.75,0,0,1,0-1.5h6a.75.75,0,0,1,0,1.5Z" fill="#fff"/>
+    <path id="Path_99922" data-name="Path 99922" d="M11,9.25H6a.75.75,0,0,1,0-1.5h5a.75.75,0,0,1,0,1.5Z" fill="#fff"/>
+    <path id="Path_99923" data-name="Path 99923" d="M9,16.25H6a.75.75,0,1,1,0-1.5H9a.75.75,0,1,1,0,1.5Z" fill="#fff"/>
+  </g>
+</svg>

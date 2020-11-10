@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="member-card-icon-1" transform="translate(19297 2571)">
+    <circle id="Ellipse_2071" data-name="Ellipse 2071" cx="24" cy="24" r="24" transform="translate(-19297 -2571)" fill="#fff" opacity="0"/>
+    <g id="notification" transform="translate(-19285 -2563)">
+      <path id="Path_89129" data-name="Path 89129" d="M129.928,443.354a4.6,4.6,0,0,0,4.6-4.576h-9.192A4.6,4.6,0,0,0,129.928,443.354Zm0,0" transform="translate(-117.499 -411.354)" fill="#1c84c6"/>
+      <path id="Path_89130" data-name="Path 89130" d="M24.858,25.548V24.183A3.7,3.7,0,0,0,22.653,20.8v-7.76a9.55,9.55,0,0,0-2.005-5.922,10.332,10.332,0,0,0-4.4-3.248V3.822a3.821,3.821,0,1,0-7.643,0v.052a10.332,10.332,0,0,0-4.4,3.248A9.55,9.55,0,0,0,2.2,13.044V20.8A3.7,3.7,0,0,0,0,24.183v1.365H24.858Zm0,0" transform="translate(0 0)" fill="#1c84c6"/>
+    </g>
+  </g>
+</svg>

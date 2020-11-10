@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?3ptmby');
+  src:  url('fonts/icomoon.eot?3ptmby#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3ptmby') format('truetype'),
+    url('fonts/icomoon.woff?3ptmby') format('woff'),
+    url('fonts/icomoon.svg?3ptmby#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+  content: "\e935";
+}
+.icon-check:before {
+  content: "\e96e";
+}
+.icon-pl-txt:before {
+  content: "\e948";
+}
+.icon-pl-palette:before {
+  content: "\e94a";
+}
+.icon-m-point:before {
+  content: "\e942";
+}
+.icon-m-resume:before {
+  content: "\e943";
+}
+.icon-m-rocket:before {
+  content: "\e944";
+}
+.icon-m-account:before {
+  content: "\e945";
+}
+.icon-m-hiring:before {
+  content: "\e946";
+}
+.icon-m-home:before {
+  content: "\e947";
+}
+.icon-read:before {
+  content: "\e941";
+}
+.icon-snub:before {
+  content: "\e92c";
+}
+.icon-connect:before {
+  content: "\e93f";
+}
+.icon-received:before {
+  content: "\e940";
+}
+.icon-camera:before {
+  content: "\e93d";
+}
+.icon-chart:before {
+  content: "\e93e";
+}
+.icon-import:before {
+  content: "\e93c";
+}
+.icon-cash:before {
+  content: "\e93b";
+}
+.icon-search:before {
+  content: "\e936";
+}
+.icon-mail:before {
+  content: "\e939";
+}
+.icon-move-out:before {
+  content: "\e93a";
+}
+.icon-heart-o:before {
+  content: "\e938";
+}
+.icon-heart:before {
+  content: "\e937";
+}
+.icon-arrow-right:before {
+  content: "\e933";
+}
+.icon-arrow-left:before {
+  content: "\e934";
+}
+.icon-palette:before {
+  content: "\e931";
+}
+.icon-outbox:before {
+  content: "\e932";
+}
+.icon-zoom-in:before {
+  content: "\e930";
+}
+.icon-link:before {
+  content: "\e92b";
+}
+.icon-align-center:before {
+  content: "\e92d";
+}
+.icon-align-left:before {
+  content: "\e92e";
+}
+.icon-align-right:before {
+  content: "\e92f";
+}
+.icon-attachment:before {
+  content: "\e903";
+}
+.icon-content:before {
+  content: "\e91e";
+}
+.icon-description:before {
+  content: "\e924";
+}
+.icon-h1:before {
+  content: "\e925";
+}
+.icon-h2:before {
+  content: "\e926";
+}
+.icon-image1:before {
+  content: "\e927";
+}
+.icon-link1:before {
+  content: "\e928";
+}
+.icon-move:before {
+  content: "\e929";
+}
+.icon-presentation:before {
+  content: "\e92a";
+}
+.icon-language:before {
+  content: "\e91d";
+}
+.icon-autobiography:before {
+  content: "\e91a";
+}
+.icon-condition:before {
+  content: "\e91b";
+}
+.icon-highlight:before {
+  content: "\e91c";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-reference:before {
+  content: "\e91f";
+}
+.icon-skill:before {
+  content: "\e920";
+}
+.icon-total:before {
+  content: "\e921";
+}
+.icon-video:before {
+  content: "\e922";
+}
+.icon-icon-note:before {
+  content: "\e919";
+}
+.icon-resume-list:before {
+  content: "\e918";
+}
+.icon-member-card-icon-1:before {
+  content: "\e900";
+}
+.icon-member-card-icon-2:before {
+  content: "\e901";
+}
+.icon-member-card-icon-3:before {
+  content: "\e902";
+}
+.icon-member-card-icon-4:before {
+  content: "\e904";
+}
+.icon-arrow:before {
+  content: "\e905";
+}
+.icon-area:before {
+  content: "\e906";
+}
+.icon-bouns:before {
+  content: "\e907";
+}
+.icon-chat:before {
+  content: "\e908";
+}
+.icon-education:before {
+  content: "\e909";
+}
+.icon-job:before {
+  content: "\e90a";
+}
+.icon-history:before {
+  content: "\e90b";
+}
+.icon-icon-edit:before {
+  content: "\e90c";
+}
+.icon-icon-trash:before {
+  content: "\e90d";
+}
+.icon-salary:before {
+  content: "\e914";
+}
+.icon-print:before {
+  content: "\e915";
+}
+.icon-share:before {
+  content: "\e916";
+}
+.icon-stop:before {
+  content: "\e917";
+}
+.icon-icon3:before {
+  content: "\e911";
+}
+.icon-icon2:before {
+  content: "\e90f";
+}
+.icon-icon4:before {
+  content: "\e910";
+}
+.icon-icon1:before {
+  content: "\e90e";
+}
+.icon-icon6:before {
+  content: "\e913";
+}
+.icon-icon5:before {
+  content: "\e912";
+}

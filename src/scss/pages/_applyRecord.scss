@@ -1,0 +1,304 @@
+@charset "utf-8";
+/**
+ * ==   Pages > Apply Record
+ */
+
+.apply_record-tabs {
+  font-size: 0;
+  padding-bottom: 1rem;
+
+  .apply_record-tabs_item {
+    border-bottom: 3px solid $border-color;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: $transition-base;
+
+    &.active {
+      border-color: lighten($secondary, 10%);
+      font-weight: bold;
+
+      a {
+        color: $biscay;
+      }
+    }
+
+    &:hover {
+      border-color: lighten($secondary, 10%);
+
+      a {
+        color: $biscay;
+      }
+    }
+
+    &:not(:first-of-type) {
+      margin-left: .25rem;
+    }
+
+    a {
+      color: $lightgrey;
+      font-size: 0.875rem;
+      text-decoration: none;
+    }
+  }
+}
+
+/*---content-head---*/
+.apply_record_content-head {
+  margin-bottom: 1rem;
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .txt {
+    margin-right: .75rem;
+    color: $lightgrey;
+  }
+}
+
+/*---content-body---*/
+.apply_record_item {
+  background-color: $lilyshite;
+  border-left-color: lighten($secondary, 20%);
+
+  &.snub {
+    border-left-color: $border-color_1;
+
+    .apply_record_item-sl {
+      i {
+        color: $lightgrey;
+      }
+    }
+  }
+
+  .item-content {
+    display: table;
+    width: 100%;
+    padding: .5rem 0;
+  }
+
+  .apply_record_item-sl {
+    width: 10%;
+    text-align: center;
+
+    a {
+      background-color: transparent;
+
+      > i {
+        color: $primary;
+        font-size: 2rem;
+      }
+    }
+
+    .dropdown-btn {
+      padding: 0;
+    }
+
+    .drop-down-state {
+      font-size: $font-size-xxs;
+      color: $grey;
+    }
+
+    .drop-down-time {
+      font-size: $font-size-xxs;
+      color: $lightgrey;
+    }
+
+    .btn {
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .apply_record_item-text {
+    padding: 1rem;
+    border-left: $border-style-solid $border-width $border-color_1;
+
+    .ar-corp {
+      font-size: $font-size-xs;
+      margin-bottom: .25rem;
+    }
+
+    .ar_jobname {
+      a {
+        font-size: 1rem;
+      }
+    }
+
+    .cancel-txt {
+      color: $lightgrey;
+    }
+  }
+
+  .apply_record_item-reply {
+    border-left: $border-style-solid $border-width $border-color_1;
+    padding: .5rem;
+    text-align: center;
+    width: 15%;
+
+    p {
+      font-size: 0.75rem;
+      color: $lightgrey;
+    }
+  }
+
+  .apply_record_item-btns {
+    border-left: $border-style-solid $border-width $border-color_1;
+    text-align: center;
+    width: 18%;
+
+    .chart-btn {
+      display: inline-block;
+      padding: .5rem;
+    }
+
+    .resume-btn {
+      display: inline-block;
+      padding: .5rem;
+
+      i {
+        font-size: 1.5rem;
+        vertical-align: middle;
+      }
+    }
+
+    a {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.75rem;
+      color: $grey;
+    }
+
+    .chart-btn {
+      i {
+        font-size: 1.5rem;
+        vertical-align: middle;
+        background: linear-gradient(to right, $new_primary 0%, $primary 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        &:hover {
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: #fff;
+        }
+      }
+
+      &:hover {
+        i {
+          color: #fff;
+          background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .btn--disabled {
+        i {
+          -webkit-text-fill-color: $lightgrey;
+        }
+      }
+    }
+  }
+
+  .apply_record_item-del {
+    border-left: $border-style-solid $border-width $border-color_1;
+    padding: 1rem;
+    width: 5%;
+
+    .del-item {
+      border-left: none;
+      width: auto;
+    }
+
+    .checkbox-text {
+      color: $grey;
+      font-size: 0.75rem;
+    }
+  }
+}
+
+.record-menu-list {
+  display: none;
+  background-color: $whitesmoke;
+  width: 100%;
+
+  li {
+    display: inline-block;
+    margin: .5rem;
+    padding: .5rem 0;
+  }
+
+  .list-item {
+    padding: 0 1rem;
+
+    i {
+      color: $primary;
+      font-size: 1.5rem;
+      margin-right: .5rem;
+    }
+
+    p {
+      color: $lightgrey;
+      font-size: 0.75rem;
+      display: inline-block;
+    }
+
+    span {
+      color: $dark;
+      font-size: 0.75rem;
+    }
+
+    .right-arrow {
+      display: inline-block;
+      height: 1.25rem;
+      width: 1.25rem;
+      border-top: 1px solid $lightgrey;
+      border-right: 1px solid $lightgrey;
+      margin-right: 2rem;
+      padding-left: 1.5rem;
+      padding-bottom: 1.5rem;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.apply_record_content-foot {
+  margin-bottom: 1rem;
+
+  .ft-btn {
+    @include absolute($T: 0, $R: 0);
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
+
+.recommend-job {
+  display: inline-block;
+  background-color: $primary;
+  border-radius: 2px;
+  color: $white;
+  font-weight: normal;
+  font-size: .9375rem;
+  margin-bottom: 1rem;
+  padding: .25rem 2rem;
+
+  .recommend-job-content {
+    border-top: none;
+    padding: 0;
+  }
+}

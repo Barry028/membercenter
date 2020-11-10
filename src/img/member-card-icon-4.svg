@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="member-card-icon-4" transform="translate(19137 2571)">
+    <circle id="Ellipse_2074" data-name="Ellipse 2074" cx="24" cy="24" r="24" transform="translate(-19137 -2571)" fill="#fff" opacity="0"/>
+    <g id="file" transform="translate(-19129.012 -2563)">
+      <g id="Group_84553" data-name="Group 84553" transform="translate(0.011)">
+        <g id="Group_84552" data-name="Group 84552" transform="translate(0)">
+          <path id="Path_89135" data-name="Path 89135" d="M24.011,6.115,17.9,0H2.678A2.669,2.669,0,0,0,.011,2.667v24a2.669,2.669,0,0,0,2.667,2.667H18.255a9.018,9.018,0,0,1-.8-5.333h-1.44V18.667h2.667v1.877a9.349,9.349,0,0,1,5.333-4.152Zm-20,4.556H6.678V16H4.011ZM8.011,24h-4V18.667h4Zm5.333,0H10.678V18.667h2.667Zm0-8h-4V10.671h4Zm5.333,0H16.011V10.671h2.667ZM16.011,8V1.333L22.678,8Z" transform="translate(-0.011)" fill="#ff6b81"/>
+          <path id="Path_89136" data-name="Path 89136" d="M349.343,341.355a2.761,2.761,0,0,0-2.667,2.667,2.761,2.761,0,0,0-2.667-2.667,2.667,2.667,0,0,0-2.667,2.667c0,4,5.333,8,5.333,8s5.333-4,5.333-8A2.667,2.667,0,0,0,349.343,341.355Z" transform="translate(-320.01 -320.02)" fill="#ff6b81"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

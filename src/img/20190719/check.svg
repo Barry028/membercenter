@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="check" transform="translate(-11665 -1256)">
+    <rect id="Rectangle_22806" data-name="Rectangle 22806" width="48" height="48" rx="4" transform="translate(11665 1256)" fill="gray" opacity="0"/>
+    <path id="checked_1_" data-name="checked (1)" d="M.415,18.231a1.338,1.338,0,0,1,0-1.938l1.938-1.938a1.338,1.338,0,0,1,1.938,0l.138.138,7.615,8.169a.669.669,0,0,0,.969,0L31.569,3.415h.138a1.338,1.338,0,0,1,1.938,0l1.938,1.938a1.338,1.338,0,0,1,0,1.938h0L13.431,30.277a1.338,1.338,0,0,1-1.938,0L.692,18.646l-.277-.415Z" transform="translate(11671 1263.31)" fill="gray"/>
+  </g>
+</svg>

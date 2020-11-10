@@ -1,0 +1,141 @@
+@charset "utf-8";
+/**
+ * ==   Pages > Resume
+ */
+
+.resume-item {
+  &.not-finish {
+    border-left-color: #DEE2E4;
+  }
+
+  &.finish {
+    border-left-color: #A8D8EF;
+  }
+
+  .resume-content {
+    padding: 1.25rem 1rem .75rem;
+  }
+}
+
+.resume-type {
+  .type {
+    color: #A7B1B6;
+  }
+
+  .time {
+    color: #A7B1B6;
+    float: right;
+  }
+}
+
+.resume-item .resume-main {
+  font-size: 0;
+  padding: .25rem 0;
+}
+
+.resume-main .update-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  span {
+    vertical-align: middle;
+  }
+
+  i {
+    vertical-align: middle;
+    color: #68BBE3;
+    font-size: 1.25rem;
+  }
+
+  .btn {
+    font-size: .75rem;
+    margin-right: .5rem;
+  }
+}
+
+.edit_line {
+  > {
+    span.edit_input {
+      border-bottom: #A7B1B6 1px dashed;
+      cursor: pointer;
+      font-size: 1.125rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-right: .5rem;
+      padding-bottom: .125rem;
+      transition: color .25s ease;
+      vertical-align: middle;
+      user-select: none;
+
+      &:hover {
+        color: #156395;
+
+        ~ i {
+          color: #156395;
+        }
+      }
+    }
+
+    input.edit_input {
+      width: 15rem;
+    }
+  }
+
+  i {
+    &.edit {
+      color: #0E86D4;
+      cursor: pointer;
+      font-size: 1.25rem;
+      transition: color .25s ease;
+      vertical-align: middle;
+
+      &:hover {
+        color: #156395;
+      }
+    }
+
+    &.confirm {
+      position: absolute;
+      left: 11.5rem;
+      top: 50%;
+      transform: translate(0, -50%);
+      font-style: initial;
+    }
+  }
+}
+
+.resume-toolsbar {
+  background: #F8FAFB;
+  border-top: 1px solid #eff3f5;
+  padding: .5rem 1rem;
+
+  > .btn {
+    padding: .375rem .75rem;
+
+    &:not(:last-child) {
+      font-size: .8125rem;
+      margin-right: .5rem;
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  .resume-toolsbar {
+    padding-left: .375rem;
+    padding-right: .375rem;
+
+    .toggle {
+      margin-right: .25rem;
+    }
+
+    .btn {
+      &:not(:last-child) {
+        margin-right: .25rem;
+      }
+
+      padding: .25rem .5rem;
+    }
+  }
+}

@@ -1,0 +1,163 @@
+@charset "utf-8";
+/**
+ * ==   Pages > CollectCorp
+ */
+
+.collect-item {
+  background-color: #fbfcfc;
+  border-radius: 4px;
+  border: #eff3f5 1px solid;
+  box-shadow: 0 2px 1px 0 rgba(35, 49, 56, 0.12);
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+}
+
+.collect-item-content {
+  width: 100%;
+  display: table;
+}
+
+.collect-item-check, .collect-item-img, .collect-item-text, .collect-item-btn {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.collect-item-check {
+  width: 1.25rem;
+}
+
+.collect-item-img {
+  width: 6rem;
+  padding: 0 0 0 1rem;
+
+  .corp-img-container {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+
+    &:before {
+      content: '';
+      display: block;
+      padding: 75% 0 0;
+      width: 100%;
+    }
+
+    .image {
+      background: no-repeat center;
+      background-size: contain;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  .collect-item-img {
+    display: none;
+  }
+}
+
+.collect-item-text {
+  padding: 0 1rem;
+}
+
+.collect-item-btn {
+  border-left: #EBEBEB 1px solid;
+  padding-left: 1rem;
+  width: 10rem;
+}
+
+.collect-item-text {
+  p {
+    font-size: .8125rem;
+    margin-bottom: 0.25rem;
+
+    > span {
+      vertical-align: middle;
+    }
+  }
+
+  a, i, .canel-title {
+    vertical-align: middle;
+  }
+
+  p, .canel-sec-title {
+    color: #b1b6bc;
+  }
+
+  .canel-title {
+    color: #b1b6bc;
+    font-size: 1rem;
+  }
+
+  > a {
+    font-size: 1rem;
+  }
+
+  > a {
+    text-decoration: underline;
+  }
+
+  i {
+    color: #e1e1e1;
+    cursor: pointer;
+    font-size: 1.5rem;
+
+    &.active {
+      color: #F5DC76;
+    }
+  }
+}
+
+.collect-item-btn {
+  .btn {
+    border-radius: 4px;
+  }
+
+  .check_wrap-label {
+    margin-bottom: 4px;
+  }
+}
+
+.collect-controller {
+  margin: .375rem 0 .75rem 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  .check-wrap {
+    font-size: 0.875rem;
+  }
+}
+
+.check-wrap .delete {
+  float: right;
+}
+
+.edit-mail {
+  color: #6c757d;
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  a.mail {
+    color: #3d3d3d;
+    font-weight: normal;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .edit-mail {
+    display: block;
+    text-align: right;
+    margin: .25rem 0 0 0;
+    position: relative;
+    right: initial;
+    top: initial;
+    transform: translate(0, 0);
+  }
+}

@@ -1,0 +1,472 @@
+$linkColorList: (
+    "blue": "#75b9e7",
+    "green": "#66bfae",
+    "red": "#f6768f",
+    "orange": "#ff8b8b",
+    "purple": "#9c9cdd"
+);
+
+.cus_cnt {
+    width: 100%;
+    height: 100%;
+    padding: 0.6rem;
+
+    >.inner {
+        width: 100%;
+        height: 100%;
+    }
+    .version_wrap-ver3 & {
+        // position: absolute;
+    }
+
+    // .cus_cnt-hd
+    &-hd {
+        margin-bottom: 0.5rem;
+        background-color: #3d3d3d;
+        border-radius: 4px;
+    }
+    // .cus_cnt-bd
+    &-bd {
+        margin-bottom: 0.5rem;
+    }
+    // .cus_cnt-ft
+    &-ft {
+        text-align: right;
+    }
+
+
+
+    // .cus_cnt-title
+    /* 標題 */
+    &-title {
+        &-input.cus_cnt-title-input, .cus_cnt_data {
+            @include remCalc(font-size, 24);
+        }
+        .cus_cnt_data {
+            font-weight: bold;
+        }
+    }
+
+    // .cus_cnt-subtitle
+    /* 副標題 */
+    &-subtitle {
+        &-input.cus_cnt-subtitle-input, .cus_cnt_data {
+            @include remCalc(font-size, 18);
+        }
+        .cus_cnt_data {
+            font-weight: bold;
+        }
+    }
+
+    // .cus_cnt-concontent
+    /* 內文 */
+    &-content {
+        &-input.cus_cnt-content-input, .cus_cnt_data {
+            width: 100%;
+            height: 140px;
+            @include remCalc(font-size, 16);
+
+            .complete {
+                // height: auto;
+                // mah
+            }
+        }
+
+        .cus_cnt_data {
+            @include text_ellipsis(6, 1.2);
+        }
+    }
+
+    // .cus_cnt-link
+    /* 鏈結 */
+    &-link {
+        &-label {
+            width: 100px;
+        }
+
+        &-color_item {
+            float: left;
+            width: 22px;
+            height: 22px;
+            border-radius: 2px;
+            cursor: pointer;
+            // &:not(:first-of-type) {
+                margin-left: 4px;
+            // }
+            @each $color_name, $code in $linkColorList {
+                &.color-#{$color_name} {
+                    background-color: #{$code};
+                    border: 1px solid #{$code};
+                }
+            }
+            &.active {
+                border-color: #fff;
+            }
+        }
+
+        &-view {
+            border-radius: 4px;
+            box-shadow: 0 0 0 transparent;
+            text-align: center;
+            font-size: 1rem;
+            color: #fff;
+            transition: $transition-base;
+            a {
+                display: block;
+                padding: 0.8rem;
+                color: currentColor;
+            }
+            @each $color_name, $code in $linkColorList {
+                &.color-#{$color_name} {
+                    background-color: #{$code};
+                    border: 1px solid #{$code};
+                }
+            }
+            &:hover {
+                box-shadow: $z-depth-1;
+            }
+            
+        }
+    }
+    // .cus_cnt-pic
+    /* 圖片 */
+    &-pic {
+        // position: relative;
+        &-upload {
+            @include rwdBlock(264, 254);
+            // @include rwdBlock(497, 334);
+            overflow: hidden;
+            cursor: pointer;
+
+            +.cus_cnt-pic-preview {
+                @include absolute(0, $L:0);
+            }
+
+            .txt {
+                color: #E8E8E8;
+                @include remCalc(font-size, 14);
+            }
+
+            > .inner {
+                @include absolute();
+                @include align('y');
+                width: 100%;
+            }
+
+            .icon_wrap {
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin: auto;
+                color: #fff;
+                font-size: 2rem;
+            }
+        }
+
+        &-addlink {
+
+        }
+        &-addtxt {
+            // margin-left: 0.5rem;
+        }
+
+        &-label {
+            width: 100px;
+        }
+
+        &-figure {
+            position: relative;
+            border-radius: 4px;
+            overflow: hidden;
+            &:hover {
+                .cus_cnt-pic-figcaption {
+                    opacity: 1;
+                }
+            }
+        }
+        &-preview {
+            position: relative;
+            @include rwdBlock(264, 254);
+            overflow: hidden;
+            img {
+                width: 100%;
+                @include absolute(50%, $L:50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+        &-figcaption {
+            @include absolute($B:0);
+            width: 100%;
+            padding: 0.5rem;
+            background-color: rgba(#000, 0.8);
+            color: #fff;
+            font-size: 1rem;
+            line-height: 1.5;
+            letter-spacing: 1px;
+
+            opacity: 0.6;
+            transition: $transition-basic;
+        }
+    }
+
+
+    // .cus_cnt-video
+    /* 影片 */
+    &-video {
+        &-cover {
+            position: relative;
+            @include rwdBlock(248, 140);
+            border-radius: 4px;
+            overflow: hidden;
+
+            .txt {
+                @include absolute;
+                @include align('y');
+                width: 100%;
+                color: #fff;
+                @include remCalc(font-size, 14);
+                text-align: center;
+            }
+
+            > img {
+                width: 100%;
+                @include absolute();
+                @include align('c');
+            }
+
+            > iframe {
+                @include absolute(0, $L:0);
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &-label {
+            width: 25px;
+        }
+    }
+
+    // .cus_cnt-field
+    &-field {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0.5rem;
+
+        &.js-edit {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .inner-table {
+            width: 100%;
+        }
+    }
+
+    // .cus_cnt-field_group
+    &-field_group {
+        color: #fff;
+        width: 100%;
+        display: none;
+        
+        .js-edit & {
+            display: block;
+        }
+        // @extend .cf;
+        // display: table;
+        &-label {
+            // display: table-cell;
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0.2rem 0.5rem;
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+            background-color: #707070;
+            @include remCalc(font-size, 12);
+            // float: left;
+            .js-edit & {
+                padding: 0.3rem 0.5rem;
+                padding-left: 2rem;
+            }
+
+            .cus_cnt-video-addlink & {
+                width: 25px;
+                padding-left: 25px;
+            }
+
+            i {
+                @include absolute($L:0.4rem);
+                @include align('y');
+                font-size: 1.2rem;
+            }
+        }
+        &-input.cus_cnt-field_group-input {
+            // display: table-cell;
+            width: 100%;
+            padding: .3rem .5rem;
+            background-color: #575757;
+            border: 1px solid #707070;
+            color: #fff;
+            // float: left;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+
+    // .cus_cnt-txt_tool
+    &-txt_tool {
+        @include padding(x, 4px);
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+    }
+
+    .txt_tool {
+        float: left;
+
+        &-btn {
+            position: relative;
+            width: 25px;
+            height: 25px;
+            border: 1px solid #fff;
+            padding: 0;
+            background-color: #444444;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: normal;
+
+            i {
+                display: block;
+                @include absolute();
+                @include align('c');
+
+                &.icon-icon-trash {
+                    font-size: 1.1rem;
+                }
+            }
+
+            &:hover {
+                background-color: #707070;
+            }
+
+            &:active {
+                transform: translate(1px, 1px);
+            }
+        }
+
+        &.active {
+            .txt_tool-btn {
+                background-color: #707070;
+            }
+        }
+    }
+
+    @at-root {
+        .btn-cuscnt {
+            padding: 0.5rem 1.8rem;
+            border: none;
+            color: #fff;
+            @include remCalc(font-size, 14);
+            border-radius: 4px;
+            transition: all 0.3s ease-in-out;
+
+            cursor: pointer;
+
+            .js-edit & {
+                display: none;
+            }
+
+            &:active {
+                transform: translate(1px, 1px);
+            }
+
+            &-addcnt {
+                position: relative;
+                padding: 0.2rem 0.5rem;
+                border-radius: 2px;
+                background-color: #707070;
+                i {
+                    display: inline-block;
+                    vertical-align: -0.4ex;
+                    font-size: 1.2rem;
+                    margin-right: 0.3rem;
+                }
+
+                &:hover {
+                    background-color: darken(#707070, 15);
+                }
+            }
+
+            &-cancel {
+                background-color: #abbac3;
+
+                &:hover {
+                    background-color: darken(#abbac3, 15);
+                }
+            }
+
+            &-save {
+                background-color: #66bfae;
+                margin-left: 0.5rem;
+
+                &:hover {
+                    background-color: darken(#66bfae, 15);
+                }
+            }
+
+        }
+    }
+}
+
+.cus_cnt_view {
+    padding: 0;
+
+    >.inner {
+        display: block;
+    }
+}
+
+.cus_cnt_text {
+    background-color: #fff;
+    padding: 0;
+
+    .cus_cnt-field {
+        padding: 3px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: -1px;
+
+        input {
+            width: 100%;
+            border: none;
+            color: #707070;
+            // font-weight: bold;
+        }
+
+        textarea {
+            border: none;
+            color: #707070;
+            resize: none;
+        }
+    
+        .complete & {
+            border: none;
+        }
+    }
+    
+
+}
+
+.cus_cnt_data {
+    padding: 3px 0.75rem;
+    line-height: 1.2;
+}
+
+%cus_cnt_text {
+
+}

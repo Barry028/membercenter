@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-title-license" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#707070;opacity:0}.cls-2{fill:#d3ebfc}.cls-3{fill:#fee9ee}.cls-4{fill:#808fa5}.cls-5{stroke:none}.cls-6{fill:none}
+        </style>
+    </defs>
+    <g id="Group_82222" data-name="Group 82222">
+        <g id="Rectangle_22929" class="cls-1" data-name="Rectangle 22929">
+            <path d="M0 0h60v60H0z" class="cls-5"/>
+            <path d="M.5.5h59v59H.5z" class="cls-6"/>
+        </g>
+    </g>
+    <g id="certificate_1_" data-name="certificate (1)" transform="translate(6 4.5)">
+        <circle id="Ellipse_61" cx="15.2" cy="15.2" r="15.2" class="cls-2" data-name="Ellipse 61" transform="translate(17.6 20)"/>
+        <circle id="Ellipse_62" cx="6.4" cy="6.4" r="6.4" class="cls-3" data-name="Ellipse 62" transform="translate(1.6 15.2)"/>
+        <g id="Group_82394" data-name="Group 82394">
+            <path id="Path_88391" d="M150.686 8h-32V6.4a2.4 2.4 0 1 0 0-4.8V0h32a4 4 0 0 1 0 8zm-28.8-1.6h28.8a2.4 2.4 0 0 0 0-4.8h-28.8a3.994 3.994 0 0 1 0 4.8z" class="cls-4" data-name="Path 88391" transform="translate(-108.286)"/>
+            <path id="Path_88392" d="M54.069 48v-1.6a2.4 2.4 0 0 0 2.4-2.4V4a4 4 0 0 1 4-4v1.6a2.4 2.4 0 0 0-2.4 2.4v40a4 4 0 0 1-4 4z" class="cls-4" data-name="Path 88392" transform="translate(-50.069)"/>
+            <path id="Path_88393" d="M322.14 113.495h-9.6v-1.6h9.6a2.4 2.4 0 0 0 2.4-2.4v-36.8h1.6v36.8a4 4 0 0 1-4 4z" class="cls-4" data-name="Path 88393" transform="translate(-282.94 -65.495)"/>
+            <path id="Path_88394" d="M17.683 411.862a4 4 0 0 1 0-8h3.2v1.6h-3.2a2.4 2.4 0 1 0 0 4.8z" class="cls-4" data-name="Path 88394" transform="translate(-13.683 -363.862)"/>
+            <path id="Rectangle_23019" d="M0 0h16v1.6H0z" class="cls-4" data-name="Rectangle 23019" transform="translate(4 46.4)"/>
+            <path id="Rectangle_23020" d="M0 0h1.6v1.6H0z" class="cls-4" data-name="Rectangle 23020" transform="translate(25.6 3.2)"/>
+            <path id="Rectangle_23021" d="M0 0h1.6v1.6H0z" class="cls-4" data-name="Rectangle 23021" transform="translate(28.8 3.2)"/>
+            <path id="Rectangle_23022" d="M0 0h1.6v1.6H0z" class="cls-4" data-name="Rectangle 23022" transform="translate(32 3.2)"/>
+            <path id="Path_88395" d="M147.487 143.713h-28.8v-6.4h28.8v6.4zm-27.2-1.6h25.6v-3.2h-25.6z" class="cls-4" data-name="Path 88395" transform="translate(-108.287 -123.713)"/>
+            <path id="Rectangle_23023" d="M0 0h17.6v1.6H0z" class="cls-4" data-name="Rectangle 23023" transform="translate(16 10.4)"/>
+            <path id="Rectangle_23024" d="M0 0h28.8v1.6H0z" class="cls-4" data-name="Rectangle 23024" transform="translate(10.4 21.6)"/>
+            <path id="Rectangle_23025" d="M0 0h28.8v1.6H0z" class="cls-4" data-name="Rectangle 23025" transform="translate(10.4 24.8)"/>
+            <path id="Rectangle_23026" d="M0 0h28.8v1.6H0z" class="cls-4" data-name="Rectangle 23026" transform="translate(10.4 28)"/>
+            <path id="Rectangle_23027" d="M0 0h28.8v1.6H0z" class="cls-4" data-name="Rectangle 23027" transform="translate(10.4 31.2)"/>
+            <path id="Path_88396" d="M238.168 436.4l-3.2-1.067-3.2 1.067v-8.31h1.6v6.09l1.6-.533 1.6.533v-6.09h1.6z" class="cls-4" data-name="Path 88396" transform="translate(-210.168 -385.694)"/>
+            <path id="Path_88397" d="M220.414 356.922a4.8 4.8 0 1 1 4.8-4.8 4.8 4.8 0 0 1-4.8 4.8zm0-8a3.2 3.2 0 1 0 3.2 3.2 3.2 3.2 0 0 0-3.2-3.2z" class="cls-4" data-name="Path 88397" transform="translate(-195.614 -312.922)"/>
+            <path id="Rectangle_23028" d="M0 0h1.6v1.6H0z" class="cls-4" data-name="Rectangle 23028" transform="translate(31.2 38.4)"/>
+            <path id="Rectangle_23029" d="M0 0h1.6v1.6H0z" class="cls-4" data-name="Rectangle 23029" transform="translate(16.8 38.4)"/>
+        </g>
+    </g>
+</svg>

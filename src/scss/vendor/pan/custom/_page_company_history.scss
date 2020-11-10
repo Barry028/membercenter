@@ -1,0 +1,243 @@
+.company_history {
+
+}
+
+
+.company_history_wrap {}
+
+.set_industry {
+    margin-bottom: 1rem;
+
+    .btn-setting {
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        border: none;
+        background-color: $color-primary;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.2em;
+        line-height: 1;
+        transition: $transition-base;
+
+        &:hover {
+            background-color: darken($color-primary, 10);
+        }
+    }
+}
+
+
+.company_history_container {}
+.company_history_content {
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+
+    &-hd {
+        margin-bottom: 1rem;
+        .txt {
+            margin-right: 0.8rem;
+        }
+    }
+
+    &-bd {
+        font-size: 1rem;
+    }
+    &-ft {}
+}
+
+.ch_item {
+    width: 100%;
+    padding: 1rem;
+    
+    &-img {
+        width: percentage(140 / 790);
+    }
+    &-text {
+        width: percentage(370 / 790);
+    }
+    &-link {
+        width: percentage(150 / 790);
+    }
+    &-btns {
+        width: percentage(130 / 790);
+    }
+}
+
+.ch_item {
+    position: relative;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    border: solid 1px #ebebeb;
+    background-color: #fcfcfc;
+
+    &:not(.noJob) {
+        &:before {
+            content: '';
+            display: block;
+            @include absolute(0, $L:0);
+            width: 3px;
+            height: 100%;
+            background-color: $color-primary;
+        }
+    }
+
+    &-img {
+        .corp-img-container {
+            height: 80px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+
+            .image {
+                @include absolute(0, $L:0);
+                height: 100%;
+                width: 100%;
+                background: no-repeat center;
+                background-size: cover;
+            }
+        }
+    }
+
+    &-text {
+        @include padding('x', 1rem);
+    }
+
+    &-link {
+        @include padding('x', 0.8rem);
+
+        .noJob & {
+            .btn {
+                border-color: $color-lightgrey;
+                color: $color-lightgrey;
+                &:hover {
+                    background-color: transparent;
+                    cursor: default;
+                }
+            }
+        }
+
+
+    }
+
+    &-btns {
+        [class^="icon-"] {
+            @include remCalc(font-size, 20);
+        }
+
+        &-wrap {
+        }
+        
+        .btn-wrap {
+            position: relative;
+            width: 50%;
+            text-align: center;
+
+            &:before {
+                content: '';
+                @include absolute(50%, $L:0);
+                @include align(y);
+                width: 1px;
+                height: 80%;
+                background-color: #ebebeb;
+            }
+        }
+
+        .btn-block {
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            .txt {
+                color: $color-grey;
+            }
+            
+            .icon_block {
+                position: relative;
+                display: block;
+                width: 35px;
+                height: 35px;
+                border-radius: 5px;
+                border: 1px solid $color-lightgrey;
+                margin-bottom: 0.3rem;
+                box-shadow: 0 0 0 transparent;
+                color: $color-lightgrey;
+
+                transition: box-shadow 0.3s ease-in-out;
+                i {
+                    @include absolute;
+                    @include align(c);
+                    &.icon-heart {
+                        opacity: 0;
+                    }
+                }
+            }
+
+            &.btn-heart {
+                .collection & {
+                    .icon_block {
+                        background-color: $color-red;
+                        border-color: $color-red;
+                        color: #fff;
+                    }
+                    .txt {
+                        color: $color-red;
+                    }
+
+                    .icon-heart {
+                        opacity: 1;
+                    }
+                    .icon-heart-o {
+                        opacity: 0;
+                    }
+                }
+            }
+
+            &.btn-del {
+                .icon_block {
+                    border-color: $color-red;
+                    color: $color-red;
+                }
+            }
+
+
+            &:hover {
+                .icon_block {
+                    box-shadow: $boxShadow1;
+                }
+            }
+
+            &:active {
+                .icon_block {
+                    transform: translate(1px, 1px);
+                }
+                
+            }
+        }
+    }
+}
+
+.ch-time {
+    // color: $color-grey;
+}
+.ch-corp_name {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 220px;
+
+    .txt {
+        @include ellipsis();
+        display: block;
+        text-decoration: underline;
+    }
+}
+.ch-corp_addr {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ch-corp_other {
+    padding-top: 6px;
+}

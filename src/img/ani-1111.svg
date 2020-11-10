@@ -1,0 +1,70 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="text-pop-up-top" width="80" height="42" viewBox="0 0 80 42">
+  <defs><animate attributeType="XML" attributeName="x" from="-100" to="120"
+        dur="10s" repeatCount="indefinite"/>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d50918"/>
+      <stop offset="1" stop-color="#ff4b2b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.742" x2="0.742" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.742" x2="0.832" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.832" x2="0.772" xlink:href="#linear-gradient"/>
+  </defs>
+  <g>
+    <g id="loading-bar-1" data-name="Group 71901" transform="translate(0)">
+      <path id="Union_81" data-name="Union 81" d="M-6933.22-2551v-25.661c0-1.425-.441-1.774-.712-2.046a2.188,2.188,0,0,0-1.166-.35h-.193l-1.71.259v-8.156l1.074-.363a17.32,17.32,0,0,0,7.1-4.971.3.3,0,0,0,.09-.182l.44-.531h8.353v42Z" transform="translate(6937.001 2593.003)" fill="#fff"/>
+      <path id="Path_74681" data-name="Path 74681" d="M1.945,6.3s-.712.17-.712.44v5.242s-.091.078.272.078a3.34,3.34,0,0,1,3.405,2.046l.182,2.488V40.131H15.319V1.29H9.22A17.4,17.4,0,0,1,1.945,6.3Z" transform="translate(0.257 0.278)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="loading-bar-2" data-name="Group 71900" class="woah pulse infinite" transform="translate(19.604)">
+      <path id="Union_82" data-name="Union 82" d="M-6933.22-2551v-25.661c0-1.425-.441-1.774-.712-2.046a2.188,2.188,0,0,0-1.166-.35h-.193l-1.71.259v-8.156l1.074-.363a17.32,17.32,0,0,0,7.1-4.971.3.3,0,0,0,.09-.182l.44-.531h8.353v42Z" transform="translate(6937.001 2593.003)" fill="#fff"/>
+      <path id="Path_74682" data-name="Path 74682" d="M16.945,6.3s-.712.17-.712.44v5.242s-.091.078.272.078a3.34,3.34,0,0,1,3.405,2.046l.182,2.488V40.131H30.319V1.29h-6.1A17.4,17.4,0,0,1,16.945,6.3Z" transform="translate(-14.743 0.278)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Group_71898" data-name="Group 71898" class="woah pulse infinite" transform="translate(38.782)">
+      <path id="Union_83" data-name="Union 83" d="M-6933.22-2551v-25.661c0-1.425-.441-1.774-.712-2.046a2.188,2.188,0,0,0-1.166-.35h-.193l-1.71.259v-8.156l1.074-.363a17.32,17.32,0,0,0,7.1-4.971.3.3,0,0,0,.09-.182l.44-.531h8.353v42Z" transform="translate(6937.001 2593.003)" fill="#fff"/>
+      <path id="Path_74683" data-name="Path 74683" d="M31.945,6.3s-.712.17-.712.44v5.242s-.091.078.272.078a3.34,3.34,0,0,1,3.405,2.046l.182,2.488V40.131H45.319V1.29h-6.1A17.4,17.4,0,0,1,31.945,6.3Z" transform="translate(-29.743 0.278)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="Group_71899" data-name="Group 71899" class="woah pulse infinite" transform="translate(58.385)">
+      <path id="Union_80" data-name="Union 80" d="M-6933.22-2551v-25.661c0-1.425-.441-1.774-.712-2.046a2.188,2.188,0,0,0-1.166-.35h-.193l-1.71.259v-8.156l1.074-.363a17.32,17.32,0,0,0,7.1-4.971.3.3,0,0,0,.09-.182l.44-.531h8.353v42Z" transform="translate(6937.001 2593.003)" fill="#fff"/>
+      <path id="Path_74684" data-name="Path 74684" d="M46.945,6.3s-.712.17-.712.44v5.242s-.091.078.272.078a3.34,3.34,0,0,1,3.405,2.046l.182,2.488V40.131H60.319V1.29h-6.1A17.4,17.4,0,0,1,46.945,6.3Z" transform="translate(-44.743 0.278)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+<style>
+.text-pop-up-top {
+  -webkit-animation: text-pop-up-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite reverse backwards;
+          animation: text-pop-up-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite reverse backwards;
+}
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+</style>
+</svg>

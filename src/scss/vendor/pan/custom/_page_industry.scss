@@ -1,0 +1,318 @@
+.page_industry {
+
+}
+.alert-block {
+	.page_industry & {
+		letter-spacing: 1px;
+		padding-right: 32px + 16;
+	}
+}
+
+// > .industry_content
+.industry_content {
+	&-bd {
+		&-main {
+			.tabcontent {
+				width: 100%;
+			}
+		}
+
+		.title {
+			margin-bottom: 1rem;
+			color: $color-grey;
+			@include remCalc(font-size, 18);
+			letter-spacing: 1px;
+		}
+	}
+}
+
+// > .blockade_industry
+.blockade_industry {
+	margin-bottom: 1.6rem;
+
+	// > .blockade_industry-list
+	&-list {
+		margin-left: -0.5rem;
+		margin-right: -0.5rem;
+	}
+
+	// > .blockade_industry-item
+	&-item {
+		position: relative;
+		display: inline-block;
+		padding: 12px 50px;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+		margin-bottom: 0.8rem;
+		border-radius: 50px;
+		border: 1px solid #8cbcdc;
+		background-color: #fff;
+
+		color: #4281aa;
+		transition: all 0.3s ease-in-out;
+
+		cursor: pointer;
+
+		.icon {
+			@include absolute(50%, 1rem);
+			line-height: 1;
+			color: currentColor;
+			transform: translateY(-50%);
+
+			transition: all 0.3s ease-in-out;
+
+			opacity: 0;
+			.fa {
+				font-size: 1.2rem;
+			}
+
+			&.del_item {
+				font-size: 2rem;
+			}
+		}
+
+		.txt {
+			font-size: 1rem;
+			transition: all 0.3s ease-in-out;
+		}
+
+		&:before {
+			content: '取消封鎖';
+			display: block;
+			@include absolute(50%, 0, $L:0);
+			z-index: 2;
+			transform: translateY(-50%);
+			// width: 100%;
+			margin: auto;
+			color: $color-error;
+			text-align: center;
+
+			transition: all 0.3s ease-in-out;
+
+			opacity: 0;
+		}
+
+		&:after {
+			content: "\00D7"; // &times;
+			@include absolute(50%, 1rem);
+			z-index: 2;
+			transform: translateY(-50%);
+			color: $color-error;
+			font-size: 2rem;
+
+			transition: all 0.3s ease-in-out;
+
+			opacity: 0;
+		}
+		&.js-active {
+			background-color: #4281aa;
+			color: #fff;
+
+			.icon {
+				opacity: 1;
+			}
+			&:hover {
+				background-color: #fff;
+				border-color: $color-error;
+				.txt {
+					opacity: 0;
+				}
+				.icon {
+					opacity: 0;
+				}
+				&:before, &:after {
+					opacity: 1;
+				}
+			}
+
+			&.delay_show_cancel_txt {
+				&:hover {
+					background-color: #4281aa;
+					color: #fff;
+					border-color: #8cbcdc;
+					.txt {
+						opacity: 1;
+					}
+					.icon {
+						opacity: 1;
+					}
+					&:before, &:after {
+						opacity: 0;
+					}
+				}
+			}
+
+
+		}
+
+
+		&:not(.js-active):hover {
+			background-color: lighten(#4281aa, 40);
+		}
+
+
+
+	}
+
+
+	// > .blockade_industry-ft
+	&-ft {
+		.inner {
+			text-align: right;
+			color: #f88663;
+		}
+
+		.icon-icon4 {
+			font-size: 1.2rem;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.txt {
+			display: inline-block;
+			vertical-align: middle;
+
+			color: currentColor;
+		}
+	}
+}
+
+.blockade_corp-ft {
+		@extend .blockade_industry-ft;
+}
+
+.blockade_corp {
+	// > .blockade_corp-hd
+	&-hd {
+		.btn-add_blockade {
+			@include padding(y, 10px);
+		}
+
+		.blockade_used {
+			margin-left: 1rem;
+			vertical-align: bottom;
+			color: $color-grey;
+			line-height: 1.2;
+
+			b {
+				color: $color-black;
+				@include remCalc(font-size, 18);
+			}
+		}
+	}
+	// > .blockade_corp-bd
+	&-bd {
+
+		> .txt {
+			margin-bottom: 1.2rem;
+			padding-top: 1rem;
+		}
+	}
+	// > .blockade_corp-ft
+	&-ft {
+
+	}
+
+	&-list {
+		overflow: hidden;
+		ul {
+			display: table;
+			width: 100%;
+		}
+	}
+
+	// > .blockade_corp-item
+	&-item {
+		display: table-row;
+		position: relative;
+		width: 100%;
+		height: 60px;
+		padding-left: 1.2rem;
+		margin-bottom: 1rem;
+		// counter-increment: li;
+		// &:before {
+		// 	// content: counter(li)".";
+		// 	// direction: rtl;
+
+		// 	@include absolute($L:0);
+		// 	@include align(v);
+		// 	color: $color-lightgrey;
+		// }
+
+		> .inner {
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+
+		.inner-col {
+			display: table-cell;
+			vertical-align: middle;
+			// float: left;
+			// @include align(v);
+			@include padding(x, 0.35rem);
+			padding-bottom: 1rem;
+		}
+	}
+
+	&-no {
+		color: $color-lightgrey;
+	}
+
+	// > .blockade_corp-name
+	&-name {
+
+		width: 170px;
+
+		> .txt {
+			@include ellipsis(170px);
+			@include remCalc(font-size, 18);
+			display: block;
+		}
+	}
+	// > .blockade_corp-job_vacancies
+	&-job_vacancies {
+		.btn {
+			@include padding(y, 10px);
+			border-radius: 4px;
+		}
+	}
+	// > .blockade_corp-remarks
+	&-remarks {
+		.remarks_select {
+			padding: 3px 24px;
+		}
+	}
+	// > .blockade_corp-controller
+	&-controller {
+		width: 105px + 12;
+		&.inner-tabelcell {
+			padding-right: 0;
+		}
+		.ctrl {
+			display: inline-block;
+			width: 36px + 10;
+			text-align: center;
+				@include padding(x, 0.3rem);
+		}
+		.btn {
+			position: relative;
+			width: 36px;
+			height: 36px;
+			padding: 0;
+			border-radius: 4px;
+
+			[class^="icon"] {
+				@include absolute();
+				@include align(c);
+				font-size: 1.6rem;
+			}
+
+			~ .txt {
+				width: 100%;
+				@include remCalc(font-size, 12);
+				color: $color-grey;
+			}
+		}
+	}
+}

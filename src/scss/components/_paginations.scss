@@ -1,0 +1,45 @@
+@charset "utf-8";
+/**
+ * ==   Components > Pagination
+ */
+
+.pagination {
+  font-size: $font-size-none;
+  padding: .5rem 0 1rem;
+  text-align: center;
+
+  li {
+    display: inline-block;
+
+    &.active {
+      a {
+        background-color: $secondary;
+        border-color: lighten($secondary, 10%);
+        color: $white;
+      }
+    }
+
+    &:last-of-type {
+      a {
+        border-right-color: $border-color_2;
+      }
+    }
+  }
+
+  a {
+    background: $white;
+    border: solid 1px;
+    border-color: $border-color_2 transparent $border-color_2 $border-color_2;
+    color: $dark;
+    display: inline-block;
+    font-size: .8125rem;
+    padding: .375rem .75rem;
+    text-decoration: none;
+    transition: $transition-base;
+
+    &:hover:not(.active) {
+      background-color: $lightgrey;
+      border-color: lighten($lightgrey, 10%);
+    }
+  }
+}

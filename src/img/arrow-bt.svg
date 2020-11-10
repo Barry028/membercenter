@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="arrow-bt" transform="translate(-1482 -488)">
+    <g id="Rectangle_23476" data-name="Rectangle 23476" transform="translate(1482 488)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <g id="arrow-bt-2" data-name="arrow-bt" transform="translate(-3535 -1744)">
+      <rect id="bg" width="16" height="16" transform="translate(5041 2240) rotate(90)" fill="#bdc3c7" opacity="0"/>
+      <path id="union" d="M7.916,15.806.612,8.85a.685.685,0,0,1-.085-.069L.2,8.472a.652.652,0,0,1,0-.945l.324-.309a.685.685,0,0,1,.085-.069L7.916.193a.719.719,0,0,1,.98,0L9.22.5a.638.638,0,0,1,0,.933L2.327,8,9.22,14.564a.637.637,0,0,1,0,.933l-.324.309a.719.719,0,0,1-.98,0Z" transform="translate(5025 2253.218) rotate(-90)" fill="#bdc3c7"/>
+    </g>
+  </g>
+</svg>

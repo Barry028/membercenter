@@ -1,0 +1,9 @@
+<svg id="playback" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24600" data-name="Rectangle 24600" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99998" data-name="Path 99998" d="M17.15,19.58a1.76,1.76,0,0,1-.86-.23h0L6,13.52a1.74,1.74,0,0,1,0-3L16.3,4.69a1.72,1.72,0,0,1,1.74,0,1.74,1.74,0,0,1,.87,1.52V17.82a1.76,1.76,0,0,1-1.75,1.76ZM17,18a.24.24,0,0,0,.26,0,.26.26,0,0,0,.12-.22V6.18A.25.25,0,0,0,17,6L6.73,11.78a.25.25,0,0,0,0,.44Z" fill="#fff"/>
+    <path id="Path_99999" data-name="Path 99999" d="M5.85,20.75A.76.76,0,0,1,5.1,20V4A.75.75,0,0,1,6.6,4V20A.76.76,0,0,1,5.85,20.75Z" fill="#fff"/>
+  </g>
+</svg>

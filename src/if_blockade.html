@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <title>上傳您的照片</title>
+    
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/iconmoon/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>
+        body {
+        background: #fff;
+    }
+    </style>
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="modal-content">
+        <div class="search-block center" >
+            <p class="mb-8">請輸入封鎖關鍵字或完整統編 (查詢統編：<a href="https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do" target="_blank">經濟部</a>、<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW113W1_2" target="_blank">財政部</a>)
+            </p>
+            <form id="" action="" method="">
+                <input type="text" name="" value="" placeholder="請輸入欲封鎖的關鍵字詞" class="input-error">
+                <button type="submit" value="搜尋" class="btn btn--primary">搜尋</button>
+            </form>
+        </div>
+        <hr>
+        <div class="search-content center">
+            <!-- 搜尋成功 -->
+            <!-- <p class="mb-8">您設定的關鍵字為<font class="text--danger">兩班家有限公司</font>，共有 <font class="text--danger">1</font> 筆符合的公司</p>
+            <div class="result-hd">
+                - 點擊<font class="text--danger">"封鎖公司"</font>封鎖單筆公司或點擊<font class="text--danger">"全部封鎖"</font>封鎖全部資料 -
+            </div>
+            <div class="search-result">
+                <ul>
+                    <li><a href="#!">兩班家有限公司</a></li>
+                    <li><span>餐廳／餐館</span></li>
+                    <li><span>新北市汐止區</span></li>
+                    <li><a href="#!" class="btn btn--border--primary btn--sm">封鎖公司</a></li>
+                </ul>
+            </div> -->
+            <!-- 搜尋關鍵字失敗 -->
+            <!-- <p class="mb-16">您設定的關鍵字為<font class="text--danger">兩班家有限公司</font>，共有 <font class="text--danger">0</font> 筆符合的公司</p>
+            <div class="result-hd">
+                - 點擊<font class="text--danger">"封鎖公司"</font>封鎖單筆公司或點擊<font class="text--danger">"全部封鎖"</font>封鎖全部資料 -
+            </div>
+            <div class="search-result align-left">
+                <p class="mt-16 text--danger"><strong>可能有以下情況：</strong></p>
+                <span>● 該公司尚未開放徵才。</span><br/>
+                <span>● 您仍可對關鍵字「<font class="text--lightgrey">兩班家有限公司</font>」進行封鎖，待該公司開放徵才後，即無法查詢您的履歷。</span><br/>
+                <span>● 建議您可更換關鍵字 (公司名/品牌名) 重新比對。</span>
+            </div> -->
+            <!-- 搜尋統編失敗 -->
+            <p class="mb-16">您設定的統一編號為<font class="text--danger">11111111</font>，共有 <font class="text--danger">0</font> 筆符合的公司</p>
+            <div class="result-hd">
+                - 點擊<font class="text--danger">"封鎖公司"</font>封鎖單筆公司或點擊<font class="text--danger">"全部封鎖"</font>封鎖全部資料 -
+            </div>
+            <div class="search-result align-left">
+                <p class="mt-16 text--danger"><strong>可能有以下情況：</strong></p>
+                <span>● 該公司於註冊時「未登錄公司統編」或「尚未開放徵才」。</span><br/>
+                <span>● 您仍可對統編「<font class="text--lightgrey">16776111</font>」進行封鎖，待該公司開放徵才後，即無法查詢您的履歷。</span><br/>
+                <span>● 建議您可使用「公司關鍵字」搜尋，同時封鎖該公司的統編及公司名稱。</span>
+            </div>
+        </div>
+        <div class="search-qa">
+            <ul>
+                <li>
+                    <p class="text--biscay mb-4">- 為什麼搜尋不到要封鎖的公司呢？</p>
+                    <span class="text--grey ml-8">該公司於註冊時「未登錄公司統編」或「尚未開放徵才」您仍可對該公司「統編」及「關鍵字」進行封鎖，待該公司開放徵才後，即無法查詢您的履歷。</span>
+                </li>
+                <li>
+                    <p class="text--biscay">- 封鎖大型集團或金控公司時？</p>
+                    <span class="text--grey ml-8">EX：不好金控/不好人壽/不好投顧/不好證券/不好保險，於關鍵字您只需封鎖"不好"並點擊下方「全部封鎖」，即可封鎖所有名稱包含"不好"的公司；若同集團下有不同公司名，需另設關鍵字封鎖。</span>
+                </li>
+                <li>
+                    <p class="text--biscay">- 封鎖特定產業時？</p>
+                    <span class="text--grey ml-8">EX：想封鎖保險、銀行、人壽….，可至<a href="#!">封鎖產業設定</a>封鎖，更能完整封鎖該產業，確保您不被打擾。</span>
+                </li>
+                <li>
+                    <p class="text--biscay">- 前東家負責人開了好多間公司，我可以只封鎖負責人或人資的名子嗎？</p>
+                    <span class="text--grey ml-8">封鎖關鍵字僅限於公司名稱，輸入負責人或人資的名子，是無法封鎖的。</span>
+                </li>
+                <li>
+                    <p class="text--biscay">- 品牌名及公司名，該選擇哪個關鍵字封鎖呢？</p>
+                    <span class="text--grey ml-8">徵才廠商於註冊時皆登記公司名，建議您可同時封鎖公司及品牌，更能確保履歷不被搜尋到。</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="modal-btn-box">
+        <a href="#!" class="btn btn--border--primary btn--md mr-8">取消</a>
+        <a href="#!" class="btn btn--primary btn--md">全部封鎖</a>
+    </div>
+    <script src="js/jquery-2.0.0.min.js"></script>
+</body>
+
+</html>

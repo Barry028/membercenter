@@ -1,0 +1,9 @@
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24474" data-name="Rectangle 24474" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99743" data-name="Path 99743" d="M16,11.25H9.57l1.78-1.79a.74.74,0,0,0,0-1.06.75.75,0,0,0-1.06,0L7.22,11.47a.75.75,0,0,0,0,1.06l3.07,3.07a.75.75,0,1,0,1.06-1.06L9.56,12.75H16a.75.75,0,0,0,.75-.75h0A.75.75,0,0,0,16,11.25Z" fill="#fff"/>
+    <path id="Path_99744" data-name="Path 99744" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18.5A8.5,8.5,0,1,1,20.5,12,8.5,8.5,0,0,1,12,20.5Z" fill="#fff"/>
+  </g>
+</svg>

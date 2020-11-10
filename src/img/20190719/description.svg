@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="description" transform="translate(-571 -211)">
+    <g id="add-comment-button" transform="translate(579 219)">
+      <g id="comment">
+        <path id="Path_89069" data-name="Path 89069" d="M32,3.2A3.209,3.209,0,0,0,28.8,0H3.2A3.209,3.209,0,0,0,0,3.2V22.4a3.209,3.209,0,0,0,3.2,3.2H25.6L32,32Zm-6.4,16H6.4V16H25.6Zm0-4.8H6.4V11.2H25.6Zm0-4.8H6.4V6.4H25.6Z" fill="gray"/>
+      </g>
+    </g>
+    <g id="Rectangle_23862" data-name="Rectangle 23862" transform="translate(571 211)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="48" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="47" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 會員中心 - 配對工作</title>
+<!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/iconmoon/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="js/loading.js"></script>
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <main class="wrapper">
+        <!-- Header Star -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header">
+                        <div class="header-left">
+                            <a id="burger" class="toggle-menu" href="javascript:;">
+                                <span></span>
+                            </a>
+                            <a href="index.html" class="header-logo">
+                                <img src="img/jobbank-logo.svg" alt="1111-會員中心">
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <div class="searchlist">
+                                <a href="javascript:;" class="btn btn--watergrey opt--84" id="searchLog">
+                                    <i class="jb-df-seo-global-search"  aria-hidden="true"></i>
+                                    搜尋紀錄
+                                </a>
+                                <div class="search-log" id="searchLogCnt">
+                                    <div class="search-log-title">最近搜尋紀錄
+                                        <a href="javascript:;" class="close-btn" id="searchLogColse">
+                                            <i class="jb-de-close-s" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                    <div class="search-log-content">
+                                        <ul>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                                <a href="javascript:;">uX</a>
+                                                <a href="javascript:;">UiuX</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找公司</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                        </ul>
+                                        <div class="search-log-footer">
+                                            <a href="javascript:;" class="btn btn--border--danger btn--xs">
+                                                <i class="jb-db-clear mr-4" aria-hidden="true"></i>清除搜尋紀錄
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-bar-box">
+                                <div class="search-bar">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <input type="text" name="keywords" value="" placeholder="請輸入關鍵字">
+                                            <i class="icon-search search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="city" value="" placeholder="請選擇縣市區域">
+                                            <i class="icon-area search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="duty" value="" placeholder="請選擇職務類別">
+                                            <i class="icon-job search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <i class="jb-df-search"></i>
+                                            <input type="button" name="" value="找工作" class="btn btn--primary btn--block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        <div class="main">
+            <div class="content">
+                <!-- Side Start -->
+                <aside class="side-nav">
+                    <div class="side-nav-menu">
+                        <div class="profile-box">
+                            <div class="profile-box-lt">
+                                <figure class="profile-pic">
+                                    <img src="img/profile.png" alt="profile" class="profile">
+                                    <i class="icon-camera" aria-hidden="true"></i>
+                                    <figcaption>
+                                        <p class="upload"><i class="icon-camera" aria-hidden="true"></i>上傳照片</p>
+                                    </figcaption>
+                                    <a href="javascript:;" class="UploadPhoto"></a>
+                                </figure>
+                            </div>
+                            <div class="profile-box-rt">
+                                <div class="name">天母克里斯伊凡</div>
+                                <div class="age">
+                                    <strong>27</strong>
+                                    <span>歲</span>
+                                </div>
+                                <dl>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dt class="inline-block--middle not-verify">
+                                        <label class="verify-tag" data-tooltip="您的手機尚未認證！" data-flow="right">
+                                            <i class="jb-df-appliances-smartphone"></i>
+                                            <font>未認證</font>
+                                        </label>
+                                    </dt>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dd class="inline-block--middle">
+                                        <label class="verify-tag" data-tooltip="您的手機已認證！" data-flow="right">
+                                            <i class="jb-df-mail-envelope"></i>
+                                            <font>已認證</font>
+                                        </label>
+                                    </dd>
+                                </dl>
+                                <div class="settip">
+                                    <a class="btn btn--border--secondary btn--sm setting-btn">個人設定</a>
+                                    <div class="setting-tip">
+                                        <h3>
+                                            <!-- 九大職能星 圖片 -->
+                                            <!-- <embed src="img/assessment/mercury.svg" alt="Mercury水星" /> -->
+                                            <!-- <embed src="img/assessment/neptune.svg" alt="Neptune海王星" /> -->
+                                            <!-- <embed src="img/assessment/pluto.svg" alt="Pluto冥王星" /> -->
+                                            <!-- <embed src="img/assessment/Venus.svg" alt="Venus金星" /> -->
+                                            <!-- <embed src="img/assessment/Mars.svg" alt="Mars火星" /> -->
+                                            <!-- <embed src="img/assessment/Saturn.svg" alt="Saturn土星" /> -->
+                                            <!-- <embed src="img/assessment/Jupiter.svg" alt="Jupiter木星" /> -->
+                                            <!-- <embed src="img/assessment/earth.svg" alt="Earth地球" /> -->
+                                            <embed src="img/assessment/uranus.svg" alt="Uranus天王星" />
+                                            天王星 研究型 66%
+                                        </h3>
+                                        <!-- 超過183天請顯示立即重測 -->
+                                        <!-- <a href="javascript:;"> [立即重測] </a> -->
+                                        <a href="javascript:;"> [測驗報告] </a>
+                                        <dl>
+                                            <dt>會員編號</dt>
+                                            <dd>091234567</dd>
+                                            <dt>會員姓名</dt>
+                                            <dd>天母克里斯伊凡</dd>
+                                            <dt>手機號碼</dt>
+                                            <dd>0987654321</dd>
+                                            <dt>電子郵件</dt>
+                                            <dd>barry@face124.com</dd>
+                                            <dt>聯絡時間</dt>
+                                            <dd>09:00 - 22:00</dd>
+                                        </dl>
+                                        <div class="footer">
+                                            <a href="javascript:;" class="btn btn--border--secondary btn--sm">編輯個人資料</a>
+                                            <a href="javascript:;" class="btn btn--border--secondary btn--sm">修改密碼</a>
+                                            <a href="javascript:;" class="btn btn--border--negative btn--sm">封鎖設定</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-list">
+                            <div class="resume-heading">
+                                <a href="javascript:;" class="title">
+                                    <i class="jb-mn-resume" aria-hidden="true"></i>
+                                    <font class="align-middle">履歷總覽</font>
+                                </a>
+                                <a href="javascript:;" class="add-resume" title="新增履歷">
+                                    <i class="jb-df-add-rectangular" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">我的第 1 個履歷</a>
+                                    <span class="status-label label--open">開啟中</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 2 個履歷</a>
+                                    <span class="status-label label--unfinish">未完成</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 3 個履歷</a>
+                                    <span class="status-label label--close">關閉中</span>
+                                </li>
+                            </ul>
+                            <p class="upload-date"><i class="jb-df-calendar-schedule-calendar"></i>履歷最後更新日：2018/08/31 18:00</p>
+                        </div>
+                    </div>
+                    <ul class="menu-list" id="mainMenu">
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-home"></i>
+                                <span>會員中心首頁</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-resume"></i>
+                                <span>履歷管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li class="">
+                                    <a href="resume_list.html">
+                                        <i class="menu-icon"></i>
+                                        <span>履歷總覽</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="resume_video.html">
+                                        <i class="menu-icon"></i>
+                                        <span>影音履歷</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="plus_effect.html">
+                                        <i class="menu-icon"></i>
+                                        <span>加分亮點</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="recommendation.html">
+                                        <i class="menu-icon"></i>
+                                        <span>自我推薦函</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-hiring"></i>
+                                <span>求職管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="candidate_alerts_inbox.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業通知</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="company_history.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業瀏覽紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="apply_record.html">
+                                        <i class="menu-icon"></i>
+                                        <span>主動應徵紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="matchset.html">
+                                        <i class="menu-icon"></i>
+                                        <span>配對工作</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_corp.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_job.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的職缺</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-point"></i>
+                                <span>紅利專區</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>會員紅利管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利領取紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利兌換紀錄</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-account"></i>
+                                <span>帳號管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="member_edit.html">
+                                        <i class="menu-icon"></i>
+                                        <span>會員資料</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_password.html">
+                                        <i class="menu-icon"></i>
+                                        <span>變更密碼</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_epaper.html">
+                                        <i class="menu-icon"></i>
+                                        <span>電子報管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="industry.html">
+                                        <i class="menu-icon"></i>
+                                        <span>封鎖產業及公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="positive.html">
+                                        <i class="menu-icon"></i>
+                                        <span>守約會員管理</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="icon-m-rocket"></i>
+                                <span>求職秘笈</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="#"><i class="menu-icon"></i>
+                                        <span>XXXXXX</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="double-line"></div>
+                    <div class="side-advertising-box">
+                        <figure>
+                            <div class="mask-assessment"></div>
+                            <figcaption>
+                                <img src="img/assessment-white.svg" alt="九大職能星">
+                                <span>九大職能星</span>
+                            </figcaption>
+                            <p>找出您的職能類型！</p>
+                            <img src="img/astronaut.svg" alt="astronaut" class="astronaut">
+                            <a href="javascript:;" class="btn btn--yellow btn--sm">立即測驗</a>
+                        </figure>
+                        <p class="footer"><a href="javascript:;" class="text--black">幫助中心</a> | <a href="javascript:;" class="text--black"> 線上客服</a></p>
+                    </div>
+                </aside>
+                <!-- Side End -->
+                <!-- Main Start -->
+                <article class="main-content">
+                    <div class="mask-burger"></div>
+                    <!-- Breadcrumbs Start -->
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs-row cf">
+                            <li>
+                                <i class="jb-df-home" aria-hidden="true"></i>
+                                <a href="index.html" title="會員中心首頁">會員中心首頁</a>
+                            </li>
+                            <li>求職管理</li>
+                            <li>配對工作</li>
+                        </ul>
+                    </div>
+                    <!-- Breadcrumbs End -->
+                    <!-- Page-Header Start -->
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>配對工作<i class="jb-df-right-double-arrow"></i></h1>
+                            <div class="header-title-txt">
+                                建議您可針對不同職缺設定不同應徵條件，可提升您的配對率唷！
+                            </div>
+                        </div>
+                        <div class="alert-block alert-primary mb-16">
+                            <font class="text--black">※ 我們已針對您的「履歷表身份」及 您設定的「封鎖產業」，由系統主動排除不符合您需求的職缺。</font><br />
+                            - 若您的履歷表身份非「身心障礙」或「原住民」，配對結果將排除僅限定「身心障礙」或「原住民」的職缺。<br />
+                            - 您已封鎖的產業：「直銷、房仲」。 <a href="javascript:;" targer>[修改]</a>
+                        </div>
+                    </div>
+                    <!-- Page-Header End -->
+                    <!-- Page-Content Start -->
+                    <div class="page-content">
+                        <div class="panel">
+                            <div class="panel-content">
+                                <div class="panel-toolsbar">
+                                    <a href="javascript:;" class="btn btn--secondary btn--icon modal_matchset_add">
+                                        <span>新增配對條件</span>
+                                        <i class="jb-db-add" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="matchset-mail">
+                                        <font>您已啟用 <strong>4/6</strong> 份自訂配對</font>
+                                        <span class="text--grey">目前的信箱：</span>
+                                        <a href="javascript:;" title="1111@staff.1111.com.tw" class="text--black">1111@staff.1111.com.tw</a>
+                                        <a href="javascript:;" title="[修改]" class="pl-8">[修改]</a>
+                                    </div>
+                                </div>
+                                <div class="list-card-item matchset-item primary">
+                                    <div class="flag flag--primary">
+                                        <span>履歷</span>
+                                    </div>
+                                    <div class="matchset-item-content">
+                                        <div class="matchset-item-title">
+                                            <div class="edit_line">
+                                                <span class="edit_input">履歷 1 配對</span>
+                                                <i class="jb-df-edit-write edit" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="matchset-item-text">
+                                            <p><span>全職｜行政人員</span></p>
+                                            <p>全職，網頁設計，專案管理主管，軟體專案主…</p>
+                                            <p>台北市全區 , 新竹市東區</p>
+                                        </div>
+                                        <div class="matchset-item-btn">
+                                            <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                        </div>
+                                    </div>
+                                    <div class="matchset-toolsbar">
+                                        <div class="radio_wrap mr-8">
+                                            <input name="matchset" type="checkbox" id="matchset-paper_1" class="check_input" onclick="OrderMatchset_1(this)">
+                                            <label for="matchset-paper_1" class="check_wrap-label" onclick="memberCenter.noticeToast('已成功訂閱配對通報!','success',1000);">
+                                                <span class="check_mark"></span>
+                                                <span class="txt">訂閱配對通報</span>
+                                            </label>
+                                        </div>
+                                        <!-- 訂閱配對通報 訂閱才出現下方狀態設定 -->
+                                        <a href="javascript:;" title="每日接收 / 無職缺時不接收" class="btn btn--border--primary state hidden modal_matchset_setting" id="OrderMatchset_1">每日接收 / 無職缺時不接收</a>
+                                        <a href="javascript:;" class="btn btn--delete btn--disabled right ml-8" data-tooltip="刪除配對">
+                                            <i class="jb-df-trash-bin"></i>
+                                        </a>
+                                        <a href="matchset_edit_re.html" class="btn btn--light right ml-8" data-tooltip="編輯配對">
+                                            <i class="jb-df-pencil-edit"></i>
+                                        </a>
+                                        <a href="javascript:;" class="btn btn--light right resend" data-tooltip="補寄配對通報" id="img1">
+                                            <i class="jb-df-mail-envelope mr-4"></i>補寄配對通報
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="list-card-item matchset-item secondary">
+                                    <div class="flag flag--secondary">
+                                        <span>自訂</span>
+                                    </div>
+                                    <div class="matchset-item-content">
+                                        <div class="matchset-item-title">
+                                            <div class="edit_line">
+                                                <span class="edit_input resume-edit-text">履歷 1 配對</span>
+                                                <i class="jb-df-edit-write edit" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="matchset-item-text">
+                                            <p><span>全職｜行政人員</span></p>
+                                            <p>全職，網頁設計，專案管理主管，軟體專案主…</p>
+                                            <p>台北市全區 , 新竹市東區</p>
+                                        </div>
+                                        <div class="matchset-item-btn">
+                                            <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                        </div>
+                                    </div>
+                                    <div class="matchset-toolsbar">
+                                        <div class="radio_wrap mr-8">
+                                            <input name="matchset" type="checkbox" id="matchset-paper_2" class="check_input" onclick="OrderMatchset_2(this)" checked="">
+                                            <label for="matchset-paper_2" class="check_wrap-label" onclick="memberCenter.noticeToast('已取消訂閱配對通報','error',1000);">
+                                                <span class="check_mark"></span>
+                                                <span class="txt">訂閱配對通報</span>
+                                            </label>
+                                        </div>
+                                        <!-- 訂閱配對通報 訂閱才出現下方狀態設定 -->
+                                        <a href="javascript:;" title="每日接收 / 無職缺時不接收" class="btn btn--border--primary state modal_matchset_setting" id="OrderMatchset_2">每日接收 / 無職缺時不接收</a>
+                                        <a href="javascript:;" class="btn btn--light btn--delete right ml-8 modal_matchset_delete" ata-tooltip="刪除配對">
+                                            <i class="jb-df-trash-bin"></i>
+                                        </a>
+                                        <a href="matchset_edit_cus.html" class="btn btn--light right ml-8" data-tooltip="編輯配對">
+                                            <i class="jb-df-pencil-edit"></i>
+                                        </a>
+                                        <a href="javascript:;" class="btn btn--light right resend" data-tooltip="補寄配對通報" id="img1">
+                                            <i class="jb-df-mail-envelope mr-4"></i>補寄配對通報
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="list-card-item matchset-item primary">
+                                    <div class="flag flag--primary">
+                                        <span>履歷</span>
+                                    </div>
+                                    <div class="matchset-item-content">
+                                        <div class="matchset-item-title">
+                                            <div class="edit_line">
+                                                <span class="edit_input">履歷 1 配對</span>
+                                                <i class="jb-df-edit-write edit" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="matchset-item-text">
+                                            <p><span>全職｜行政人員</span></p>
+                                            <p>全職，網頁設計，專案管理主管，軟體專案主…</p>
+                                            <p>台北市全區 , 新竹市東區</p>
+                                        </div>
+                                        <div class="matchset-item-btn">
+                                            <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                        </div>
+                                    </div>
+                                    <div class="matchset-toolsbar">
+                                        <div class="radio_wrap mr-8">
+                                            <input name="matchset" type="checkbox" id="matchset-paper_3" class="check_input" onclick="OrderMatchset_3(this)">
+                                            <label for="matchset-paper_3" class="check_wrap-label" onclick="noticeToast('已成功訂閱配對通報','success',1000);">
+                                                <span class="check_mark"></span>
+                                                <span class="txt">訂閱配對通報</span>
+                                            </label>
+                                        </div>
+                                        <!-- 訂閱配對通報 訂閱才出現下方狀態設定 -->
+                                        <a href="javascript:;" title="每日接收 / 無職缺時不接收" class="btn btn--border--primary state hidden modal_matchset_setting" id="OrderMatchset_3">每日接收 / 無職缺時不接收</a>
+                                        <a href="javascript:;" class="btn btn--light btn--delete btn--disabled right ml-8" data-tooltip="刪除配對">
+                                            <i class="jb-df-trash-bin"></i>
+                                        </a>
+                                        <a href="matchset_edit_re.html" class="btn btn--light right ml-8" data-tooltip="編輯配對">
+                                            <i class="jb-df-pencil-edit"></i>
+                                        </a>
+                                        <a href="javascript:;" class="btn btn--light right resend" data-tooltip="補寄配對通報" id="img1">
+                                            <i class="jb-df-mail-envelope mr-4"></i>補寄配對通報
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="list-card-item matchset-item secondary">
+                                    <div class="flag flag--secondary">
+                                        <span>自訂</span>
+                                    </div>
+                                    <div class="matchset-item-content">
+                                        <div class="matchset-item-title">
+                                            <div class="edit_line">
+                                                <span class="edit_input resume-edit-text">履歷 1 配對</span>
+                                                <i class="jb-df-edit-write edit" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="matchset-item-text">
+                                            <p><span>全職｜行政人員</span></p>
+                                            <p>全職，網頁設計，專案管理主管，軟體專案主…</p>
+                                            <p>台北市全區 , 新竹市東區</p>
+                                        </div>
+                                        <div class="matchset-item-btn">
+                                            <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                        </div>
+                                    </div>
+                                    <div class="matchset-toolsbar">
+                                        <div class="radio_wrap mr-8">
+                                            <input name="matchset" type="checkbox" id="matchset-paper_4" class="check_input" onclick="OrderMatchset_4(this)" checked="">
+                                            <label for="matchset-paper_4" class="check_wrap-label" onclick="memberCenter.noticeToast('已取消訂閱配對通報','error',1000);">
+                                                <span class="check_mark"></span>
+                                                <span class="txt">訂閱配對通報</span>
+                                            </label>
+                                        </div>
+                                        <!-- 訂閱配對通報 訂閱才出現下方狀態設定 -->
+                                        <a href="javascript:;" title="每日接收 / 無職缺時不接收" class="btn btn--border--primary state modal_matchset_setting" id="OrderMatchset_4">每日接收 / 無職缺時不接收</a>
+                                        <a href="javascript:;" class="btn btn--light btn--delete right ml-8 modal_matchset_delete" ata-tooltip="刪除配對">
+                                            <i class="jb-df-trash-bin"></i>
+                                        </a>
+                                        <a href="matchset_edit_cus.html" class="btn btn--light right ml-8" data-tooltip="編輯配對">
+                                            <i class="jb-df-pencil-edit"></i>
+                                        </a>
+                                        <a href="javascript:;" class="btn btn--light right resend" data-tooltip="補寄配對通報" id="img1">
+                                            <i class="jb-df-mail-envelope mr-4"></i>補寄配對通報
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel viewed">
+                            <div class="heading">
+                                <span class="heading-icon-block">
+                                    <i class="jb-gd-personal-desk heading-icon" aria-hidden="true"></i>
+                                    <i class="dot dot-3"></i>
+                                    <i class="dot dot-4"></i>
+                                </span>
+                                <h3>最近瀏覽職缺</h3>
+                            </div>
+                            <a href="javascript:;" class="rt-tools link-h-underline">更多
+                                <i class="jb-df-right-double-arrow"></i>
+                            </a>
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="time">
+                                                <i class="jb-df-time-clock"></i>
+                                                <font>1hrs ago</font>
+                                            </div>
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--black link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="time">
+                                                <i class="jb-df-time-clock"></i>
+                                                <font>1hrs ago</font>
+                                            </div>
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--black link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="time">
+                                                <i class="jb-df-time-clock"></i>
+                                                <font>1hrs ago</font>
+                                            </div>
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--black link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="time">
+                                                <i class="jb-df-time-clock"></i>
+                                                <font>1hrs ago</font>
+                                            </div>
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--black link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="time">
+                                                <i class="jb-df-time-clock"></i>
+                                                <font>1hrs ago</font>
+                                            </div>
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--black link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="time">
+                                                <i class="jb-df-time-clock"></i>
+                                                <font>1hrs ago</font>
+                                            </div>
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--black link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="advertisement">
+                            <a href="javascript:;">
+                                <img src="img/dcresume.svg" alt="履歷健診" class="hidden-xs">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Page-Content End -->
+                </article>
+            </div>
+        </div>
+    </main>
+    <button class="rt-fix-tools df-tools--intro" type="button">
+        <i class="jb-df-customer-feedback" aria-hidden="true"></i>
+        <font>新版介紹</font>
+    </button>
+    <button class="rt-fix-tools df-tool" type="button" onclick="location.href='guideline.html'">
+        <i class="jb-gd-compass-guide" aria-hidden="true"></i>
+        <font>設計規範</font>
+    </button>
+    <button class="rt-fix-tools go-to-top js-go-to" data-type="fixed" data-position='{"bottom": 72,"right": 24}' data-offset-top="400" data-compensation="#header" data-show-effect="zoomIn">
+        <i class="jb-de-au-linear-big"></i>
+        <font>回頂端</font>
+    </button>
+    <!-- Jquery -->
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- OwlCarousel -->
+    <script src="vender/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- Go Top -->
+    <script src="js/go-to-top.js"></script>
+    <!-- Layer init -->
+    <script src="js/main-popups.js"></script>
+    <!-- Main -->
+    <script src="js/main.min.js"></script>
+    <script>
+    $(function() {
+        memberCenter.sideMenuOpen(2, 3);
+    });
+    </script>
+    <script type="text/javascript">
+    function OrderMatchset_1(ck) {
+        document.getElementById("OrderMatchset_1").style.display = ck.checked ? "inline-block" : "none";
+    }
+
+    function OrderMatchset_2(ck) {
+        document.getElementById("OrderMatchset_2").style.display = ck.checked ? "inline-block" : "none";
+    }
+
+    function OrderMatchset_3(ck) {
+        document.getElementById("OrderMatchset_3").style.display = ck.checked ? "inline-block" : "none";
+    }
+
+    function OrderMatchset_4(ck) {
+        document.getElementById("OrderMatchset_4").style.display = ck.checked ? "inline-block" : "none";
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="alerts" transform="translate(-298 -2303)">
+    <g id="Rectangle_22920" data-name="Rectangle 22920" transform="translate(298 2303)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+    <g id="danger_2_" data-name="danger (2)" transform="translate(299.667 2305.5)">
+      <path id="Path_88372" data-name="Path 88372" d="M16.408,42.728,10.033,32a1.952,1.952,0,0,0-3.4-.01L.251,42.737a1.956,1.956,0,0,0,1.7,2.91H14.719a1.952,1.952,0,0,0,1.689-2.92Z" transform="translate(0 -30.999)" fill="#f88663"/>
+      <g id="Group_82392" data-name="Group 82392" transform="translate(7.357 4.395)">
+        <rect id="Rectangle_23015" data-name="Rectangle 23015" width="1.953" height="1.953" transform="translate(0 5.859)" fill="#fff"/>
+        <rect id="Rectangle_23016" data-name="Rectangle 23016" width="1.953" height="4.883" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

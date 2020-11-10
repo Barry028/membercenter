@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="heart" transform="translate(-269 -269)">
+    <rect id="Rectangle_23893" data-name="Rectangle 23893" width="48" height="48" transform="translate(269 269)" fill="gray" opacity="0"/>
+    <path id="icon_heart_fill" d="M17.892,7.851A9.416,9.416,0,0,1,26.525,2c5.2,0,8.946,4.449,9.417,9.751a9.7,9.7,0,0,1-.305,3.686A16.3,16.3,0,0,1,30.67,23.72l-12.778,11.4L5.33,23.719A16.293,16.293,0,0,1,.363,15.437a9.7,9.7,0,0,1-.305-3.686C.528,6.449,4.274,2,9.475,2A9.124,9.124,0,0,1,17.892,7.851Z" transform="translate(275 274)" fill="gray"/>
+  </g>
+</svg>

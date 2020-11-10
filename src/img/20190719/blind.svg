@@ -1,0 +1,11 @@
+<svg id="blind" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24481" data-name="Rectangle 24481" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99754" data-name="Path 99754" d="M12,13.29a10.85,10.85,0,0,1-9.94-6.5.752.752,0,1,1,1.38-.6,9.34,9.34,0,0,0,17.12,0,.752.752,0,1,1,1.38.6A10.85,10.85,0,0,1,12,13.29Z" fill="#fff"/>
+    <path id="Path_99755" data-name="Path 99755" d="M12,18.26a.75.75,0,0,1-.75-.75V15.36a.75.75,0,0,1,1.5,0v2.15a.75.75,0,0,1-.75.75Z" fill="#fff"/>
+    <path id="Path_99756" data-name="Path 99756" d="M5.24,15.79a.77.77,0,0,1-.53-.22.75.75,0,0,1,0-1.06L6.23,13a.75.75,0,0,1,1.06,1L5.77,15.57A.79.79,0,0,1,5.24,15.79Z" fill="#fff"/>
+    <path id="Path_99757" data-name="Path 99757" d="M18.76,15.79a.79.79,0,0,1-.53-.22L16.71,14a.75.75,0,0,1,1.06-1l1.52,1.53a.75.75,0,0,1,0,1.06.77.77,0,0,1-.53.2Z" fill="#fff"/>
+  </g>
+</svg>

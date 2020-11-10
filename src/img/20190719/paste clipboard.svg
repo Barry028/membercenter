@@ -1,0 +1,10 @@
+<svg id="paste_clipboard" data-name="paste clipboard" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24585" data-name="Rectangle 24585" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99974" data-name="Path 99974" d="M17.28,4.65h-.53V4.6A1.25,1.25,0,0,0,15.5,3.35h-.85a2.76,2.76,0,0,0-5.3,0H8.5A1.25,1.25,0,0,0,7.25,4.6v.05H6.72a3,3,0,0,0-3,3V19.68a3,3,0,0,0,3,3H17.28a3,3,0,0,0,3-3V7.62a3,3,0,0,0-3-2.97Zm-8.53.2H10a.76.76,0,0,0,.75-.75,1.25,1.25,0,0,1,2.5,0,.76.76,0,0,0,.75.75h1.25v1.5H8.75V4.85Zm10,14.83a1.46,1.46,0,0,1-1.46,1.47H6.72a1.46,1.46,0,0,1-1.46-1.47V7.62A1.46,1.46,0,0,1,6.72,6.15h.53V7.1A.76.76,0,0,0,8,7.85h8a.76.76,0,0,0,.75-.75V6.15h.53a1.46,1.46,0,0,1,1.46,1.47Z" fill="#fff"/>
+    <rect id="Rectangle_24586" data-name="Rectangle 24586" width="6" height="1.5" transform="translate(9 11.32)" fill="#fff"/>
+    <rect id="Rectangle_24587" data-name="Rectangle 24587" width="6" height="1.5" transform="translate(9 15.82)" fill="#fff"/>
+  </g>
+</svg>

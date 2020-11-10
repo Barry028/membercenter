@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="mail-check" transform="translate(-11 -143)">
+    <g id="Group_73878" data-name="Group 73878" transform="translate(-3392 -2537)">
+      <g id="Rectangle_21114" data-name="Rectangle 21114" transform="translate(3403 2680)" fill="#fb0" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="20" height="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+      </g>
+      <path id="mail.1" d="M17.914,5.474V16.631l-5.586-5.586ZM9.057,13.117,17.7,4.481a.871.871,0,0,0-.671-.321H1.086a.871.871,0,0,0-.671.321Zm2.671-1.471-2.386,2.4a.429.429,0,0,1-.6,0L6.386,11.653.593,17.446a.864.864,0,0,0,.493.171H17.029a.864.864,0,0,0,.493-.171ZM.2,5.474V16.631l5.571-5.586Z" transform="translate(3404.229 2678.697)" fill="#34495e"/>
+    </g>
+    <g id="Group_73883" data-name="Group 73883" transform="translate(-28 -74)">
+      <circle id="Ellipse_1929" data-name="Ellipse 1929" cx="4" cy="4" r="4" transform="translate(51 217)" fill="#2ecc71"/>
+      <g id="checked_1_" data-name="checked (1)" transform="translate(52.6 218.6)">
+        <g id="Group_73870" data-name="Group 73870" transform="translate(0)">
+          <path id="Path_78139" data-name="Path 78139" d="M4.609,19.938a.5.5,0,0,0-.649.091L1.611,22.9l-.782-.881a.5.5,0,0,0-.652-.068.383.383,0,0,0-.077.58l1.54,1.738,3.07-3.749A.384.384,0,0,0,4.609,19.938Z" transform="translate(0 -19.859)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

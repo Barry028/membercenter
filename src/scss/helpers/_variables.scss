@@ -1,0 +1,621 @@
+@charset "utf-8";
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Variables
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+$linkblue: 				#09598c !default;
+$linkblueHover: 		#084a74 !default;
+
+$new_primary: 			#47c1d1 !default;
+
+$primary: 				#0e86d4 !default;
+$secondary: 			#68bbe3 !default;
+$apply: 				#4983db !default;
+$positive: 				#1cc6b3 !default;
+$negative: 				#ff9149 !default;
+$danger: 				#fa626b !default;
+$warning: 				#ffc107 !default;
+$success: 				#1cc65e !default;
+$cyan: 					#1cafc6 !default;
+$yellow: 				#ffeb3b !default;
+$pink: 					#ff8ea2 !default;
+$purple: 				#6967ce !default;
+$dark: 					#233138 !default;
+$grey: 					#72828a !default;
+$lightgrey: 			#a7b1b6 !default;
+$watergrey: 			#c9d7dd !default;
+$biscay: 				#26466c !default;
+$forestblue: 			#0a3d62 !default;
+$brand-red:				#e92921 !default;
+
+$default: 				#dde3e8 !default;
+$white: 				#fff 	!default;
+$whitesmoke: 			#f5f6fa !default;
+$whiteblue: 			#f1f7fb !default;
+$zircongrey:			#dee2e6 !default;
+$zircongrey_1:			#edeeef !default;
+$solitudeblue:			#f8fafb !default;
+$solitudeblue_1:		#d9e2e7 !default;
+$solitudeblue_2:		#eff3f5 !default;
+$solitudeblue_3:		#e9eef1 !default;
+$solitudeblue_4: 		#e5e9f2 !default;
+$lightblue:				#dce8f1 !default;
+$lilyshite: 			#fbfcfc !default;
+$pattensblue:			#e2f1f7 !default;
+$aliceblue:				#f2faff !default;
+$endeavour: 			#2a5493 !default;
+
+// $input_bg:				#f5f7f8	!default;
+
+$radio-van-inp:			#4f7add	!default;
+$missing-header-bg:		#e9f0f5	!default;
+$missing-header-miss:	#f5f0e9	!default;
+$missing-check-bg:		#ffe8e0	!default;
+$search-qa-bg:			#fafafa	!default;
+$pagination-hover:		#ddd	!default;
+$toast-info:			#104b70	!default;
+$toast-error:			#70101b	!default;
+$knobs-orange:			#FF9A75	!default;
+$time-bg:				#f5f8f9	!default;
+$time:					#6b90a2	!default;
+$owl-bg:				#D6D6D6	!default;
+$owl-carousel:			#FCFCFC	!default;
+$owl-hover:				#869791	!default;
+$radio_wrap:			#CAD0D3	!default;
+$search-content:		#F2F2F2	!default;
+$search-ul:				#e6e6e6	!default;
+$epaper-modal:			#eee	!default;
+
+//== heading colors
+$heading_h3:			#e4f3fd	!default;
+$heading_dot-2:			#ffeaee	!default;
+
+//== Brands colors
+$facebook:      		#3b5999 !default;
+$twitter:       		#1da1f2 !default;
+$google-plus:   		#dd4b39 !default;
+$instagram:     		#e4405f !default;
+$pinterest:     		#bd081c !default;
+$youtube:       		#cd201f !default;
+$slack:         		#3aaf85 !default;
+$dribbble:      		#ea4c89 !default;
+$github:        		#222222 !default;
+$dropbox:       		#1E90FF !default;
+$twitch:        		#4B367C !default;
+$paypal:        		#ecb32c !default;
+$behance:       		#0057ff !default;
+$reddit:       			#E84422 !default;
+
+//== Black Colors
+$white:   				#fff	!default;
+$gray-100: 				#f8fafb !default;
+$gray-200: 				#d9e2e7 !default;
+$gray-300: 				#b9cbd4 !default;
+$gray-400: 				#9ab3c0 !default;
+$gray-500: 				#7b9cac !default;
+$gray-600: 				#6c757d !default;
+$gray-700: 				#72828a !default;
+$gray-800: 				#343a40 !default;
+$gray-900: 				#374c57 !default;
+$black:    				#233138 !default;
+
+//== Another
+$btn_lightgrey: 		#C4CDD5 !default;
+$btn_light: 			#d9e2e7 !default;
+
+//== Colors
+$colors: () !default;
+$colors: 	map-merge(
+  	(
+		"linkblue": 		$linkblue,
+		"linkblue--hover": 	$linkblueHover,
+	    "new--primary":     $new_primary,
+	    "primary":     		$primary,
+	    "secondary":     	$secondary,
+	    "apply":       		$apply,
+	    "positive":        	$positive,
+	    "negative":     	$negative,
+	    "danger": 			$danger,
+		"warning": 			$warning,
+		"success": 			$success,
+		"cyan": 			$cyan,
+		"yellow": 			$yellow,
+		"pink": 			$pink,
+		"purple": 			$purple,
+	    "grey":       		$grey,
+		"dark":  			$dark,
+		"black":  			$dark,
+		"lightgrey":  		$lightgrey,
+		"watergrey":  	    $watergrey,
+		"biscay":  			$biscay,
+		"forestblue":  		$forestblue,
+		"brand-red":  		$brand-red,
+		"white":  			$white,
+		"whitesmoke":  		$whitesmoke,
+		"whiteblue":  		$whiteblue,
+		"default":  		$default,
+		"zircongrey":  		$zircongrey,
+		"solitudeblue":  	$solitudeblue,
+		"solitudeblue_1":  	$solitudeblue_1,
+		"zircongrey_1":  	$zircongrey_1,		
+		"solitudeblue_2":  	$solitudeblue_2,
+		"solitudeblue_3":  	$solitudeblue_3,
+		"solitudeblue_4":  	$solitudeblue_4,
+		"lightblue":  		$lightblue,
+		"lilyshite":  		$lilyshite,
+		"pattensblue":  	$pattensblue,
+		"aliceblue":  		$aliceblue,
+		"vanancy":  		$endeavour
+	),
+	$colors
+	);
+
+//== Btn Colors
+$btn-colors: () !default;
+$btn-colors:	map-merge(
+	(
+	  	"lightgrey":    	$btn_lightgrey,
+	  	"light": 			$btn_light,
+	  	"watergrey":		$watergrey,
+	    "new--primary":     $new_primary,
+	    "primary":     		$primary,
+	    "secondary":     	$secondary,
+	    "apply":       		$apply,
+	    "positive":        	$positive,
+	    "negative":     	$negative,
+	    "danger": 			$danger,
+		"warning": 			$warning,
+		"success": 			$success,
+		"cyan": 			$cyan,
+		"yellow": 			$yellow,
+		"pink": 			$pink,
+		"purple": 			$purple,
+	    "grey":       		$grey,
+	    "dark":  			$black,
+	    "fb":  				$facebook,
+	),
+	$btn-colors
+	);
+
+//== Brand Colors
+$brand-colors: ()!default;
+$brand-colors: map-merge(
+	(
+		"facebook":     $facebook,
+		"twitter":      $twitter,
+		"google-plus":  $google-plus,
+		"instagram":    $instagram,
+		"pinterest":    $pinterest,
+		"youtube":      $youtube,
+		"slack":        $slack,
+		"dribbble":     $dribbble,
+		"dropbox":      $dropbox,
+	    "twitch":       $twitch,
+		"paypal":       $paypal,
+		"behance":      $behance,
+		"reddit" :      $reddit,
+		"github":       $github,
+	),
+	$brand-colors
+	);
+
+//== Greys Colors
+$greys: () !default;
+$greys: map-merge(
+  	(
+	    "100": $gray-100,
+	    "200": $gray-200,
+	    "300": $gray-300,
+	    "400": $gray-400,
+	    "500": $gray-500,
+	    "600": $gray-600,
+	    "700": $gray-700,
+	    "800": $gray-800,
+	    "900": $gray-900
+	), $greys);
+
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:      	8% 								!default;
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  	162 							!default;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark:             	$gray-900 						!default;
+$yiq-text-light:            	$white 							!default;
+
+//== Options
+$enable-gradients:                            false 	!default;
+$enable-pointer-cursor-for-buttons:           true 		!default;
+$enable-prefers-reduced-motion-media-query:   false 	!default;
+$enable-responsive-font-sizes:                true 		!default;
+$enable-rounded:                              true 		!default;
+$enable-shadows:                              true 		!default;
+$enable-transitions:                          true 		!default;
+
+//== Screen
+$screen-xs:                  	480px 					!default;
+$screen-xs-min:              	$screen-xs 				!default;
+$screen-phone:               	$screen-xs-min 			!default;
+
+$screen-sm:                  	768px 					!default;
+$screen-sm-min:              	$screen-sm 				!default;
+$screen-tablet:              	$screen-sm-min 			!default;
+
+$screen-md:                  	992px 					!default;
+$screen-md-min:              	$screen-md 				!default;
+$screen-desktop:             	$screen-md-min 			!default;
+
+$screen-lg:                  	1200px 					!default;
+$screen-lg-min:              	$screen-lg 				!default;
+$screen-lg-desktop:          	$screen-lg-min 			!default;
+
+$screen-xs-max:              	($screen-sm-min - 1) 	!default;
+$screen-sm-max:              	($screen-md-min - 1)	!default;
+$screen-md-max:              	($screen-lg-min - 1) 	!default;
+
+//== Grid system
+$grid-columns:              	12 								!default;
+$grid-gutter-width:         	16px 							!default;
+$grid-float-breakpoint:     	$screen-sm-min 					!default;
+$grid-float-breakpoint-max: 	($grid-float-breakpoint - 1) 	!default;
+
+
+//== Container sizes
+$container-tablet:             	(720px + $grid-gutter-width) 	!default;
+$container-sm:                 	$container-tablet 				!default;
+
+$container-desktop:            	(940px + $grid-gutter-width) 	!default;
+$container-md:                 	$container-desktop 				!default;
+
+$container-large-desktop:      	(1140px + $grid-gutter-width) 	!default;
+$container-lg:                 	$container-large-desktop 		!default;
+
+
+
+//== Body
+$body-bg:                   	$white 							!default;
+$body-color:                	$dark 							!default;
+
+//==Links
+$link-color:               		$linkblue 						!default;
+$link-decoration:           	none 							!default;
+$link-hover-color:          	darken($link-color, 15%) 		!default;
+$link-hover-decoration:     	underline 						!default;
+// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
+$emphasized-link-hover-darken-percentage: 15% !default;
+
+
+// Components
+$line-height:              	  	1.5   							!default;
+$line-height-lg:              	1.75  							!default;
+$line-height-md:              	1.375 							!default;
+$line-height-sm:              	1.25  							!default;
+$line-height-xs:              	1.125 							!default;
+
+$border-width:                	1px   							!default;
+
+$border-style-solid:            solid  							!default;
+$border-style-dashed:           dashed 							!default;
+$border-style-dotted:           dotted 							!default;
+
+
+$border-color:                	$gray-300						!default;
+$border-color_1: 				#eff3f5							!default;
+$border-color_2: 				#dfe6e9							!default;
+$border-color_3: 				#e9eef1							!default;
+$border-color_4: 				#e1e5e6							!default;
+$border-color_5: 				#cdd8e3							!default;
+$border-color_6: 				#e0e0e0							!default;
+$border-color_7: 				#ebebeb							!default;
+
+$border-radius:               	0.125rem 						!default;
+$border-radius-lg:            	0.5rem 							!default;
+$border-radius-md:            	0.375rem 						!default;
+$border-radius-sm:            	0.25rem 						!default;
+$border-radius-xs:            	0.0625rem 						!default;
+$border-radius-xxs:            	0.03125rem 						!default;
+$rounded-pill:                	50rem 							!default;
+
+$border-radius--px:             2px 							!default;
+$border-radius-lg--px:          8px 							!default;
+$border-radius-md--px:          6px 							!default;
+$border-radius-sm--px:          4px								!default;
+$border-radius-xs--px:          1px 							!default;
+$border-radius-xxs--px:         0.5px 							!default;
+$border-radius-rounded:         50% 							!default;
+
+$transition-base:             	all 0.25s ease-in-out 			!default;
+$transition-fade:             	opacity 0.15s linear 			!default;
+$transition-collapse:         	height 0.35s ease 				!default;
+$transition-input:         		all 0.125s ease-in-out 			!default;
+$transition-input-bt: 			all 0.25s linear				!default;
+$transition-3d-Button:          all 0.25s ease 					!default;
+$transition-check-mark:			all 0.3s cubic-bezier(0.12, 0.49, 0.17, 0.87)!default;
+//== Typography
+
+$font-family-serif:      		'Merriweather', serif !default;
+$font-family-sans-serif:      	'Rubik', -apple-system, 'Helvetica Neue', Helvetica, Arial,'Microsoft JhengHei', "微軟正黑體", 'PingFang SC', 'Noto Sans CJK TC', sans-serif !default;
+$font-family-monospace:       	'Source Code Pro', -apple-system, 'Helvetica Neue', Helvetica, Arial,
+								'Microsoft JhengHei', "微軟正黑體", 'PingFang SC', 'Noto Sans CJK TC', sans-serif !default;
+$font-family-base:            	'Rubik', -apple-system, 'Helvetica Neue', Helvetica, Arial,
+								'Microsoft JhengHei', "微軟正黑體", 'PingFang SC', 'Noto Sans CJK TC', sans-serif !default;
+$font-family-Candal:            'Candal', -apple-system, 'Helvetica Neue', Helvetica, Arial,
+								'Microsoft JhengHei', "微軟正黑體", 'PingFang SC', 'Noto Sans CJK TC', sans-serif !default;
+
+$font-size-html-base:			16px 						!default;
+$font-size-html-md:				15px 						!default;
+$font-size-html-sm:				14px 						!default;
+$font-size-html-xs:				13px 						!default;
+
+
+$font-size-none:              	0 							!default;
+$font-size-base:              	1rem 						!default;
+$font-size-lg:                	$font-size-base * 1.25 		!default;
+$font-size-md:                	$font-size-base * 0.9375	!default;
+$font-size-sm:                	$font-size-base * 0.875 	!default;
+$font-size-xs:                	$font-size-base * 0.8125 	!default;
+$font-size-xxs:                	$font-size-base * 0.75 		!default;
+
+$font-weight-lighter:         	lighter 					!default;
+$font-weight-light:           	300 						!default;
+$font-weight-normal:          	400 						!default;
+$font-weight-bold:            	700 						!default;
+$font-weight-bolder:          	bolder 						!default;
+
+$font-weight-base:            	$font-weight-normal 		!default;
+$line-height-base:            	1.5 						!default;
+
+$h1-font-size:                	$font-size-base * 2.5 		!default;
+$h2-font-size:                	$font-size-base * 2.25 		!default;
+$h3-font-size:                	$font-size-base * 2 		!default;
+$h4-font-size:                	$font-size-base * 1.75 		!default;
+$h5-font-size:                	$font-size-base * 1.5 		!default;
+$h6-font-size:                	$font-size-base * 1.125 	!default;
+$para-font-size:                $font-size-base 			!default;
+$span-font-size:                $font-size-base * 0.875 	!default;
+$label-font-size:               $font-size-base * 0.9375 	!default;
+
+
+// Inputs
+$text-inputs-list: (
+	'input[type="color"]',
+	'input[type="date"]',
+  	'input[type="datetime"]',
+	'input[type="datetime-local"]',
+  	'input[type="email"]',
+	'input[type="month"]',
+	'input[type="number"]',
+	'input[type="password"]',
+	'input[type="search"]',
+	'input[type="tel"]',
+	'input[type="text"]',
+	'input[type="time"]',
+	'input[type="url"]',
+	'input[type="week"]',
+	'input:not([type])',
+	'textarea');
+
+$all-text-inputs:        assign-inputs($text-inputs-list);
+$all-text-inputs-active: assign-inputs($text-inputs-list, active);
+$all-text-inputs-focus:  assign-inputs($text-inputs-list, focus);
+$all-text-inputs-hover:  assign-inputs($text-inputs-list, hover);
+
+// Buttons + Forms
+$input-btn-padding-y:         	0.625rem 							!default;
+$input-btn-padding-x:         	1.125rem							!default;
+$input-btn-font-family:       	null 								!default;
+$input-btn-font-size:         	$font-size-base * 0.875 			!default;
+$input-btn-line-height:       	$line-height-base 					!default;
+
+$input-btn-focus-width:       	0.125rem 							!default;
+$input-btn-focus-color:       	rgba($linkblue, 0.25) 				!default;
+$input-btn-focus-box-shadow:  	0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+$input-btn-padding-y-xxs:       0.25rem 							!default;
+$input-btn-padding-x-xxs:       0.375rem 							!default;
+$input-btn-font-size-xxs:       $font-size-base * 0.75 				!default;
+$input-btn-line-height-xxs:     $line-height-sm 					!default;
+
+$input-btn-padding-y-xs:       	0.375rem 							!default;
+$input-btn-padding-x-xs:      	0.75rem 							!default;
+$input-btn-font-size-xs:      	$font-size-base * .75 				!default;
+$input-btn-line-height-xs:    	$line-height-sm 					!default;
+
+$input-btn-padding-y-sm:      	0.5rem 								!default;
+$input-btn-padding-x-sm:      	0.875rem 							!default;
+$input-btn-font-size-sm:      	$font-size-base * 0.8125 			!default;
+$input-btn-line-height-sm:    	$line-height-sm 					!default;
+
+$input-btn-padding-y-md :      	0.75rem 							!default;
+$input-btn-padding-x-md :      	1.5rem 								!default;
+$input-btn-font-size-md :      	$font-size-base * 0.9375 			!default;
+$input-btn-line-height-md :    	$line-height-lg 					!default;
+
+
+$input-btn-padding-y-lg:      	1rem								!default;
+$input-btn-padding-x-lg:      	3rem 								!default;
+$input-btn-font-size-lg:      	$font-size-base 					!default;
+$input-btn-line-height-lg:    	$line-height-lg 					!default;
+$input-btn-border-width:      	$border-width 						!default;
+
+$input-box-shadow:      	    0 0.125rem 0.25rem rgba($dark, 0.04) !default;
+
+// Input Placeholder
+$input-placeholder: 			$lightgrey							!default;
+$input-placeholder--bt: 		$lightgrey							!default;
+
+$pseudo-phprefix: 				"::-webkit-input-placeholder" "::-moz-placeholder" ":-ms-input-placeholder" "::placeholder";
+$bt-line-placeholder-f-color:	#8fa2ad						!default;
+$bt-line: (
+	color: $bt-line-placeholder-f-color,
+	letter-spacing: 1px
+	);
+
+//== Buttons
+$btn-padding-y:               	$input-btn-padding-y 				!default;
+$btn-padding-x:               	$input-btn-padding-x 				!default;
+$btn-font-family:             	$input-btn-font-family 				!default;
+$btn-font-size:               	$input-btn-font-size 				!default;
+$btn-line-height:             	$input-btn-line-height 				!default;
+
+$btn-padding-y-xxs:            	$input-btn-padding-y-xxs 			!default;
+$btn-padding-x-xxs:            	$input-btn-padding-x-xxs 			!default;
+$btn-font-size-xxs:            	$input-btn-font-size-xxs 			!default;
+$btn-line-height-xxs:          	$input-btn-line-height-xxs 			!default;
+
+$btn-padding-y-xs:            	$input-btn-padding-y-xs 			!default;
+$btn-padding-x-xs:            	$input-btn-padding-x-xs 			!default;
+$btn-font-size-xs:            	$input-btn-font-size-xs			 	!default;
+$btn-line-height-xs:          	$input-btn-line-height-xs 			!default;
+
+$btn-padding-y-sm:            	$input-btn-padding-y-sm 			!default;
+$btn-padding-x-sm:            	$input-btn-padding-x-sm 			!default;
+$btn-font-size-sm:            	$input-btn-font-size-sm 			!default;
+$btn-line-height-sm:          	$input-btn-line-height-sm 			!default;
+
+$btn-padding-y-md:            	$input-btn-padding-y-md			 	!default;
+$btn-padding-x-md:            	$input-btn-padding-x-md		 		!default;
+$btn-font-size-md:            	$input-btn-font-size-md 			!default;
+$btn-line-height-md:          	$input-btn-line-height-md		 	!default;
+
+$btn-padding-y-lg:            	$input-btn-padding-y-lg			 	!default;
+$btn-padding-x-lg:            	$input-btn-padding-x-lg			 	!default;
+$btn-font-size-lg:            	$input-btn-font-size-lg			 	!default;
+$btn-line-height-lg:          	$input-btn-line-height-lg 			!default;
+
+$btn-border-width:            	$input-btn-border-width 			!default;
+
+$btn-font-weight:             	$font-weight-normal 				!default;
+$btn-box-shadow:              	inset 0 1px 0 rgba($white, 0.15),
+								0 1px 1px rgba($black, .075) 		!default;
+$btn-focus-width:             	$input-btn-focus-width 				!default;
+$btn-focus-box-shadow:        	$input-btn-focus-box-shadow 		!default;
+$btn-disabled-opacity:        	0.65 								!default;
+$btn-active-box-shadow:       	inset 0 3px 5px rgba($black, 0.125) !default;
+$btn-3d-shadow: 				0 4px 0 0 rgba($white, .15),
+								0 0 20px 0 rgba($black, .075)		!default;
+
+$btn-link-disabled-color:     	$gray-600 							!default;
+
+$btn-block-spacing-y:         	0.5rem 								!default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:           	$border-radius 						!default;
+$btn-border-radius-lg:        	$border-radius-lg 					!default;
+$btn-border-radius-md:        	$border-radius-md 					!default;
+$btn-border-radius-sm:        	$border-radius-sm					!default;
+$btn-border-radius-xs:        	$border-radius-xs 					!default;
+$btn-border-radius-xxs:       	$border-radius-xxs					!default;
+
+$btn-transition:              	color 0.15s ease-in-out,
+								background-color 0.15s ease-in-out,
+								border-color 0.15s ease-in-out,
+								box-shadow 0.15s ease-in-out 		!default;
+
+$custom-forms-transition:     	background-color 0.15s ease-in-out,
+								border-color 0.15s ease-in-out,
+								box-shadow 0.15s ease-in-out 		!default;
+
+//== Alert Variables
+$alert-padding-y:                   .75rem 							!default;
+$alert-padding-x:                   1.5rem 							!default;
+$alert-margin-bottom:               1rem 							!default;
+$alert-border-radius:               $border-radius 					!default;
+$alert-link-font-weight:            $font-weight-bold 				!default;
+$alert-border-width:                $border-width 					!default;
+
+$alert-bg-level:                    -11 							!default;
+$alert-border-level:                -11								!default;
+$alert-color-level:                 8								!default;
+
+//== Close
+$close-font-size:                   $font-size-base * 1.5 			!default;
+$close-font-weight:                 $font-weight-bold 				!default;
+$close-color:                       $dark 							!default;
+$close-text-shadow:                 0 1px 0 $white 					!default;
+
+//== Badges
+$badge-font-size:                    $font-size-base * 0.75 !default;
+$badge-font-weight:                 $font-weight-bold 		!default;
+$badge-padding-y:                   .125rem !default;
+$badge-padding-x:                   .375rem !default;
+$badge-border-radius:               $border-radius !default;
+
+$badge-transition:                  $btn-transition !default;
+$badge-focus-width:                 $input-btn-focus-width !default;
+//== Box shhadow
+$box-shadow:            0 0.5rem 1rem rgba($dark, 0.15) 						!default;
+$box-shadow-lg:         0 1rem 3rem rgba($dark, 0.175) 							!default;
+$box-shadow-md:         0 0.75rem 2.5rem rgba($dark, 0.125) 					!default;
+$box-shadow-sm:         0 0.375rem .75rem rgba($dark, 0.075) 					!default;
+$box-shadow-xs:         0 0.125rem .25rem rgba($dark, 0.025) 					!default;
+$header-box-shadow:		0 0.5rem 2.5rem rgba($dark, 0.025),
+						0 0.9375rem 1.375rem rgba($dark, 0.0375),
+						0 0.25rem .5rem rgba($dark, 0.05),
+						0 0.125rem .1875rem rgba($dark, 0.0625)					!default;
+
+$shd--paper:	 		0 1rem 0.625rem rgba($dark, 0.36)						!default;
+$shd--ver_01: 			0 0.25rem 0.5rem rgba($dark, 0.04)						!default;
+$shd--ver_02: 			-0.75rem -0.75rem 0.75rem 0 rgba($white, 0.6),
+						12px 12px 12px 0 rgba($dark, 0.03)						!default;
+$shd--ver_03: 			0 0.3125rem 0.625rem -0.375rem rgba($dark, 0.1)			!default;
+$shd--ver_04: 			0 0.5rem 2.125rem rgba($dark, 0.03),
+						0 0.9375rem 1.375rem rgba($dark, 0.03),
+						0 0.25rem 0.5rem rgba($dark, 0.05),
+						0 0.125rem 0.1875rem rgba($dark, 0.03)					!default;
+
+$shd--ver_05: 			0 0.5rem 1.25rem 0 rgba($dark, 0.1)						!default;
+$shd--ver_06: 			0 0.125rem 0.25rem rgba($dark, 0.1)						!default;
+$shd--ver_07: 			0 0.75rem 0.75rem .0375rem rgba($dark, 0.1)				!default;
+$shd--ver_08: 			0 1rem 3rem rgba($dark, 0.1)							!default;
+$shd--ver_09: 			0 0.1875rem 0.625rem 0 rgba($dark, 0.1)					!default;
+$shd--ver_10: 			0 0.0625rem 0.9375rem 0.0625rem rgba($dark, 0.07)		!default;
+$shd--ver_11: 			-.0625rem 0.5625rem 1.125rem 0 rgba($dark, 0.1)			!default;
+$shd--ver_12: 			0 0.1875rem 0.625rem 0 rgba($dark, 0.08)				!default;
+$shd--ver_13: 			0 0.875rem 1.625rem -0.75rem rgba($biscay, 0.32),
+						0 0.25rem 1.4375rem 0 rgba($dark, 0.12)					!default;
+$shd--ver_14: 			0 0 1.875rem 0 rgba($dark, 0.18)						!default;
+$shd--ver_15: 			0 1.25rem 3.75rem 0 rgba($dark, 0.1)					!default;
+$shd--ver_16: 			0 0 1.875rem rgba($dark, 0.15)							!default;
+$shd--ver_17: 			0 0 13px 0 rgba($dark, 0.44)							!default;
+$shd--ver_18: 			0 2px 1px 0 rgba($dark, 0.12)							!default;
+
+$shd--hv--ver--01: 		0 2px 4px 0 rgba($dark, 0.04)							!default;
+$shd--hv--ver--01--hv:  0 20px 40px 0 rgba($dark, 0.08)							!default;
+
+$shd--hv--ver--02: 		13px 32px 36px -14px rgba($dark, 0.1)					!default;
+$shd--hv--ver--02--hv:  13px 32px 36px -14px rgba($dark, 0.3)					!default;
+
+$shd--hv--ver--03: 		0 0.125rem 0.25rem rgba($dark, 0.08)					!default;
+$shd--hv--ver--03--hv:  0 0.175rem 0.275rem rgba($dark, 0.16)					!default;
+
+$shd--hv--ver--04: 		0 20px 24px -12px rgba($dark, 0.08)						!default;
+$shd--hv--ver--04--hv: 	0 22px 28px -14px rgba($dark, 0.15)						!default;
+
+$shd--hv--ver--05: 		0 3px 10px 0 rgba($dark, 0.1)							!default;
+$shd--hv--ver--05--hv:  0 30px 60px 0 rgba($dark, 0.1)							!default;
+//== Margin & Padding Default
+$default-num:     				1rem 								!default;
+
+
+//==  Utilities
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;
+$overflows: auto, hidden , visible !default;
+$positions: static, relative, absolute, fixed, sticky !default;
+$user-selects: all, auto, none !default;
+
+
+//== 	IE Support
+$legacy-support-for-ie: 		false 								!default;
+
+
+
+
+
+
+
+
+
+
+
+

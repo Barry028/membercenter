@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="re_icon_reference" transform="translate(-7023 4673)">
+    <circle id="Ellipse_2024" data-name="Ellipse 2024" cx="24" cy="24" r="24" transform="translate(7023 -4673)" fill="gray" opacity="0"/>
+    <g id="Group_87097" data-name="Group 87097" transform="translate(-5 -3)">
+      <path id="Path_88610" data-name="Path 88610" d="M38.383,63.691A3.691,3.691,0,1,1,34.691,60,3.692,3.692,0,0,1,38.383,63.691Zm0,0" transform="translate(7002.544 -4713.078)" fill="gray"/>
+      <path id="Path_88613" data-name="Path 88613" d="M11.174,182.516A6.126,6.126,0,0,0,6.235,180,6.223,6.223,0,0,0,0,186.152v3.691H8.7A12.186,12.186,0,0,1,11.174,182.516Zm0,0" transform="translate(7031 -4823.234)" fill="gray"/>
+      <path id="Path_88608" data-name="Path 88608" d="M193.3,6.152A6.152,6.152,0,1,1,187.152,0,6.152,6.152,0,0,1,193.3,6.152Zm0,0" transform="translate(6864.849 -4658)" fill="gray"/>
+      <path id="Path_88609" data-name="Path 88609" d="M136,189.844h19.687a9.844,9.844,0,1,0-19.687,0Zm0,0" transform="translate(6906.157 -4823.234)" fill="gray"/>
+      <path id="Path_88611" data-name="Path 88611" d="M398.383,63.691A3.691,3.691,0,1,1,394.691,60,3.691,3.691,0,0,1,398.383,63.691Zm0,0" transform="translate(6672.075 -4713.078)" fill="gray"/>
+      <path id="Path_88612" data-name="Path 88612" d="M380.725,180a6.126,6.126,0,0,0-4.939,2.516,12.186,12.186,0,0,1,2.479,7.328h8.7v-3.691A6.223,6.223,0,0,0,380.725,180Zm0,0" transform="translate(6686.042 -4823.234)" fill="gray"/>
+    </g>
+  </g>
+</svg>

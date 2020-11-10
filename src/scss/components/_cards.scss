@@ -1,0 +1,11 @@
+@charset "utf-8";
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Components > cards
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.card {
+  background-color: #fff;
+  border: 1px solid rgba(35, 49, 56, 0.06);
+  @include border-radius(4px);
+
+  @include shd--ver_10;
+}

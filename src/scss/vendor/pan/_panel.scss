@@ -1,0 +1,97 @@
+
+.panel_row {
+	display: flex;
+
+	.ie & {
+		position: relative;
+		display: block;
+	}
+
+
+}
+
+.panel_aside {
+	flex: 0 0 240px;
+
+	.ie & {
+		@include absolute(0, $L:0);
+		display: block;
+		width: 240px;
+	}
+
+	padding-bottom: 1rem;
+	ul {
+		margin-bottom: 12px;
+	}
+
+
+	&-item {
+		font-size: 1rem;
+		letter-spacing: 1px;
+		position: relative;
+		padding: 1rem;
+		text-align: center;
+
+		background-color: #eef1f9;
+		border-bottom: 1px solid #e1e1e1;
+		color: $color-grey;
+
+		transition: all 0.3s ease-in-out;
+		cursor: pointer;
+
+		> .inner {
+			position: relative;
+			z-index: 2;
+		}
+		&:before {
+			@extend %psudoEl;
+			z-index: 1;
+			width: 0;
+			height: 100%;
+			background-color: #fff;
+			opacity: 0;
+			transition: all 0.3s $easeInOutCubic;
+		}
+
+		&:after {
+			@extend %psudoEl;
+			// left: -100%;
+			z-index: 2;
+			width: 0px;
+			height: 100%;
+			background-color: $color-secondary;
+			transition: all 0.3s ease-in-out;
+			// transition: all 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+		}
+
+		&.active, &:hover {
+			color: $color-black;
+			&:before {
+				width: calc(100% + 2px);
+				opacity: 1;
+			}
+
+			&:after {
+				width: 5px;
+			}
+		}
+	}
+
+}
+
+.panel_main {
+    flex: 1 1 auto;
+
+	padding: 0.5rem;
+    border-left: 1px solid rgba(#000, 0.08);
+
+    font-size: 1rem;
+
+    .ie & {
+    	display: block;
+    	margin-left: 240px;
+    }
+
+}
+
+

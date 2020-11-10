@@ -1,0 +1,32 @@
+@charset "utf-8";
+/**
+ * ==   Pages > MemberEpaper
+ */
+
+.epaper-title {
+	border-left: $secondary 3px solid;
+	font-size: 1.125rem;
+	margin-bottom: 1rem;
+	padding: 0 0 0 .5rem;
+}
+
+.epaper-checkbox {
+	padding-bottom: .75rem;
+}
+
+.mail-row {
+	border-bottom: 1px #E1E1E1 solid;
+	padding: 0 0 .625rem 0;
+}
+
+.mail-row span {
+	color: #A7B1B6
+}
+
+.mail-row a {
+	font-size: .9375rem
+}
+
+.mail-row a:first-of-type {
+	text-decoration: underline;
+}

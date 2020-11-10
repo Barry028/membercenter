@@ -1,0 +1,10 @@
+<svg id="report" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24616" data-name="Rectangle 24616" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_100041" data-name="Path 100041" d="M11.92,15.21a.69.69,0,1,0,.69.69A.69.69,0,0,0,11.92,15.21Z" fill="#fff"/>
+    <path id="Path_100042" data-name="Path 100042" d="M11.92,7.41a.88.88,0,0,0-.88.91l.19,5.06a.69.69,0,1,0,1.38,0l.19-5.06h0a.87.87,0,0,0-.88-.91Z" fill="#fff"/>
+    <path id="Path_100043" data-name="Path 100043" d="M21.78,7.47,16.53,2.22A.75.75,0,0,0,16,2H8a.75.75,0,0,0-.53.22L2.22,7.47A.75.75,0,0,0,2,8v8a.75.75,0,0,0,.22.53l5.25,5.25A.75.75,0,0,0,8,22h8a.75.75,0,0,0,.53-.22l5.25-5.25A.75.75,0,0,0,22,16V8a.75.75,0,0,0-.22-.53ZM20.5,15.69,15.69,20.5H8.31L3.5,15.69V8.31L8.31,3.5h7.38L20.5,8.31Z" fill="#fff"/>
+  </g>
+</svg>

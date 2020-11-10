@@ -1,0 +1,74 @@
+@charset "utf-8";
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Components > Owl
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.blcok-card {
+    ~ .owl-carousel {
+        background-color: $owl-carousel;
+        margin: 1rem 0;
+        padding: 12px 14px;
+    }
+}
+
+.owl-theme {
+    .owl-nav {
+        margin-top: 10px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+
+        [class*='owl-'] {
+            background: $owl-bg;
+            border-radius: 3px;
+            color: $white;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 14px;
+            margin: 5px;
+            padding: 4px 7px;
+
+            &:hover {
+                background: $owl-hover;
+                color: $white;
+                text-decoration: none;
+            }
+        }
+
+        .disabled {
+            cursor: default;
+            opacity: 0.5;
+        }
+
+        &.disabled + .owl-dots {
+            margin-top: 4px;
+        }
+    }
+
+    .owl-dots {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+
+        .owl-dot {
+            display: inline-block;
+            vertical-align: middle;
+            zoom: 1;
+            *display: inline;
+
+            span {
+                background: $owl-bg;
+                border-radius: 30px;
+                display: block;
+                margin: 5px 7px;
+                height: 10px;
+                width: 10px;
+                -webkit-backface-visibility: visible;
+                -webkit-transition: opacity 200ms ease;
+                -o-transition: opacity 200ms ease;
+                transition: opacity 200ms ease;
+            }
+
+            &.active span, &:hover span {
+                background: $owl-hover;
+            }
+        }
+    }
+}

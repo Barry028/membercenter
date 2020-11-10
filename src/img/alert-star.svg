@@ -1,0 +1,9 @@
+<svg id="alert-star" xmlns="http://www.w3.org/2000/svg" width="33" height="42" viewBox="0 0 33 42">
+  <g id="Group_7379" data-name="Group 7379" transform="translate(4.5 0)">
+    <path id="Path_9615" data-name="Path 9615" d="M17.75,0H5.5V26.634c0,.247.458.37.726.2l11.524-7.5,11.524,7.5c.268.174.726.051.726-.2V0Z" transform="translate(-5.5)" fill="#d75a4a"/>
+    <rect id="Rectangle_2345" data-name="Rectangle 2345" width="24.5" height="5.482" fill="#c03b2b"/>
+  </g>
+  <g id="Group_7378" data-name="Group 7378" transform="translate(0 12)">
+    <path id="Path_9616" data-name="Path 9616" d="M42,33l5.1,9.875,11.4,1.583-8.25,7.687L52.2,63,42,57.875,31.8,63,33.75,52.146,25.5,44.459l11.4-1.583Z" transform="translate(-25.5 -33)" fill="#ffd923"/>
+  </g>
+</svg>

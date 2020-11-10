@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="arrow" transform="translate(3944 -15911)">
+    <g id="arrow-2" data-name="arrow" transform="translate(-3940 15915)">
+      <g id="Rectangle_23911" data-name="Rectangle 23911" transform="translate(0.079)" fill="gray" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="40" height="40" stroke="none"/>
+        <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+      </g>
+      <g id="next_1_" data-name="next (1)" transform="translate(40.072 8.571) rotate(90)">
+        <path id="Chevron_Right_1_" d="M.585,18.565,18.573.593a2.02,2.02,0,0,1,2.86,2.854L4.871,19.993,21.429,36.547a2.02,2.02,0,1,1-2.858,2.846L.583,21.421a2.038,2.038,0,0,1,0-2.856Z" fill="gray"/>
+      </g>
+    </g>
+    <g id="Rectangle_23834" data-name="Rectangle 23834" transform="translate(-3944 15911)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="48" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="47" fill="none"/>
+    </g>
+  </g>
+</svg>

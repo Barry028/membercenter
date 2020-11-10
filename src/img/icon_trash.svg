@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="icon_trash" transform="translate(-604 -369)">
+    <g id="icon_trash-2" data-name="icon_trash" transform="translate(606 370)">
+      <g id="Group_81746" data-name="Group 81746">
+        <g id="Group_81745" data-name="Group 81745" transform="translate(0)">
+          <path id="Path_86257" data-name="Path 86257" d="M44.5,2H42V1.5A1.5,1.5,0,0,0,40.5,0h-4A1.5,1.5,0,0,0,35,1.5V2H32.5a1.5,1.5,0,0,0-.467,2.925l.892,10.766a1.509,1.509,0,0,0,1.495,1.375h8.16a1.509,1.509,0,0,0,1.495-1.376l.892-10.766A1.5,1.5,0,0,0,44.5,2ZM36,1.5a.5.5,0,0,1,.5-.5h4a.5.5,0,0,1,.5.5V2H36Zm7.078,14.108a.5.5,0,0,1-.5.458H34.42a.5.5,0,0,1-.5-.458L33.043,5H43.957ZM44.5,4h-12a.5.5,0,1,1,0-1h12a.5.5,0,1,1,0,1Z" transform="translate(-31)" fill="#f57373"/>
+        </g>
+      </g>
+      <g id="Group_81748" data-name="Group 81748" transform="translate(4 6)">
+        <g id="Group_81747" data-name="Group 81747">
+          <path id="Path_86258" data-name="Path 86258" d="M152.5,188.534l-.5-8.067a.5.5,0,0,0-1,.062l.5,8.067a.5.5,0,1,0,1-.062Z" transform="translate(-150.999 -179.999)" fill="#f57373"/>
+        </g>
+      </g>
+      <g id="Group_81750" data-name="Group 81750" transform="translate(7 6)">
+        <g id="Group_81749" data-name="Group 81749" transform="translate(0)">
+          <path id="Path_86259" data-name="Path 86259" d="M241.5,180a.5.5,0,0,0-.5.5v8.067a.5.5,0,0,0,1,0V180.5A.5.5,0,0,0,241.5,180Z" transform="translate(-241 -180)" fill="#f57373"/>
+        </g>
+      </g>
+      <g id="Group_81752" data-name="Group 81752" transform="translate(9.5 6)">
+        <g id="Group_81751" data-name="Group 81751">
+          <path id="Path_86260" data-name="Path 86260" d="M317.03,180a.5.5,0,0,0-.53.468l-.5,8.067a.5.5,0,0,0,1,.062l.5-8.067A.5.5,0,0,0,317.03,180Z" transform="translate(-315.999 -180)" fill="#f57373"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_23832" data-name="Rectangle 23832" transform="translate(604 369)" fill="#75b9e7" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+  </g>
+</svg>

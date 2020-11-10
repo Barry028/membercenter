@@ -1,0 +1,10 @@
+<svg id="cart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24494" data-name="Rectangle 24494" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <circle id="Ellipse_2182" data-name="Ellipse 2182" cx="1.5" cy="1.5" r="1.5" transform="translate(7.62 18.05)" fill="#fff"/>
+    <circle id="Ellipse_2183" data-name="Ellipse 2183" cx="1.5" cy="1.5" r="1.5" transform="translate(17.24 18.05)" fill="#fff"/>
+    <path id="Path_99787" data-name="Path 99787" d="M10.1,15.65a2.86,2.86,0,0,1-2.72-2L4.06,3.92a.33.33,0,0,0-.3-.22H2.38a.75.75,0,0,1,0-1.5H3.76A1.83,1.83,0,0,1,5.48,3.43L6,5H19.5a2.87,2.87,0,0,1,2.71,3.83L20.76,13a2.88,2.88,0,0,1-2.43,1.9l-7.95.77ZM6.53,6.53,8.8,13.22a1.36,1.36,0,0,0,1.43.92l8-.76a1.39,1.39,0,0,0,1.17-.91l1.44-4.11a1.33,1.33,0,0,0-.17-1.25,1.35,1.35,0,0,0-1.12-.58Z" fill="#fff"/>
+  </g>
+</svg>

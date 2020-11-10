@@ -1,0 +1,15 @@
+<svg id="screenshot" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24621" data-name="Rectangle 24621" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_100053" data-name="Path 100053" d="M14,19.25H9.45a.75.75,0,0,0,0,1.5H14a.75.75,0,1,0,0-1.5Z" fill="#fff"/>
+    <path id="Path_100054" data-name="Path 100054" d="M6.16,19.25H6A1.25,1.25,0,0,1,4.75,18v-.16a.75.75,0,1,0-1.5,0V18A2.76,2.76,0,0,0,6,20.75h.16a.75.75,0,0,0,0-1.5Z" fill="#fff"/>
+    <path id="Path_100055" data-name="Path 100055" d="M4,8.7a.75.75,0,0,0-.75.75V14a.75.75,0,1,0,1.5,0V9.45A.75.75,0,0,0,4,8.7Z" fill="#fff"/>
+    <path id="Path_100056" data-name="Path 100056" d="M14.55,3.25h-4.5a.75.75,0,0,0,0,1.5h4.5a.75.75,0,1,0,0-1.5Z" fill="#fff"/>
+    <path id="Path_100057" data-name="Path 100057" d="M17.84,4.75H18A1.25,1.25,0,0,1,19.25,6v.16a.75.75,0,0,0,1.5,0V6A2.76,2.76,0,0,0,18,3.25h-.16a.75.75,0,0,0,0,1.5Z" fill="#fff"/>
+    <path id="Path_100058" data-name="Path 100058" d="M20,9.3a.76.76,0,0,0-.75.75v4.5a.75.75,0,1,0,1.5,0v-4.5A.76.76,0,0,0,20,9.3Z" fill="#fff"/>
+    <path id="Path_100059" data-name="Path 100059" d="M22,19.25H20.75V18a.75.75,0,0,0-1.5,0v1.25H18a.75.75,0,0,0,0,1.5h1.25V22a.75.75,0,0,0,1.5,0V20.75H22a.75.75,0,0,0,0-1.5Z" fill="#fff"/>
+    <path id="Path_100060" data-name="Path 100060" d="M3.25,6a.75.75,0,0,0,1.5,0V4.75H6a.75.75,0,0,0,0-1.5H4.75V2a.75.75,0,1,0-1.5,0V3.25H2a.75.75,0,0,0,0,1.5H3.25Z" fill="#fff"/>
+  </g>
+</svg>

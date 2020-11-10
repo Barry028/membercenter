@@ -1,0 +1,353 @@
+/*---Set industry---*/
+
+.set_industry .btn-setting {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    background-color: #0e86d4;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    line-height: 1;
+    transition: all 0.25s ease-in-out;
+}
+
+.set_industry .btn-setting:hover {
+    background-color: #0b68a4;
+}
+
+
+.company_history_content-hd button {
+    margin-left: 1rem;
+}
+
+.setting-content {
+    color: #233138;
+    font-size: 0.875rem;
+    display: none;
+    margin-top: .25rem;
+}
+
+/*---Button---*/
+.ch_item-btns .btns-wrap {
+    font-size: 0;
+}
+
+.btns-wrap .checkbox-text {
+    font-size: 0.75rem;
+    color: #fa626b;
+}
+
+.btns-wrap .checkbox-text p {
+    font-size: 0.75rem;
+}
+
+
+.btns-wrap .heart-item,
+.btns-wrap .del-item {
+    display: inline-block;
+    vertical-align: middle;
+    border-left: solid 1px #eff3f5;
+    text-align: center;
+    width: 50%;
+}
+
+.heart-item input[type="checkbox"],
+.del-item input[type="checkbox"] {
+    display: none;
+}
+
+.heart-item input[type="checkbox"] + label {
+    display: inline-block;
+    border: 1px solid #A7B1B6;
+    border-radius: 4px;
+    color: #A7B1B6;
+    margin: 0.3rem 1rem;
+}
+
+.heart-item .text-collect,
+.del-item .text-delete {
+    font-size: 0.75rem;
+    color: #A7B1B6;
+    display: inline-block;
+}
+
+.heart-item i,
+.del-item i {
+    vertical-align: middle;
+}
+
+.heart-item span,
+.del-item span {
+    font-size: .75rem;
+}
+
+.heart-item .already {
+    display: none;
+}
+
+.heart-item input[type="checkbox"]:checked + label + .checkbox-text .already {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: #233138;
+}
+
+.heart-item input[type="checkbox"]:checked + label + .checkbox-text .none {
+    display: none;
+}
+
+.del-item label {
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0.3rem 1rem;
+}
+
+.heart-item input[type="checkbox"]:checked + label,
+.del-item input[type=checkbox]:checked + label {
+    background-color: #f35b5b;
+    border-color: #f35b5b;
+    color: #fff;
+}
+
+.del-item .text-delete .num-red {
+    display: inline-block;
+    color: #f57373;
+}
+
+/* .icon-icon-trash:before {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 1px solid #f57373;
+    border-radius: 4px;
+    color: #f57373;
+    margin: 0.3rem 1rem;
+    font-size: 1.25rem;
+}
+
+.icon-icon-trash:hover:before {
+    background-color: #f57373;
+    color:#fff;
+}
+
+.bgred:checked +.icon-icon-trash:before {
+    background-color: #f57373;
+    border: 1px solid #f57373;
+    color: #fff;
+} */
+/*---Button End---*/
+
+/*---company_history_content-hd---*/
+.company_history_content-hd {
+    margin-bottom: 1rem;
+}
+
+.company_history_content-hd .txt {
+    margin-right: 0.75rem;
+}
+
+/*---company_history_content-bd---*/
+.company_history_content-bd {
+    font-size: 1rem;
+}
+
+.ch_item {
+    width: 100%;
+    padding: 1rem;
+}
+
+.ch_item-img {
+    width: 17.7215189873%;
+}
+
+.ch_item-text {
+    width: 46.835443038%;
+}
+
+.ch_item-link {
+    width: 18.9873417722%;
+}
+
+.ch_item-btns {
+    width: 16.4556962025%;
+}
+
+.ch_item {
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    border: solid 1px #ebebeb;
+    background-color: #fcfcfc;
+}
+
+.ch_item:not(.noJob):before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #0e86d4;
+}
+
+.ch_item-img .corp-img-container {
+    height: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.ch_item-img .corp-img-container .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.ch_item-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.ch_item-link {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.noJob .ch_item-link .btn {
+    border-color: #a7b1b6;
+    color: #a7b1b6;
+}
+
+.noJob .ch_item-link .btn:hover {
+    background-color: transparent;
+    cursor: default;
+}
+
+.ch_item-btns [class^="icon-"] {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.ch_item-btns .btn-wrap {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.ch_item-btns .btn-wrap:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 80%;
+    background-color: #ebebeb;
+}
+
+.ch_item-btns .btn-block {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.ch_item-btns .btn-block .txt {
+    color: #72828a;
+}
+
+.ch_item-btns .btn-block .icon_block {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #a7b1b6;
+    margin-bottom: 0.3rem;
+    box-shadow: 0 0 0 transparent;
+    color: #a7b1b6;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.ch_item-btns .btn-block .icon_block i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ch_item-btns .btn-block .icon_block i.icon-heart {
+    opacity: 0;
+}
+
+.collection .ch_item-btns .btn-block.btn-heart .icon_block {
+    background-color: #fa626b;
+    border-color: #fa626b;
+    color: #fff;
+}
+
+.collection .ch_item-btns .btn-block.btn-heart .txt {
+    color: #fa626b;
+}
+
+.collection .ch_item-btns .btn-block.btn-heart .icon-heart {
+    opacity: 1;
+}
+
+.collection .ch_item-btns .btn-block.btn-heart .icon-heart-o {
+    opacity: 0;
+}
+
+.ch_item-btns .btn-block.btn-del .icon_block {
+    border-color: #fa626b;
+    color: #fa626b;
+}
+
+.ch_item-btns .btn-block:active .icon_block {
+    transform: translate(1px, 1px);
+}
+
+.ch-corp_name {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 220px;
+}
+
+.ch-corp_name .txt {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    display: block;
+    text-decoration: underline;
+}
+
+.ch-corp_addr {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ch-corp_other {
+    padding-top: 6px;
+}
+
+
+.company_history_content-ft .pagination {
+    float: right;
+}
+
+.company_history_content-ft .ft-btn {
+    padding: .5rem 0;
+}
+
+.company_history_content-ft .ft-btn button {
+    float: right;
+}
+

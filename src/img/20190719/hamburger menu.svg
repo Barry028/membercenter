@@ -1,0 +1,10 @@
+<svg id="hamburger_menu" data-name="hamburger menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24546" data-name="Rectangle 24546" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99895" data-name="Path 99895" d="M20,11.25H4a.75.75,0,0,0,0,1.5H20a.75.75,0,0,0,0-1.5Z" fill="#fff"/>
+    <path id="Path_99896" data-name="Path 99896" d="M4,6.75H20a.75.75,0,0,0,0-1.5H4a.75.75,0,0,0,0,1.5Z" fill="#fff"/>
+    <path id="Path_99897" data-name="Path 99897" d="M20,17.25H4a.75.75,0,0,0,0,1.5H20a.75.75,0,0,0,0-1.5Z" fill="#fff"/>
+  </g>
+</svg>

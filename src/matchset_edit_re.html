@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 會員中心 - 新增配對條件</title>
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/iconmoon/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/loading.js"></script>
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <main class="wrapper">
+        <!-- Header Star -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header">
+                        <div class="header-left">
+                            <a id="burger" class="toggle-menu" href="javascript:;">
+                                <span></span>
+                            </a>
+                            <a href="index.html" class="header-logo">
+                                <img src="img/jobbank-logo.svg" alt="1111-會員中心">
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <div class="searchlist">
+                                <a href="javascript:;" class="btn btn--watergrey opt--84" id="searchLog">
+                                    <i class="jb-df-seo-global-search"  aria-hidden="true"></i>
+                                    搜尋紀錄
+                                </a>
+                                <div class="search-log" id="searchLogCnt">
+                                    <div class="search-log-title">最近搜尋紀錄
+                                        <a href="javascript:;" class="close-btn" id="searchLogColse">
+                                            <i class="jb-de-close-s" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                    <div class="search-log-content">
+                                        <ul>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                                <a href="javascript:;">uX</a>
+                                                <a href="javascript:;">UiuX</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找公司</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                        </ul>
+                                        <div class="search-log-footer">
+                                            <a href="javascript:;" class="btn btn--border--danger btn--xs">
+                                                <i class="jb-db-clear mr-4" aria-hidden="true"></i>清除搜尋紀錄
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-bar-box">
+                                <div class="search-bar">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <input type="text" name="keywords" value="" placeholder="請輸入關鍵字">
+                                            <i class="icon-search search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="city" value="" placeholder="請選擇縣市區域">
+                                            <i class="icon-area search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="duty" value="" placeholder="請選擇職務類別">
+                                            <i class="icon-job search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <i class="jb-df-search"></i>
+                                            <input type="button" name="" value="找工作" class="btn btn--primary btn--block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        <div class="main">
+            <div class="content">
+                <!-- Side Start -->
+                <aside class="side-nav">
+                    <div class="side-nav-menu">
+                        <div class="profile-box">
+                            <div class="profile-box-lt">
+                                <figure class="profile-pic">
+                                    <img src="img/profile.png" alt="profile" class="profile">
+                                    <i class="icon-camera" aria-hidden="true"></i>
+                                    <figcaption>
+                                        <p class="upload"><i class="icon-camera" aria-hidden="true"></i>上傳照片</p>
+                                    </figcaption>
+                                    <a href="javascript:;" class="UploadPhoto"></a>
+                                </figure>
+                            </div>
+                            <div class="profile-box-rt">
+                                <div class="name">天母克里斯伊凡</div>
+                                <div class="age">
+                                    <strong>27</strong>
+                                    <span>歲</span>
+                                </div>
+                                <dl>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dt class="inline-block--middle not-verify">
+                                        <label class="verify-tag" data-tooltip="您的手機尚未認證！" data-flow="right">
+                                            <i class="jb-df-appliances-smartphone"></i>
+                                            <font>未認證</font>
+                                        </label>
+                                    </dt>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dd class="inline-block--middle">
+                                        <label class="verify-tag" data-tooltip="您的手機已認證！" data-flow="right">
+                                            <i class="jb-df-mail-envelope"></i>
+                                            <font>已認證</font>
+                                        </label>
+                                    </dd>
+                                </dl>
+                                <div class="settip">
+                                    <a class="btn btn--border--secondary btn--sm setting-btn">個人設定</a>
+                                    <div class="setting-tip">
+                                        <h3>
+                                            <!-- 九大職能星 圖片 -->
+                                            <!-- <embed src="img/assessment/mercury.svg" alt="Mercury水星" /> -->
+                                            <!-- <embed src="img/assessment/neptune.svg" alt="Neptune海王星" /> -->
+                                            <!-- <embed src="img/assessment/pluto.svg" alt="Pluto冥王星" /> -->
+                                            <!-- <embed src="img/assessment/Venus.svg" alt="Venus金星" /> -->
+                                            <!-- <embed src="img/assessment/Mars.svg" alt="Mars火星" /> -->
+                                            <!-- <embed src="img/assessment/Saturn.svg" alt="Saturn土星" /> -->
+                                            <!-- <embed src="img/assessment/Jupiter.svg" alt="Jupiter木星" /> -->
+                                            <!-- <embed src="img/assessment/earth.svg" alt="Earth地球" /> -->
+                                            <embed src="img/assessment/uranus.svg" alt="Uranus天王星" />
+                                            天王星 研究型 66%
+                                        </h3>
+                                        <!-- 超過183天請顯示立即重測 -->
+                                        <!-- <a href="#!"> [立即重測] </a> -->
+                                        <a href="javascript:;"> [測驗報告] </a>
+                                        <dl>
+                                            <dt>會員編號</dt>
+                                            <dd>091234567</dd>
+                                            <dt>會員姓名</dt>
+                                            <dd>天母克里斯伊凡</dd>
+                                            <dt>手機號碼</dt>
+                                            <dd>0987654321</dd>
+                                            <dt>電子郵件</dt>
+                                            <dd>barry@face124.com</dd>
+                                            <dt>聯絡時間</dt>
+                                            <dd>09:00 - 22:00</dd>
+                                        </dl>
+                                        <div class="footer">
+                                            <a href="#!" class="btn btn--border--secondary btn--sm">編輯個人資料</a>
+                                            <a href="#!" class="btn btn--border--secondary btn--sm">修改密碼</a>
+                                            <a href="#!" class="btn btn--border--negative btn--sm">封鎖設定</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-list">
+                            <div class="resume-heading">
+                                <a href="javascript:;" class="title">
+                                    <i class="jb-mn-resume" aria-hidden="true"></i>
+                                    <font class="align-middle">履歷總覽</font>
+                                </a>
+                                <a href="javascript:;" class="add-resume" title="新增履歷">
+                                    <i class="jb-df-add-rectangular" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">我的第 1 個履歷</a>
+                                    <span class="status-label label--open">開啟中</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 2 個履歷</a>
+                                    <span class="status-label label--unfinish">未完成</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 3 個履歷</a>
+                                    <span class="status-label label--close">關閉中</span>
+                                </li>
+                            </ul>
+                            <p class="upload-date"><i class="jb-df-calendar-schedule-calendar"></i>履歷最後更新日：2018/08/31 18:00</p>
+                        </div>
+                    </div>
+                    <ul class="menu-list" id="mainMenu">
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-home"></i>
+                                <span>會員中心首頁</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-resume"></i>
+                                <span>履歷管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li class="">
+                                    <a href="resume_list.html">
+                                        <i class="menu-icon"></i>
+                                        <span>履歷總覽</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="resume_video.html">
+                                        <i class="menu-icon"></i>
+                                        <span>影音履歷</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="plus_effect.html">
+                                        <i class="menu-icon"></i>
+                                        <span>加分亮點</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="recommendation.html">
+                                        <i class="menu-icon"></i>
+                                        <span>自我推薦函</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-hiring"></i>
+                                <span>求職管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="candidate_alerts_inbox.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業通知</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="company_history.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業瀏覽紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="apply_record.html">
+                                        <i class="menu-icon"></i>
+                                        <span>主動應徵紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="matchset.html">
+                                        <i class="menu-icon"></i>
+                                        <span>配對工作</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_corp.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_job.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的職缺</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-point"></i>
+                                <span>紅利專區</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>會員紅利管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利領取紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利兌換紀錄</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-account"></i>
+                                <span>帳號管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="member_edit.html">
+                                        <i class="menu-icon"></i>
+                                        <span>會員資料</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_password.html">
+                                        <i class="menu-icon"></i>
+                                        <span>變更密碼</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_epaper.html">
+                                        <i class="menu-icon"></i>
+                                        <span>電子報管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="industry.html">
+                                        <i class="menu-icon"></i>
+                                        <span>封鎖產業及公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="positive.html">
+                                        <i class="menu-icon"></i>
+                                        <span>守約會員管理</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="icon-m-rocket"></i>
+                                <span>求職秘笈</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="#"><i class="menu-icon"></i>
+                                        <span>XXXXXX</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="double-line"></div>
+                    <div class="side-advertising-box">
+                        <figure>
+                            <div class="mask-assessment"></div>
+                            <figcaption>
+                                <img src="img/assessment-white.svg" alt="九大職能星">
+                                <span>九大職能星</span>
+                            </figcaption>
+                            <p>找出您的職能類型！</p>
+                            <img src="img/astronaut.svg" alt="astronaut" class="astronaut">
+                            <a href="javascript:;" class="btn btn--yellow btn--sm">立即測驗</a>
+                        </figure>
+                        <p class="footer"><a href="#!" class="text--black">幫助中心</a> | <a href="#!" class="text--black"> 線上客服</a></p>
+                    </div>
+                </aside>
+                <!-- Side End -->
+                <!-- Main Start -->
+                <article class="main-content">
+                    <div class="mask-burger"></div>
+                    <!-- Breadcrumbs Start -->
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs-row cf">
+                            <li>
+                                <i class="jb-df-home" aria-hidden="true"></i>
+                                <a href="index.html" title="會員中心首頁">會員中心首頁</a>
+                            </li>
+                            <li>求職管理</li>
+                            <li><a href="matchset.html" title="配對工作">配對工作</a></li>
+                            <li>新增配對條件</li>
+                        </ul>
+                    </div>
+                    <!-- Breadcrumbs End -->
+                    <!-- Page-Content Start -->
+                    <div class="page-content">
+                        <div class="panel">
+                            <div class="panel-content">
+                                <div class="matchset-requirement primary">
+                                    <div class="inline-block">
+                                        <div class="flag flag--lg flag--primary inline-block align-middle">
+                                            <span>履歷</span>
+                                        </div>
+                                        <span class="title align-middle">新增配對條件</span>
+                                    </div>
+                                    <div class="push-right">
+                                        <a href="matchset.html">回配對工作 >></a>
+                                    </div>
+                                </div>
+                                <div class="matchset-name">
+                                    <h3>履歷 1 配對</h3>
+                                    <span>的配對條件設定</span>
+                                </div>
+                                <div class="matchset-edit-main blue">
+                                    <div class="matchset-edit-title">
+                                        <h4>期望職務</h4>
+                                        <span>此配對的資料來源為<a href="#!" title="">第一份履歷表</a></span>
+                                    </div>
+                                    <div class="matchset-edit-content">
+                                        <dl>
+                                            <dt>
+                                                <font class="text--danger">※&nbsp;</font>
+                                                <span>工作性質：</span>
+                                            </dt>
+                                            <dd>
+                                                <span>全職</span>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <font class="text--danger">※&nbsp;</font>
+                                                <span>職務類別：</span>
+                                            </dt>
+                                            <dd>
+                                                <span>UI / UX設計、專案產品經理</span>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <font class="text--danger">※&nbsp;</font>
+                                                <span>產業類別：</span>
+                                            </dt>
+                                            <dd>
+                                                <span>不拘</span>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <font class="text--danger">※&nbsp;</font>
+                                                <span>上班地點：</span>
+                                            </dt>
+                                            <dd>
+                                                <span>台北市 松山區、台北市 信義區</span>
+                                            </dd>
+                                        </dl>
+                                        <p class="remark mt-8">以上條件為您於履歷設定的<strong>「求職條件」</strong>，如需變更請至<a href="#!">履歷表</a>修改；或您可新增一份自訂配對</p>
+                                        <div class="mt-16 ">
+                                            <dl>
+                                                <dt>
+                                                    <span>職稱關鍵字</span>
+                                                </dt>
+                                                <dd class="tooltip update">
+                                                    <span class="inline-block--middle">包含</span>
+                                                    <input type="text" name="" placeholder="請輸入需「包含」的關鍵字" class="keyword inline-block--middle ml-8 mr-4">
+                                                    <a href="#!" class="inline-block--middle" ata-tooltip="xxxx">
+                                                        <i class="jb-df-help" aria-hidden="true"></i>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt></dt>
+                                                <dd>
+                                                    <span class="inline-block--middle">不包含</span>
+                                                    <input type="text" name="" placeholder="請輸入需「不包含」的關鍵字" class="keyword inline-block--middle ml-8 mr-4">
+                                                    <span class="text--lightgrey inline-block--middle">兩組以上用「 , 」分隔</span>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="separation">
+                                    <h5><span>完成您期望的職務條件，讓配對更精準</span></h5>
+                                </div>
+                                <div class="matchset-edit-main">
+                                    <div class="matchset-edit-title">
+                                        <h4>公司制度</h4>
+                                    </div>
+                                    <div class="matchset-edit-content mb-16">
+                                        <dl>
+                                            <dt>
+                                                <span>職缺性質：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="checkbox" id="type1" name="type">
+                                                    <label for="type1">不拘</label>
+                                                    <input type="checkbox" id="type2" name="type">
+                                                    <label for="type2">長期</label>
+                                                    <input type="checkbox" id="type3" name="type">
+                                                    <label for="type3">短期</label>
+                                                    <input type="checkbox" id="type4" name="type">
+                                                    <label for="type4">假日</label>
+                                                    <input type="checkbox" id="type5" name="type">
+                                                    <label for="type5">暑期</label>
+                                                    <input type="checkbox" id="type6" name="type">
+                                                    <label for="type6">寒假</label>
+                                                    <input type="checkbox" id="type7" name="type">
+                                                    <label for="type7">春節</label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>希望上班時段：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="checkbox" id="hours1" name="hours">
+                                                    <label for="hours1">不拘</label>
+                                                    <input type="checkbox" id="hours2" name="hours">
+                                                    <label for="hours2">日班</label>
+                                                    <input type="checkbox" id="hours3" name="hours">
+                                                    <label for="hours3">中班</label>
+                                                    <input type="checkbox" id="hours4" name="hours">
+                                                    <label for="hours4">晚班</label>
+                                                    <input type="checkbox" id="hours5" name="hours">
+                                                    <label for="hours5">大夜班</label>
+                                                    <input type="checkbox" id="hours6" name="hours">
+                                                    <label for="hours6">假日班</label>
+                                                    <input type="checkbox" id="hours7" name="hours">
+                                                    <label for="hours7">輪班</label>
+                                                    <input type="checkbox" id="hours8" name="hours">
+                                                    <label for="hours8">短期(六個月內)</label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>希望休假制度：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="checkbox" id="vacation1" name="vacation">
+                                                    <label for="vacation1">不拘</label>
+                                                    <input type="checkbox" id="vacation2" name="vacation">
+                                                    <label for="vacation2">週休二日</label>
+                                                    <input type="checkbox" id="vacation3" name="vacation">
+                                                    <label for="vacation3">排休</label>
+                                                    <input type="checkbox" id="vacation4" name="vacation">
+                                                    <label for="vacation4">輪休</label>
+                                                    <input type="checkbox" id="vacation5" name="vacation">
+                                                    <label for="vacation5">固定休六、日</label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>工作待遇：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="radio" id="salary1" name="salary">
+                                                    <label for="salary1">不拘</label>
+                                                    <input type="radio" id="salary2" name="salary">
+                                                    <label for="salary2">時薪</label>
+                                                    <input type="radio" id="salary3" name="salary">
+                                                    <label for="salary3">日薪</label>
+                                                    <input type="radio" id="salary4" name="salary">
+                                                    <label for="salary4">月薪</label>
+                                                    <input type="radio" id="salary5" name="salary">
+                                                    <label for="salary5">年薪</label>
+                                                </div>
+                                                <div class="salary-box mt-4">
+                                                    <span>最低<input type="text" placeholder="0">～ 最高<input type="text" placeholder="9,999,999">元</span>
+                                                    <input class="checkbox-van-inp" id="subscribe" type="checkbox">
+                                                    <label class="checkbox-van-lab ml-8" for="subscribe">
+                                                        <span>
+                                                            <svg width="12px" height="10px" viewBox="0 0 12 10">
+                                                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="">排除面議</span>
+                                                    </label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <hr>
+                                    <div class="matchset-edit-title">
+                                        <h4>職務要求</h4>
+                                        <span>若您有特殊專長，希望獲得專精的職務配對，可於此區設定您的職務需求</span>
+                                    </div>
+                                    <div class="matchset-edit-content mb-16">
+                                        <dl>
+                                            <dt>
+                                                <span>工作經驗：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="radio" id="exp1" name="exp">
+                                                    <label for="exp1">不拘</label>
+                                                    <input type="radio" id="exp2" name="exp">
+                                                    <label for="exp2">無經驗</label>
+                                                    <input type="radio" id="exp3" name="exp">
+                                                    <label for="exp3">1~3 年</label>
+                                                    <input type="radio" id="exp4" name="exp">
+                                                    <label for="exp4">3~5 年</label>
+                                                    <input type="radio" id="exp5" name="exp">
+                                                    <label for="exp5">5~10 年</label>
+                                                    <input type="radio" id="exp6" name="exp">
+                                                    <label for="exp6">10年以上</label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>學歷要求：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="radio" id="degree1" name="degree">
+                                                    <label for="degree1">不拘</label>
+                                                    <input type="radio" id="degree2" name="degree">
+                                                    <label for="degree2">國中 / 國小</label>
+                                                    <input type="radio" id="degree3" name="degree">
+                                                    <label for="degree3">高中職</label>
+                                                    <input type="radio" id="degree4" name="degree">
+                                                    <label for="degree4">專科</label>
+                                                    <input type="radio" id="degree5" name="degree">
+                                                    <label for="degree5">大學</label>
+                                                    <input type="radio" id="degree6" name="degree">
+                                                    <label for="degree6">碩士</label>
+                                                    <input type="radio" id="degree7" name="degree">
+                                                    <label for="degree7">博士</label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>科系要求：</span>
+                                            </dt>
+                                            <dd>
+                                                <input type="text" name="" value="" placeholder="科系要求(最多 5 項，未設定則不過濾此條件)" class="matchset-input-lg pointer">
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>電腦專長：</span>
+                                            </dt>
+                                            <dd>
+                                                <input type="text" name="" value="" placeholder="電腦專長 (未設定則不過濾此條件)" class="matchset-input-lg pointer">
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>專業證照：</span>
+                                            </dt>
+                                            <dd>
+                                                <input type="text" name="" value="" placeholder="專業證照 (未設定則不過濾此條件)" class="matchset-input-lg pointer">
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>外語需求：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="checkbox" id="language1" name="language">
+                                                    <label for="language1">英文</label>
+                                                    <input type="checkbox" id="language2" name="language">
+                                                    <label for="language2">日文</label>
+                                                    <input type="checkbox" id="language3" name="language">
+                                                    <label for="language3">中文</label>
+                                                    <input type="checkbox" id="language4" name="language">
+                                                    <label for="language4">韓文</label>
+                                                    <input type="checkbox" id="language5" name="language">
+                                                    <label for="language5">法文</label>
+                                                    <input type="checkbox" id="language6" name="language">
+                                                    <label for="language6">德文</label>
+                                                    <input type="checkbox" id="language7" name="language">
+                                                    <label for="language7">俄文</label>
+                                                    <input type="checkbox" id="language8" name="language">
+                                                    <label for="language8">葡萄牙文</label>
+                                                    <input type="checkbox" id="language9" name="language">
+                                                    <label for="language9">西班牙文</label>
+                                                    <input type="checkbox" id="language10" name="language">
+                                                    <label for="language10">義大利文</label>
+                                                    <input type="checkbox" id="language11" name="language">
+                                                    <label for="language11">泰文</label>
+                                                    <input type="checkbox" id="language12" name="language">
+                                                    <label for="language12">印度文</label>
+                                                    <input type="checkbox" id="language13" name="language">
+                                                    <label for="language13">印尼文</label>
+                                                    <input type="checkbox" id="language14" name="language">
+                                                    <label for="language14">越南文</label>
+                                                    <input type="checkbox" id="language15" name="language">
+                                                    <label for="language15">高棉文</label>
+                                                    <input type="checkbox" id="language16" name="language">
+                                                    <label for="language16">馬來文</label>
+                                                    <input type="checkbox" id="language17" name="language">
+                                                    <label for="language17">緬甸文</label>
+                                                    <input type="checkbox" id="language18" name="language">
+                                                    <label for="language18">菲律賓文</label>
+                                                    <input type="checkbox" id="language19" name="language">
+                                                    <label for="language19">阿拉伯文</label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <hr>
+                                    <div class="matchset-edit-title">
+                                        <h4>進階需求</h4>
+                                    </div>
+                                    <div class="matchset-edit-content">
+                                        <dl>
+                                            <dt>
+                                                <span>管理責任：</span>
+                                            </dt>
+                                            <dd>
+                                                <select name="management">
+                                                    <option value="-1">不拘</option>
+                                                    <option value="0">無，不接受管理職</option>
+                                                    <option value="1">需管理人數 10 人以下</option>
+                                                    <option value="2">需管理人數 11-20 人</option>
+                                                    <option value="3">需管理人數 21-50 人</option>
+                                                    <option value="4">需管理人數 51-100 人</option>
+                                                    <option value="5">需管理人數 101 人以上</option>
+                                                    <option value="6">需管理人數未定</option>
+                                                </select>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>排除公司：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="tooltip update">
+                                                    <input type="text" name="" placeholder="兩組以上請用,分隔" class="matchset-input-md inline-block--middle mr-4">
+                                                    <a href="#!" class="inline-block--middle" ata-tooltip="「封鎖關鍵字」 → 用於公司找人才設定後會讓求才公司不會搜尋到您的履歷 / 且無法發通知邀約給您。「排除公司」 → 用於1111系統為求職者配對工作由您上面設定的配對條件，再將有相關關鍵字公司的職缺排除。"><i class="jb-df-help" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>排除駕照車輛：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="mb-4">
+                                                    <input class="checkbox-van-inp" id="avoiddrive1" type="checkbox">
+                                                    <label class="checkbox-van-lab" for="avoiddrive1">
+                                                        <span>
+                                                            <svg width="12px" height="10px" viewBox="0 0 12 10">
+                                                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="ml-4">排除需具備「兩輪車輛」駕照及車輛職缺</span>
+                                                    </label>
+                                                </div>
+                                                <div>
+                                                    <input class="checkbox-van-inp" id="avoiddrive2" type="checkbox">
+                                                    <label class="checkbox-van-lab" for="avoiddrive2">
+                                                        <span>
+                                                            <svg width="12px" height="10px" viewBox="0 0 12 10">
+                                                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="ml-4">排除需具備「四輪車輛」駕照及車輛職缺</span>
+                                                    </label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>特殊設定：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="checkbox" id="set1" name="set">
+                                                    <label for="set1">廠商限時回應</label>
+                                                    <input type="checkbox" id="set2" name="set">
+                                                    <label for="set2">外商公司</label>
+                                                    <input type="checkbox" id="set3" name="set">
+                                                    <label for="set3">上市櫃公司</label>
+                                                    <input type="checkbox" id="set4" name="set">
+                                                    <label for="set4">企業實習</label>
+                                                    <input type="checkbox" id="set5" name="set">
+                                                    <label for="set5">研發替代役</label>
+                                                    <input type="checkbox" id="set6" name="set">
+                                                    <label for="set6">接受身障</label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <span>福利制度：</span>
+                                            </dt>
+                                            <dd>
+                                                <div class="choose_wrap">
+                                                    <input type="checkbox" id="welfare1" name="welfare">
+                                                    <label for="welfare1">員工旅遊</label>
+                                                    <input type="checkbox" id="welfare2" name="welfare">
+                                                    <label for="welfare2">供餐福利</label>
+                                                    <input type="checkbox" id="welfare3" name="welfare">
+                                                    <label for="welfare3">交通補助</label>
+                                                    <input type="checkbox" id="welfare4" name="welfare">
+                                                    <label for="welfare4">年終獎金</label>
+                                                    <input type="checkbox" id="welfare5" name="welfare">
+                                                    <label for="welfare5">進修補助</label>
+                                                    <input type="checkbox" id="welfare6" name="welfare">
+                                                    <label for="welfare6">Game當工作</label>
+                                                    <input type="checkbox" id="welfare7" name="welfare">
+                                                    <label for="welfare7">工作獎金</label>
+                                                    <input type="checkbox" id="welfare8" name="welfare">
+                                                    <label for="welfare8">彈性上下班</label>
+                                                    <input type="checkbox" id="welfare9" name="welfare">
+                                                    <label for="welfare9">外語應用</label>
+                                                    <input type="checkbox" id="welfare10" name="welfare">
+                                                    <label for="welfare10">員購優惠</label>
+                                                    <input type="checkbox" id="welfare11" name="welfare">
+                                                    <label for="welfare11">休閒設施</label>
+                                                    <input type="checkbox" id="welfare12" name="welfare">
+                                                    <label for="welfare12">幼兒照護</label>
+                                                    <input type="checkbox" id="welfare13" name="welfare">
+                                                    <label for="welfare13">尾牙或春酒</label>
+                                                    <input type="checkbox" id="welfare14" name="welfare">
+                                                    <label for="welfare14">住宿福利</label>
+                                                    <input type="checkbox" id="welfare15" name="welfare">
+                                                    <label for="welfare15">貸款補助</label>
+                                                    <input type="checkbox" id="welfare16" name="welfare">
+                                                    <label for="welfare16">寵物日</label>
+                                                    <input type="checkbox" id="welfare17" name="welfare">
+                                                    <label for="welfare17">年薪14個月以上</label>
+                                                    <input type="checkbox" id="welfare18" name="welfare">
+                                                    <label for="welfare18">下午茶</label>
+                                                    <input type="checkbox" id="welfare19" name="welfare">
+                                                    <label for="welfare19">生日假</label>
+                                                    <input type="checkbox" id="welfare20" name="welfare">
+                                                    <label for="welfare20">員工聚餐</label>
+                                                    <input type="checkbox" id="welfare21" name="welfare">
+                                                    <label for="welfare21">康樂活動</label>
+                                                    <input type="checkbox" id="welfare22" name="welfare">
+                                                    <label for="welfare22">愛用新鮮人</label>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="center">
+                                    <input class="checkbox-van-inp" id="subscribe" type="checkbox">
+                                    <label class="checkbox-van-lab" for="subscribe">
+                                        <span>
+                                            <svg width="12px" height="10px" viewBox="0 0 12 10">
+                                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                            </svg>
+                                        </span>
+                                        <span class="ml-4">訂閱最新配對工作通知</span>
+                                    </label>
+                                    <div class="btn-foot mt-16">
+                                        <a href="#!" class="btn btn--md">清除資料</a>
+                                        <a href="#!" class="btn btn--md btn--primary">儲存設定</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertisement">
+                        <a href="#!">
+                            <img src="img/dcresume.svg" alt="履歷健診" class="hidden-xs">
+                        </a>
+                    </div>
+                    <div class="conform-box">
+                        符合此配對條件共 <strong class="text--yellow text--20">500</strong> 筆
+                    </div>
+                    <!-- Page-Content End -->
+                </article>
+            </div>
+        </div>
+    </main>
+    <button class="rt-fix-tools df-tools--intro" type="button">
+        <i class="jb-df-customer-feedback" aria-hidden="true"></i>
+        <font>新版介紹</font>
+    </button>
+    <button class="rt-fix-tools df-tool" type="button" onclick="location.href='guideline.html'">
+        <i class="jb-gd-compass-guide" aria-hidden="true"></i>
+        <font>設計規範</font>
+    </button>
+    <button class="rt-fix-tools go-to-top js-go-to" data-type="fixed" data-position='{"bottom": 72,"right": 24}' data-offset-top="400" data-compensation="#header" data-show-effect="zoomIn">
+        <i class="jb-de-au-linear-big"></i>
+        <font>回頂端</font>
+    </button>
+    <!-- Js -->
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- OwlCarousel -->
+    <script src="vender/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- Cropper -->
+    <script src="vender/cropperjs-master/dist/cropper.min.js"></script>
+    <!-- Go Top -->
+    <script src="js/go-to-top.js"></script>
+    <!-- Layer init -->
+    <script src="js/main-popups.js"></script>
+    <!-- Main -->
+    <script src="js/main.min.js"></script>
+    <script>
+        $(function() {
+            memberCenter.sideMenuOpen(2, 3);
+        });
+    </script>
+</body>
+
+</html>

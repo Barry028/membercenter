@@ -1,0 +1,135 @@
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//    >>    Scss 樣式修改說明
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  Q. 如何修改線上的 *.scss 檔案
+
+  (Ex:從瀏覽器開發人員看到樣式表檔名為 _typography.scss )
+
+  ****************************************************
+
+  A. 方法一 (快速調整)：
+  ----------
+  (1) 直接去 [ css/main.css ] 裡面去添加或者調整樣式 (調整完可以直接看到結果)
+
+  (2) 將更新的部分貼給交給能夠重新編譯 Scss 的人員，由該人員將更新的部分加進去 (防止之後重新編譯 Scss 時會將舊檔案蓋掉，所以由此方法)
+
+     方法二：
+  ----------
+  (1) 在 [ scss/ ] 裡面尋找你所要調整的檔案，調整完後重新編譯 [ main.scss ]
+  /** 我是使用 npm gulp 去編譯 Scss **/
+
+  (2) 更新完後一樣需要知會其他管理該網站的設計，防止蓋檔調整後的東西都不見了!
+
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//    >>    Scss 檔案結構
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+scss/
+|– main.scss                ## ** 編譯檔案時請編譯這隻就好 ** ##
+|
+|– animate.scss             ## animation Scss 包
+|
+|– _mixins.scss             ## Mixins 資料夾 內容 引入 ##
+|
+|– helpers/
+|   |– _googlefont.scss     # Google Font 引入
+|   |– _variables.scss      # Variables 變數設定 (所有變數都在此檔案內)
+|   |– _functions.scss      # Function 事件設定
+|   |– _root.scss           # Root 的顏色宣告
+|   |– --------------------------------------------------
+|   |– _base.scss           # animation 設定包 (不用動)
+|   |– _mixins.scss         # animation 設定包 (不用動)
+|   |– _settings.scss       # animation 設定包 (不用動)
+|   |– _rfs.scss            #
+|   ...                   # Etc⋯
+|
+|– base/
+|   |– _reset.scss          # Reset / Normalize 重置樣式
+|   |– _typography.scss     # Typography 文字設定
+|   ...                   # Etc⋯
+|
+|– layout/
+|   |– _grid.scss           # Grid 格線產生
+|   |– _margin.scss         # Margin
+|   |– _padding.scss        # Padding
+|   |– _utilities.scss      # Utilities 排版常用到的東西 例如： display 、 clearfix 等等
+|   |– --------------------------------------------------
+|   |– _breadcrumb.scss     # Breadcrumb 麵包屑
+|   |– _header.scss         # Header 版頭區塊
+|   |– _sidebar.scss        # Sidebar 側邊選單
+|   |– _footer.scss         # Footer 底版
+|   |– _forms.scss          # Form 表單類
+|   ...                    # Etc⋯
+|
+|– components/
+|   |– _adv.Scss            # Adv
+|   |– _alerts.scss         # Alerts
+|   |– _arrows.scss         # Arrows
+|   |– _backgrounds.scss    # Backgrounds
+|   |– _badges.scss         # Badges
+|   |– _boxShadows.scss     # BoxShadows
+|   |– _buttons.scss        # Buttons
+|   |– _cards.scss          # Cards
+|   |– _choose.scss         # Chooses
+|   |– _heading.scss        # Heading
+|   |– _images.scss         # Images
+|   |– _inputs.scss         # Inputs
+|   |– _lists.scss          # List
+|   |– _loading.scss        # Loading
+|   |– _logos.scss          # Logo
+|   |– _masks.scss          # Masks
+|   |– _modals.scss         # Modals
+|   |– _opacitys.scss       # Opacitys
+|   |– _owl.scss            # Owl
+|   |– _paginations.scss    # Pagination
+|   |– _panels.scss         # Panel
+|   |– _roundeds.scss       # Rounded
+|   |– _rtTools.scss        # RtTool
+|   |– _tables.scss         # Tables
+|   |– _tabs.scss           # Tabs
+|   |– _texts.scss          # Texts
+|   |– _toasts.scss         # Toasts
+|   |– _toggles.scss        # Toggles
+|   |– _tooltips.scss       # Tooltips
+|   |– _size.scss           # Size
+|   ...                    # Etc⋯
+|
+|– pages/                   ## 頁面檔案都放在這 ##
+|   |– _applyRecord.scss
+|   |– _uploadPhoto.scss
+|   |– _resume_edit.scss
+|   |– _resume.scss
+|   |– _recommendation.scss
+|   |– _positive.scss
+|   |– _plusEffect.scss
+|   |– _memberPassword.scss
+|   |– _memberEpaper.scss
+|   |– _memberEdit.scss
+|   |– _matchset.scss
+|   |– _industry.scss
+|   |– _index.scss
+|   |– _guideline.scss
+|   |– _companyHistory.scss
+|   |– _collectAll.scss
+|   |– _candidateAlerts.scss
+|   ...                   # Etc⋯
+|
+|– vendors/                   ##  ##
+|   ...                   # Etc⋯
+|
+|– animations/                ##  ##
+|   |– zoom-exit
+|   |– zoom-enter
+|   |– special
+|   |– slide-exit
+|   |– slide-enter
+|   |– rotate-exit
+|   |– rotate-enter
+|   |– lightspeed
+|   |– flippers
+|   |– fade-exit
+|   |– fade-enter
+|   |– bounce-exit
+|   |– bounce-enter
+|   |– attention-seekers
+

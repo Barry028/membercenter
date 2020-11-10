@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#707070;opacity:0}.cls-2{fill:#fee9ee}.cls-3{fill:#d3ebfc}.cls-4{fill:#808fa5}.cls-5{stroke:none}.cls-6{fill:none}
+        </style>
+    </defs>
+    <g id="icon-title-computer" transform="translate(-223 -3279)">
+        <g id="Group_82222" data-name="Group 82222" transform="translate(223 3279)">
+            <g id="Rectangle_22929" class="cls-1" data-name="Rectangle 22929">
+                <path d="M0 0h60v60H0z" class="cls-5"/>
+                <path d="M.5.5h59v59H.5z" class="cls-6"/>
+            </g>
+        </g>
+        <circle id="Ellipse_2001" cx="6.4" cy="6.4" r="6.4" class="cls-2" data-name="Ellipse 2001" transform="translate(225.6 3281.7)"/>
+        <circle id="Ellipse_2000" cx="15.2" cy="15.2" r="15.2" class="cls-3" data-name="Ellipse 2000" transform="translate(248.6 3302.5)"/>
+        <g id="website" transform="translate(229 3277.467)">
+            <g id="Group_83244" data-name="Group 83244" transform="translate(0 8.533)">
+                <g id="Group_83243" data-name="Group 83243">
+                    <path id="Path_88546" d="M44.8 8.533H3.2a3.2 3.2 0 0 0-3.2 3.2v26.4a.8.8 0 0 0 .8.8h46.4a.8.8 0 0 0 .8-.8v-26.4a3.2 3.2 0 0 0-3.2-3.2zm1.6 28.8H1.6v-25.6a1.6 1.6 0 0 1 1.6-1.6h41.6a1.6 1.6 0 0 1 1.6 1.6z" class="cls-4" data-name="Path 88546" transform="translate(0 -8.533)"/>
+                </g>
+            </g>
+            <g id="Group_83246" data-name="Group 83246" transform="translate(0 37.333)">
+                <g id="Group_83245" data-name="Group 83245">
+                    <path id="Path_88547" d="M47.2 315.733H.8a.8.8 0 0 0-.8.8v4a3.2 3.2 0 0 0 3.2 3.2h41.6a3.2 3.2 0 0 0 3.2-3.2v-4a.8.8 0 0 0-.8-.8zm-.8 4.8a1.6 1.6 0 0 1-1.6 1.6H3.2a1.6 1.6 0 0 1-1.6-1.6v-3.2h44.8v3.2z" class="cls-4" data-name="Path 88547" transform="translate(0 -315.733)"/>
+                </g>
+            </g>
+            <g id="Group_83248" data-name="Group 83248" transform="translate(20.8 40.533)">
+                <g id="Group_83247" data-name="Group 83247">
+                    <path id="Path_88548" d="M227.467 349.867h-4.8a.8.8 0 1 0 0 1.6h4.8a.8.8 0 0 0 0-1.6z" class="cls-4" data-name="Path 88548" transform="translate(-221.867 -349.867)"/>
+                </g>
+            </g>
+            <g id="Group_83250" data-name="Group 83250" transform="translate(3.2 11.733)">
+                <g id="Group_83249" data-name="Group 83249">
+                    <path id="Path_88549" d="M74.934 42.667h-40a.8.8 0 0 0-.8.8v25.6a.8.8 0 0 0 .8.8h40a.8.8 0 0 0 .8-.8v-25.6a.8.8 0 0 0-.8-.8zm-.8 25.6h-38.4v-24h38.4v24z" class="cls-4" data-name="Path 88549" transform="translate(-34.134 -42.667)"/>
+                </g>
+            </g>
+            <g id="Group_83252" data-name="Group 83252" transform="translate(11.2 50.133)">
+                <g id="Group_83251" data-name="Group 83251">
+                    <path id="Path_88550" d="M142.667 452.267h-20.8a2.4 2.4 0 0 0 0 4.8h20.8a2.4 2.4 0 1 0 0-4.8zm0 3.2h-20.8a.8.8 0 0 1 0-1.6h20.8a.8.8 0 1 1 0 1.6z" class="cls-4" data-name="Path 88550" transform="translate(-119.467 -452.267)"/>
+                </g>
+            </g>
+            <g id="Group_83254" data-name="Group 83254" transform="translate(14.4 43.733)">
+                <g id="Group_83253" data-name="Group 83253">
+                    <path id="Path_88551" d="M172 390.4c-2.654 0-4-1.884-4-5.6a.8.8 0 0 0-.8-.8h-8a.8.8 0 0 0-.8.8c0 3.716-1.346 5.6-4 5.6a.8.8 0 1 0 0 1.6H172a.8.8 0 1 0 0-1.6zm-13.7 0a7.664 7.664 0 0 0 1.682-4.8h6.444a7.655 7.655 0 0 0 1.682 4.8z" class="cls-4" data-name="Path 88551" transform="translate(-153.601 -384.001)"/>
+                </g>
+            </g>
+            <g id="Group_83256" data-name="Group 83256" transform="translate(28.005 25.333)">
+                <g id="Group_83255" data-name="Group 83255">
+                    <path id="Path_88552" d="M308.945 194.5l-1.931-1.931 1.074-1.074a.8.8 0 0 0-.335-1.332l-8-2.4a.8.8 0 0 0-1 1l2.4 8a.8.8 0 0 0 1.332.336l1.131-1.132 1.931 1.932a.8.8 0 0 0 1.131 0l2.262-2.263a.8.8 0 0 0 .005-1.136zm-2.828 1.7l-1.758-1.759a1.046 1.046 0 0 0-1.477 0l-.578.578-1.588-5.294 5.294 1.588-.619.619a.907.907 0 0 0 0 1.281l1.856 1.856z" class="cls-4" data-name="Path 88552" transform="translate(-298.723 -187.731)"/>
+                </g>
+            </g>
+            <g id="Group_83258" data-name="Group 83258" transform="translate(10.4 14.933)">
+                <g id="Group_83257" data-name="Group 83257">
+                    <path id="Path_88553" d="M134.134 76.8h-22.4a.8.8 0 0 0-.8.8v4a.8.8 0 0 0 .8.8h22.4a.8.8 0 0 0 .8-.8v-4a.8.8 0 0 0-.8-.8zm-.8 4h-20.8v-2.4h20.8z" class="cls-4" data-name="Path 88553" transform="translate(-110.934 -76.8)"/>
+                </g>
+            </g>
+            <g id="Group_83260" data-name="Group 83260" transform="translate(13.6 23.733)">
+                <g id="Group_83259" data-name="Group 83259">
+                    <path id="Path_88554" d="M152.267 170.667h-6.4a.8.8 0 0 0-.8.8v3.2a.8.8 0 0 0 .8.8h6.4a.8.8 0 0 0 .8-.8v-3.2a.8.8 0 0 0-.8-.8zm-.8 3.2h-4.8v-1.6h4.8z" class="cls-4" data-name="Path 88554" transform="translate(-145.067 -170.667)"/>
+                </g>
+            </g>
+            <g id="Group_83262" data-name="Group 83262" transform="translate(10.4 14.933)">
+                <g id="Group_83261" data-name="Group 83261">
+                    <path id="Path_88555" d="M134.134 76.8h-22.4a.8.8 0 0 0-.8.8v15.2a.8.8 0 0 0 .8.8h19.045a.8.8 0 0 0 .766-1.03l-1.013-3.377L133.9 90.2a.8.8 0 0 0 1.03-.766V77.6a.8.8 0 0 0-.796-.8zm-.8 11.563l-3.766-1.13a.8.8 0 0 0-1 1L129.7 92h-17.17V78.4h20.8z" class="cls-4" data-name="Path 88555" transform="translate(-110.934 -76.8)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

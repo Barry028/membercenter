@@ -1,0 +1,20 @@
+[
+{
+    "pos": "1-1-1",
+    "type": "content",
+    "cnt": [
+    {
+        "txt": "葉爾欽未與國會磋商，即自行頒布政令以恢復憲法秩序，師出有名，揮兵車臣，其動機至明，一方面可藉機懲罰這個伊斯蘭教小國，殺雞儆猴；另一方面可轉移國內經濟每況愈下的窘境，敉平車臣獨立運動，對大俄羅斯民族主義有所交代，有助拉高其逐漸下降的聲望。如此做法，一舉兩得，何樂不為！？但是葉氏始料未及的「車臣效應」，卻是得不償失。",
+        "align": "center"
+    }]
+},
+{
+    "pos": "1-1-2",
+    "type": "link",
+    "cnt": [
+    {
+        "url": "https://www.thenewslens.com/article/122945?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheNewsLens+%28The+News+Lens+%E9%97%9C%E9%8D%B5%E8%A9%95%E8%AB%96%E7%B6%B2%29",
+        "txt": "《失序年代》：葉爾欽錯估形勢出兵車臣，印證俄羅斯泱泱大國虛有其表",
+        "color": "blue"
+    }]
+}]

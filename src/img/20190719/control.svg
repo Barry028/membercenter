@@ -1,0 +1,11 @@
+<svg id="control" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24508" data-name="Rectangle 24508" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99810" data-name="Path 99810" d="M9.37,13.35a3.75,3.75,0,0,0-4.54,2.9H2.75A.76.76,0,0,0,2,17H2a.76.76,0,0,0,.75.75H4.83a3.75,3.75,0,1,0,4.54-4.4Zm-.87,5.9A2.25,2.25,0,1,1,10.75,17,2.25,2.25,0,0,1,8.5,19.25Z" fill="#fff"/>
+    <path id="Path_99811" data-name="Path 99811" d="M18.67,6.25a3.75,3.75,0,1,0,0,1.5h2.58A.76.76,0,0,0,22,7h0a.76.76,0,0,0-.75-.75ZM15,9.25A2.25,2.25,0,1,1,17.25,7,2.25,2.25,0,0,1,15,9.25Z" fill="#fff"/>
+    <rect id="Rectangle_24509" data-name="Rectangle 24509" width="8" height="1.5" rx="0.75" transform="translate(2 6.25)" fill="#fff"/>
+    <rect id="Rectangle_24510" data-name="Rectangle 24510" width="8.51" height="1.5" rx="0.75" transform="translate(13.49 16.25)" fill="#fff"/>
+  </g>
+</svg>

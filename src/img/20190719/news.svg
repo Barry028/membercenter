@@ -1,0 +1,12 @@
+<svg id="news" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24580" data-name="Rectangle 24580" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99963" data-name="Path 99963" d="M19.78,2.25H7.18A.75.75,0,0,0,6.43,3V20.25H5.72A.76.76,0,0,1,5,19.5V7A.75.75,0,0,0,3.5,7V19.5a2.25,2.25,0,0,0,2.25,2.25H19.78a.76.76,0,0,0,.75-.75V3a.76.76,0,0,0-.75-.75Zm-.75,18H7.93V3.75H19Z" fill="#fff"/>
+    <rect id="Rectangle_24581" data-name="Rectangle 24581" width="2.5" height="2.5" rx="0.25" transform="translate(9.53 5)" fill="#fff"/>
+    <path id="Path_99964" data-name="Path 99964" d="M16.78,9.25h-6.5a.75.75,0,1,0,0,1.5h6.5a.75.75,0,0,0,0-1.5Z" fill="#fff"/>
+    <path id="Path_99965" data-name="Path 99965" d="M14.27,7h2.51a.75.75,0,1,0,0-1.5H14.27a.75.75,0,0,0,0,1.5Z" fill="#fff"/>
+    <path id="Path_99966" data-name="Path 99966" d="M16.78,12.25h-6.5a.75.75,0,1,0,0,1.5h6.5a.75.75,0,0,0,0-1.5Z" fill="#fff"/>
+  </g>
+</svg>

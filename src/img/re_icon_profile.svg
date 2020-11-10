@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-1{fill:#b7e2f6}.cls-2{fill:#1c84c6}
+        </style>
+    </defs>
+    <g id="re_icon_profile" transform="translate(-6820 4929)">
+        <circle id="Ellipse_2024" cx="14" cy="14" r="14" class="cls-1" data-name="Ellipse 2024" transform="translate(6820 -4929)"/>
+        <g id="driver-license" transform="translate(6824.667 -4922)">
+            <g id="Group_83441" data-name="Group 83441">
+                <path id="Path_88600" d="M17.111 51.2H1.556A1.56 1.56 0 0 0 0 52.756v10.888A1.56 1.56 0 0 0 1.556 65.2h15.555a1.56 1.56 0 0 0 1.556-1.556V52.756a1.56 1.56 0 0 0-1.556-1.556zM5.444 54.311a1.556 1.556 0 1 1-1.555 1.556 1.555 1.555 0 0 1 1.555-1.556zm3.111 7.778H2.333v-1.555a1.556 1.556 0 0 1 1.556-1.555H7a1.555 1.555 0 0 1 1.556 1.556zm7.778 0h-6.222v-1.556h6.222zm0-3.111h-6.222v-1.556h6.222zm0-3.111H8.556v-1.556h7.778z" class="cls-2" data-name="Path 88600" transform="translate(0 -51.2)"/>
+            </g>
+        </g>
+    </g>
+</svg>

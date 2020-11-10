@@ -1,0 +1,285 @@
+@charset "utf-8";
+/**
+ * ==   Components > Modal
+ */
+
+.modal-btn-box .layui-layer-close {
+  position: relative;
+}
+
+.modal-content {
+  padding: 1.5rem 1.25rem;
+
+  hr {
+    opacity: .44;
+  }
+
+  p {
+    font-size: .9375rem;
+
+    &.small {
+      font-size: .8125rem;
+    }
+  }
+}
+
+.modal_form {
+  line-height: 2.5;
+  padding: .5rem .75rem;
+
+  .resume-caption {
+    font-size: .875rem;
+    line-height: 1;
+    margin-left: 1.875rem;
+  }
+}
+
+.modal-content {
+  &.verification {
+    .md-info {
+      display: inline-block;
+      width: 20%;
+    }
+
+    .md-input {
+      display: inline-block;
+      width: 80%;
+    }
+
+    .error-txt {
+      border-radius: .25rem;
+      font-size: .75rem;
+      color: #fff;
+      background-color: #f96e5b;
+      display: inline-block;
+      float: right;
+    }
+
+    .success-txt {
+      border-radius: .25rem;
+      font-size: .75rem;
+      color: #fff;
+      background-color: #1cc65e;
+      display: inline-block;
+      float: right;
+    }
+
+    .show-txt {
+      padding: .25rem .5rem;
+    }
+  }
+
+  .verification-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.modal-btn-box {
+  text-align: right;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-top: 1px solid #ebebeb;
+}
+
+.modal-content {
+  .collect-inputarea {
+    width: 100%;
+    height: 100px;
+  }
+
+  .text-clac {
+    font-size: .875rem;
+    text-align: right;
+  }
+
+  .missing-area {
+    width: 100%;
+    height: 4rem;
+  }
+
+  .missing-header {
+    background: #e9f0f5;
+    margin: -.5rem 0 0;
+    padding: .75rem 1rem;
+
+    &.miss {
+      background: #f5f0e9;
+    }
+  }
+
+  &.missing {
+    dl {
+      font-size: .875rem;
+      margin: 0 0 .375rem;
+
+      &:after {
+        content: '';
+        display: table;
+        display: block;
+        clear: both;
+      }
+    }
+
+    dt {
+      color: #6c757d;
+      float: left;
+    }
+
+    dd {
+      margin: 0;
+    }
+  }
+}
+
+.missing-check {
+  background: #ffe8e0;
+  position: absolute;
+  top: 1.25rem;
+  right: 2rem;
+  padding: .25rem 1.25rem;
+}
+
+.modal-content {
+  .missing-content {
+    padding: .75rem 1rem 0;
+
+    p {
+      line-height: 1.75;
+    }
+  }
+
+  .search-block {
+    font-size: 0;
+
+    input, button {
+      vertical-align: middle;
+    }
+
+    input[type="text"] {
+      border-radius: 2px 0 0 2px;
+      width: 18rem;
+    }
+
+    button {
+      border-radius: 0 2px 2px 0;
+    }
+  }
+
+  .search-content {}
+}
+
+/*--    Modal Search Block   ===================*/
+
+.search-content {
+  .result-hd {
+    background-color: #F2F2F2;
+    font-size: .9375rem;
+    padding: .5rem;
+  }
+
+  .search-result {
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    padding: 0 1rem;
+    min-height: 10rem;
+    overflow-y: scroll;
+
+    ul {
+      border-bottom: 1px solid #e6e6e6;
+      font-size: 0;
+      padding: .5rem;
+    }
+
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      width: 25%;
+    }
+
+    a {
+      font-size: 0.9375rem;
+    }
+  }
+}
+
+/*--    Search Qa   ===================*/
+
+.modal-content .search-qa {
+  margin: 1rem 1rem 0;
+
+  ul {
+    background: #fafafa;
+    padding: .5rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+
+    > {
+      p {}
+
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
+/*--    Modal Epaper    ===================*/
+
+.epaper-modal-title {
+  border-bottom: 1px solid #eee;
+  margin: 1rem 1rem 0;
+  padding: 0 0 .5rem;
+
+  a {
+    font-size: .875rem;
+    font-weight: normal;
+    padding: 0 0 0 1rem;
+  }
+}
+
+.epaper-modal-content {
+  padding: .5rem 1rem 1rem;
+
+  p {
+    font-size: .9375rem;
+    line-height: 1.8;
+    padding: .25rem 0;
+
+    > font {
+      color: #b1b6bc;
+    }
+  }
+}
+
+/*--    Resume Modal   ===================*/
+
+.academic-list {
+  padding: .5rem 0;
+
+  li {
+    border: #ebebeb 1px solid;
+    font-size: .875rem;
+    padding: .75rem .5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .btn {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+
+    i {
+      font-size: 1.125rem;
+      vertical-align: middle;
+    }
+
+    span {
+      vertical-align: middle;
+    }
+  }
+}

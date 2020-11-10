@@ -1,0 +1,11 @@
+<svg id="more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24576" data-name="Rectangle 24576" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <circle id="Ellipse_2195" data-name="Ellipse 2195" cx="1.25" cy="1.25" r="1.25" transform="translate(5.5 10.75)" fill="#fff"/>
+    <circle id="Ellipse_2196" data-name="Ellipse 2196" cx="1.25" cy="1.25" r="1.25" transform="translate(10.75 10.75)" fill="#fff"/>
+    <circle id="Ellipse_2197" data-name="Ellipse 2197" cx="1.25" cy="1.25" r="1.25" transform="translate(16 10.75)" fill="#fff"/>
+    <path id="Path_99955" data-name="Path 99955" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18.5A8.5,8.5,0,1,1,20.5,12,8.5,8.5,0,0,1,12,20.5Z" fill="#fff"/>
+  </g>
+</svg>

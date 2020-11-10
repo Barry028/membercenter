@@ -1,0 +1,247 @@
+@charset "utf-8";
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Components > Badges
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.badge {
+    border-radius: $border-radius--px;
+    color: $white;
+    font-size: $font-size-xxs;
+    padding: .125rem .375rem;
+    transition: $transition-base;
+    user-select: none;
+
+    @each $color, $value in $colors {
+        &.badge--#{$color} {
+            @include badge-variant($value);
+        }
+    }
+}
+
+.ribbon {
+    color: $white;
+    font-size: $font-size-xs;
+    position: absolute;
+    top: -.25rem;
+    padding-top: .75rem;
+    text-align: center;
+    user-select: none;
+    width: 2.25rem;
+    z-index: 1;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -.25rem;
+        transform: matrix(1, 0, -1, 1, 2, 0);
+        background-color: $grey;
+        width: 100%;
+        height: .25rem;
+        z-index: -1;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: -1.25rem;
+        left: 0;
+        border-style: solid;
+        border-width: .875rem 1.125rem;
+        border-color: $black $black transparent $black;
+        z-index: -1;
+    }
+
+    &.ribbon-rt {
+        right: .5rem;
+    }
+
+    &.ribbon-lt {
+        left: 1rem;
+    }
+
+    &.ribbon--blue {
+        padding-top: .5rem;
+
+        &:before {
+            background-color: desaturate($primary, 45%);
+        }
+
+        &:after {
+            border-color: saturate($primary, 10%) saturate($primary, 10%) transparent saturate($primary, 10%);
+        }
+    }
+
+    &.ribbon--orange {
+        padding-top: .5rem;
+
+        &:before {
+            background-color: darken($negative, 25%);
+        }
+
+        &:after {
+            border-color: desaturate($negative, 10%) desaturate($negative, 10%) transparent desaturate($negative, 10%);
+        }
+    }
+}
+
+.status-label {
+    border-radius: $border-radius--px;
+    font-size: .75rem;
+    padding: .125rem .625rem;
+    user-select: none;
+
+    &.label--open {
+        background-color: $primary;
+        color: $white;
+    }
+
+    &.label--unfinish {
+        background-color: $whitesmoke;
+        color: $lightgrey;
+    }
+
+    &.label--close {
+        background-color: $zircongrey;
+        color: $white;
+    }
+}
+
+.flag {
+    border-width: 0.75rem 0.75rem 0.75rem 2.5rem;
+    border-style: solid;
+    display: inline-block;
+    user-select: none;
+    z-index: 1;
+
+    span {
+        color: #fff;
+        font-size: 0.75rem;
+        position: absolute;
+        left: -1.875rem;
+        top: -0.5rem;
+        z-index: 1;
+    }
+
+    &--lg {
+        border-width: .875rem .875rem .875rem 3rem;
+
+        span {
+            font-size: $font-size-xs;
+            left: -2.25rem;
+            top: -0.5rem;
+        }
+    }
+
+    @each $color, $value in $colors {
+        &.flag--#{$color} {
+            @include flag-variant($value);
+        }
+    }
+}
+
+
+.fulltime-label,
+.parttime-label {
+    color: #fff;
+    clear: both;
+    font-size: 15px;
+    font-weight: normal;
+    height: 30px;
+    line-height: 1.25;
+    padding: .375rem 0px 0 0;
+    position: absolute;
+    top: -4px;
+    left: 1.75rem;
+    user-select: none;
+    z-index: 1;
+}
+
+.fulltime-label {
+    background: #3678d9;
+}
+
+.parttime-label {
+    background: #F88663;
+}
+
+.fulltime-label {
+    &:before, &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+.parttime-label {
+    &:before, &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+.fulltime-label:before, .parttime-label:before {
+    left: -15px;
+    top: 0;
+    -webkit-transform: matrix(1, 0, -1, 1, 2, 0);
+    -ms-transform: matrix(1, 0, -1, 1, 2, 0);
+    transform: matrix(1, 0, -1, 1, 2, 0);
+    width: 100%;
+    height: 4px;
+}
+
+.fulltime-label:after, .parttime-label:after {
+    border: 1px solid transparent;
+    border-width: 10px 17px;
+    bottom: -30px;
+    top: 0;
+    left: -10px;
+}
+
+.fulltime-label {
+    &:before {
+        background: #465f84;
+    }
+
+    &:after {
+        border-color: #3678d9 #3678d9 transparent #3678d9;
+    }
+}
+
+.parttime-label {
+    &:before {
+        background: #ae6b57;
+    }
+
+    &:after {
+        border-color: #ff9a7b #ff9a7b transparent #ff9a7b;
+    }
+}
+
+// .label--open,
+// .label--unfinish,
+// .label--close,
+// .label--open--1hr {
+//     border-radius: 2px;
+//     font-size: 12px;
+//     padding: 3px 10px;
+//     user-select: none;
+// }
+
+// .label--open {
+//     background: #1c84c6;
+//     color: #fff;
+// }
+
+// .label--unfinish {
+//     background: #ECF0F1;
+//     color: #b1b6bc;
+// }
+
+// .label--close {
+//     background: #b1b6bc;
+//     color: #fff;
+// }

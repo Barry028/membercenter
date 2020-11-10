@@ -1,0 +1,338 @@
+
+
+// > .collect_corp 內容
+.collect_corp {
+	font-size: 1rem;
+
+	&-hd {
+		height: 60px;
+		background-color: #e7f2f9;
+
+		.panel_row {
+			height: 100%;
+		}
+
+		.panel_aside, .panel_main {
+			height: 100%;
+		}
+
+		&-title {
+			// border-right: 1px solid rgba(#000, 0.08);
+			display: flex;
+			align-items: center;
+			padding-bottom: 0;
+
+			.ie & {
+				display: block;
+			}
+
+
+			.title {
+				width: 100%;
+				text-align: center;
+				color: #34495e;
+				@include remCalc(font-size, 18);
+
+				.ie & {
+					@include absolute(50%, $L:0);
+					transform: translateY(-50%);
+				}
+
+			}
+		}
+
+		&-ctrl {
+			// @extend %sline;
+		}
+
+
+		.collect_corp-controller {
+			@include padding(x, 1rem);
+		}
+		.check_wrap {
+			padding-left: 1rem;
+		}
+	}
+
+	&-controller {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+
+		.check_wrap {
+			display: flex;
+			align-items: center;
+
+			&-label {
+				margin-right: 0.3rem;
+				// display: inline-block;
+			}
+		}
+
+		&-btn {
+			// display: inline-block;
+			// @include padding(y, 0.3rem);
+			border: none;
+			background-color: transparent;
+			cursor: pointer;
+			color: $color-primary;
+			// line-height: 2.13;
+			letter-spacing: 0.45px;
+
+			transition: all 0.3s $easeInOutCubic3;
+
+			&:first-of-type {
+				border-right: 1px solid $color-lightgrey;
+			}
+
+			&:hover {
+				color: darken($color-primary, 20%);
+			}
+		}
+
+
+		.ie & {
+			display: block;
+			@extend .cf;
+			padding-top: 20px;
+
+			.check_wrap {
+				display: block;
+				float: left;
+
+				&-label {
+					float: left;
+				}
+			}
+
+			&-btn {
+				float: left;
+			}
+
+			.edit-email {
+				float: right;
+			}
+		}
+
+
+	}
+
+
+	&-bd {
+		&-aside {
+			position: relative;
+			z-index: 1;
+			// border-right: 1px solid rgba(#000, 0.08);
+			padding-right: 0;
+		}
+
+		&-cnt {
+			// @extend %sline;
+			@extend .cf;
+			padding-bottom: 1rem;
+			min-height: 300px;
+		}
+	}
+
+	&-list {
+		padding: 1rem;
+	}
+
+	&-item {
+		padding: 1rem;
+		margin-bottom: 1rem;
+		border-radius: 4px;
+		border: 1px solid #ebebeb;
+
+		> .inner {
+			display: flex;
+			align-items: center;
+
+			.ie & {
+				position: relative;
+				display: block;
+				width: 100%;
+				padding-left: 25px;
+			}
+		}
+
+		.collect_corp-controller {
+
+			.ie & {
+				@include absolute(0%, $L:0);
+				padding-top: 0;
+			}
+		}
+
+		.check_wrap {
+			.ie & {
+				@include absolute(50%, $L:0);
+				transform: translateY(-50%);
+			}
+		}
+		.collect_corp-item-cnt {
+			.ie & {
+
+			}
+		}
+
+		&-cnt {
+			padding-left: 1rem;
+			@extend .cf;
+			flex: 1 1 auto;
+			// display: flex;
+			// align-items: center;
+
+			.collect_pic {
+				float: left;
+				width: 22%;
+				// flex: 0 1 23%;
+				// height: 68px;
+
+				// @include padding(x, 1rem);
+
+				// .pic {
+				// 	display: flex;
+				// 	align-items: center;
+				// 	width: 100%;
+				// 	height: 100%;
+				// 	border: 1px solid rgba(#000, 0.12);
+				// 	@include padding(x, 13px);
+
+				// }
+
+				.pic {
+					position: relative;
+					width: 100%;
+					height: 0;
+					padding-bottom: (68 / 122) * 100%;
+					border: 1px solid rgba(#000, 0.12);
+
+					overflow: hidden;
+
+					img {
+						@include absolute(50%, $L:50%);
+						transform: translate(-50%, -50%);
+						max-width: 100%;
+						height: auto;
+					}
+				}
+			}
+
+			.collect_txt {
+				float: left;
+				width: 53%;
+				padding-top: 0.5rem;
+				// flex: 1 1 53%;
+				@include padding(x, 1rem);
+				.date {
+					margin-bottom: 4px;
+					@include remCalc(font-size, 13);
+					color: $color-lightgrey;
+				}
+				.name {
+					@include ellipsis(85%);
+					vertical-align: middle;
+					@include remCalc(font-size, 18);
+					color: $color-primary;
+				}
+				.note {
+					width: 20px;
+					height: 20px;
+
+					cursor: pointer;
+				}
+			}
+			.collect_ctrl {
+				float: left;
+				width: 25%;
+				// flex: 0 1 25%;
+
+				.check_wrap-label {
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
+			    	@include padding(y, 4px);
+				    margin-bottom: 4px;
+				    border-radius: 4px;
+					background-color: $color-lightgrey;
+					color: #fff;
+
+					.ie & {
+						display: block;
+						padding-left: 8 + 16px + 3;
+					}
+				}
+
+				.check_mark {
+					width: 16px;
+					height: 16px;
+					border-radius: 50%;
+					border: none;
+					margin-right: 5px;
+					background-color: $color-grey;
+
+					&:after {
+						border-color: #fff;
+						border-width: 1px;
+					}
+
+					.ie & {
+						@include absolute(50%, $L:8px);
+						transform: translateY(-50%);
+					}
+				}
+				.receive_wrap {
+					&.js-checked {
+						background-color: $color-primary;
+					}
+				}
+
+				.check_input {
+
+					&:checked + .check_mark {
+						background-color: $color-secondary;
+						&:after {
+							opacity: 1;
+						}
+					}
+				}
+			}
+
+			.job_vacancies {
+				display: block;
+				@include padding(x, 0);
+			}
+		}
+
+		&-txt {
+			padding-left: 1rem;
+		}
+	}
+}
+
+%psudoEl {
+	content: '';
+	display: block;
+	@include absolute(0, $L:0);
+}
+
+// @keyframes activeMark{
+//     0%{
+//         width:0;
+//     }
+//     100%{
+//         width:5px;
+//     }
+// }
+
+// > .collect_category 分類
+.collect_category {
+
+	&-add {
+		display: block;
+		width: 90%;
+		margin: auto;
+	}
+}

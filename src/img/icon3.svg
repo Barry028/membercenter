@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon3" transform="translate(3587 -15911)">
+    <rect id="Rectangle_23839" data-name="Rectangle 23839" width="48" height="48" transform="translate(-3587 15911)" fill="#34495e" opacity="0"/>
+    <g id="browse_podcasts" transform="translate(-3581 15915)">
+      <circle id="Ellipse_40" data-name="Ellipse 40" cx="4.5" cy="4.5" r="4.5" transform="translate(13.5 13.5)" fill="#34495e"/>
+      <g id="Group_753" data-name="Group 753" transform="translate(13.5 25.5)">
+        <g id="Group_752" data-name="Group 752">
+          <path id="Path_851" data-name="Path 851" d="M20.951,24.149h-.016A4.433,4.433,0,0,0,21,23.5a4.5,4.5,0,0,0-9,0,4.432,4.432,0,0,0,.066.65h-.017l.041.238,0,.028,1.428,8.441h.014a2.983,2.983,0,0,0,5.928,0h.014l1.428-8.441,0-.028Z" transform="translate(-12 -19)" fill="#34495e"/>
+        </g>
+      </g>
+      <path id="Path_852" data-name="Path 852" d="M29.3,35.96a18,18,0,1,0-16.606,0" transform="translate(-3 -2)" fill="none" stroke="#34495e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_853" data-name="Path 853" d="M27.335,26.621a12,12,0,1,0-16.671,0" transform="translate(-1 0)" fill="none" stroke="#34495e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

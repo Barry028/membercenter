@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 會員中心 - '編輯我的第 1 個履歷表'</title>
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/iconmoon/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="js/loading.js"></script>
+    <script src="../ckeditor/ckeditor.js" type="text/javascript"></script>
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <main class="wrapper">
+        <!-- Header Star -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header">
+                        <div class="header-left">
+                            <a id="burger" class="toggle-menu" href="javascript:;">
+                                <span></span>
+                            </a>
+                            <a href="index.html" class="header-logo">
+                                <img src="img/jobbank-logo.svg" alt="1111-會員中心">
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <div class="searchlist">
+                                <a href="javascript:;" class="btn btn--watergrey opt--84" id="searchLog">
+                                    <i class="jb-df-seo-global-search"  aria-hidden="true"></i>
+                                    搜尋紀錄
+                                </a>
+                                <div class="search-log" id="searchLogCnt">
+                                    <div class="search-log-title">最近搜尋紀錄
+                                        <a href="javascript:;" class="close-btn" id="searchLogColse">
+                                            <i class="jb-de-close-s" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                    <div class="search-log-content">
+                                        <ul>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                                <a href="javascript:;">uX</a>
+                                                <a href="javascript:;">UiuX</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找公司</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                        </ul>
+                                        <div class="search-log-footer">
+                                            <a href="javascript:;" class="btn btn--border--danger btn--xs">
+                                                <i class="jb-db-clear mr-4" aria-hidden="true"></i>清除搜尋紀錄
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-bar-box">
+                                <div class="search-bar">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <input type="text" name="keywords" value="" placeholder="請輸入關鍵字">
+                                            <i class="icon-search search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="city" value="" placeholder="請選擇縣市區域">
+                                            <i class="icon-area search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="duty" value="" placeholder="請選擇職務類別">
+                                            <i class="icon-job search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <i class="jb-df-search"></i>
+                                            <input type="button" name="" value="找工作" class="btn btn--primary btn--block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        <div class="main">
+            <div class="content">
+                <!-- Side Start -->
+                <aside class="side-nav resume-page">
+                    <div class="side-nav-menu">
+                        <div class="profile-box">
+                            <div class="profile-box-lt">
+                                <figure class="profile-pic">
+                                    <img src="img/profile.png" alt="profile" class="profile">
+                                    <i class="icon-camera" aria-hidden="true"></i>
+                                    <figcaption>
+                                        <div class="upload">
+                                            <i class="icon-camera" aria-hidden="true"></i>上傳照片
+                                        </div>
+                                    </figcaption>
+                                    <a href="javascript:;" class="UploadPhoto"></a>
+                                </figure>
+                            </div>
+                            <div class="profile-box-rt">
+                                <div class="name">天母克里斯伊凡</div>
+                                <div class="age">
+                                    <strong>27</strong>
+                                    <span>歲</span>
+                                </div>
+                                <dl>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dt class="inline-block--middle not-verify">
+                                        <label class="verify-tag" data-tooltip="您的手機尚未認證！" data-flow="right">
+                                            <i class="jb-df-appliances-smartphone"></i>
+                                            <font>未認證</font>
+                                        </label>
+                                    </dt>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dd class="inline-block--middle">
+                                        <label class="verify-tag" data-tooltip="您的手機已認證！" data-flow="right">
+                                            <i class="jb-df-mail-envelope"></i>
+                                            <font>已認證</font>
+                                        </label>
+                                    </dd>
+                                </dl>
+                                <div class="settip">
+                                    <a class="btn btn--border--secondary btn--sm setting-btn">個人設定</a>
+                                    <div class="setting-tip">
+                                        <h3>
+                                            <!-- 九大職能星 圖片 -->
+                                            <!-- <embed src="img/assessment/mercury.svg" alt="Mercury水星" /> -->
+                                            <!-- <embed src="img/assessment/neptune.svg" alt="Neptune海王星" /> -->
+                                            <!-- <embed src="img/assessment/pluto.svg" alt="Pluto冥王星" /> -->
+                                            <!-- <embed src="img/assessment/Venus.svg" alt="Venus金星" /> -->
+                                            <!-- <embed src="img/assessment/Mars.svg" alt="Mars火星" /> -->
+                                            <!-- <embed src="img/assessment/Saturn.svg" alt="Saturn土星" /> -->
+                                            <!-- <embed src="img/assessment/Jupiter.svg" alt="Jupiter木星" /> -->
+                                            <!-- <embed src="img/assessment/earth.svg" alt="Earth地球" /> -->
+                                            <embed src="img/assessment/uranus.svg" alt="Uranus天王星" />
+                                            天王星 研究型 66%
+                                        </h3>
+                                        <!-- 超過183天請顯示立即重測 -->
+                                        <!-- <a href="#!"> [立即重測] </a> -->
+                                        <a href="javascript:;"> [測驗報告] </a>
+                                        <dl>
+                                            <dt>會員編號</dt>
+                                            <dd>091234567</dd>
+                                            <dt>會員姓名</dt>
+                                            <dd>天母克里斯伊凡</dd>
+                                            <dt>手機號碼</dt>
+                                            <dd>0987654321</dd>
+                                            <dt>電子郵件</dt>
+                                            <dd>barry@face124.com</dd>
+                                            <dt>聯絡時間</dt>
+                                            <dd>09:00 - 22:00</dd>
+                                        </dl>
+                                        <div class="footer">
+                                            <a href="#!" class="btn btn--border--secondary btn--sm">編輯個人資料</a>
+                                            <a href="#!" class="btn btn--border--secondary btn--sm">修改密碼</a>
+                                            <a href="#!" class="btn btn--border--negative btn--sm">封鎖設定</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-list">
+                            <div class="resume-heading">
+                                <a href="javascript:;" class="title">
+                                    <i class="jb-mn-resume" aria-hidden="true"></i>
+                                    <font class="align-middle">履歷總覽</font>
+                                </a>
+                                <a href="javascript:;" class="add-resume" title="新增履歷">
+                                    <i class="jb-df-add-rectangular" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">我的第 1 個履歷</a>
+                                    <span class="status-label label--open">開啟中</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 2 個履歷</a>
+                                    <span class="status-label label--unfinish">未完成</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 3 個履歷</a>
+                                    <span class="status-label label--close">關閉中</span>
+                                </li>
+                            </ul>
+                            <p class="upload-date"><i class="jb-df-calendar-schedule-calendar"></i>履歷最後更新日：2018/08/31 18:00</p>
+                        </div>
+                    </div>
+                    <ul class="menu-list" id="mainMenu">
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-home"></i>
+                                <span>會員中心首頁</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-resume"></i>
+                                <span>履歷管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li class="">
+                                    <a href="resume_list.html">
+                                        <i class="menu-icon"></i>
+                                        <span>履歷總覽</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="resume_video.html">
+                                        <i class="menu-icon"></i>
+                                        <span>影音履歷</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="plus_effect.html">
+                                        <i class="menu-icon"></i>
+                                        <span>加分亮點</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="recommendation.html">
+                                        <i class="menu-icon"></i>
+                                        <span>自我推薦函</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-hiring"></i>
+                                <span>求職管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="candidate_alerts_inbox.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業通知</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="company_history.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業瀏覽紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="apply_record.html">
+                                        <i class="menu-icon"></i>
+                                        <span>主動應徵紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="matchset.html">
+                                        <i class="menu-icon"></i>
+                                        <span>配對工作</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_corp.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_job.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的職缺</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-point"></i>
+                                <span>紅利專區</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>會員紅利管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利領取紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利兌換紀錄</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-account"></i>
+                                <span>帳號管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="member_edit.html">
+                                        <i class="menu-icon"></i>
+                                        <span>會員資料</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_password.html">
+                                        <i class="menu-icon"></i>
+                                        <span>變更密碼</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_epaper.html">
+                                        <i class="menu-icon"></i>
+                                        <span>電子報管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="industry.html">
+                                        <i class="menu-icon"></i>
+                                        <span>封鎖產業及公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="positive.html">
+                                        <i class="menu-icon"></i>
+                                        <span>守約會員管理</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="icon-m-rocket"></i>
+                                <span>求職秘笈</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="#"><i class="menu-icon"></i>
+                                        <span>XXXXXX</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="double-line"></div>
+                    <div class="side-advertising-box">
+                        <figure>
+                            <div class="mask-assessment"></div>
+                            <figcaption>
+                                <img src="img/assessment-white.svg" alt="九大職能星">
+                                <span>九大職能星</span>
+                            </figcaption>
+                            <p>找出您的職能類型！</p>
+                            <img src="img/astronaut.svg" alt="astronaut" class="astronaut">
+                            <a href="javascript:;" class="btn btn--yellow btn--sm">立即測驗</a>
+                        </figure>
+                        <p class="footer"><a href="#!" class="text--black">幫助中心</a> | <a href="#!" class="text--black"> 線上客服</a></p>
+                    </div>
+                </aside>
+                <!-- Side End -->
+                <aside class="resume-sidebar" id="resume_nav">
+                    <div class="resume-sidebar-header">
+                        <a class="resume-menu inline-block--middle" href="#!">
+                            <span></span>
+                        </a>
+                        <font class="inline-block--middle">目前所在：編輯履歷</font>
+                    </div>
+                    <div class="resume-box">
+                        <div class="edit_line">
+                            <span class="edit_input">我的第1個履歷表</span>
+                            <i class="jb-df-compose edit" aria-hidden="true"></i>
+                        </div>
+                        <div class="resume-status">
+                            <span>狀態：</span>
+                            <div class="toggle">
+                                　<input type="checkbox" class="toggle-checkbox" checked="">
+                                　<div class="knobs"></div>
+                                　<div class="layer"></div>
+                            </div>
+                            <a href="#!" title="預覽 下載 列印" class="btn">預覽 下載 列印</a>
+                        </div>
+                    </div>
+                    <ul class="menu-list-resume">
+                        <h4 class="menu-title">基本求職資料</h4>
+                        <li class="active mb-4">
+                            <a href="#personal_info">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-profile bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle">個人資料</span>
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#academic_info">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-education bonus-icon"></i></div>
+                                <span class="inline-block--middle">學歷資料</span>
+                            </a>
+                            <span class="status-label label--unfinish">未完成</span>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#condition">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-condition bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle">應徵條件</span>
+                            </a>
+                            <span class="status-label label--unfinish">未完成</span>
+                        </li>
+                        <li class="">
+                            <a href="#job_tenure">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-total bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle">工作總年資</span>
+                            </a>
+                            <span class="status-label label--unfinish">未完成</span>
+                        </li>
+                        <h4 class="menu-title">個人加分項目</h4>
+                        <li class="dashe-li mb-4">
+                            <a class="big-plus--btn" href="#work_experience">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-job bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle">工作經歷</span>
+                            </a>
+                        </li>
+                        <li class="dashe-li mb-4">
+                            <a class="big-plus--btn" href="#language_skills">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-language bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle">語言能力</span>
+                            </a>
+                        </li>
+                        <li class="dashe-li mb-4">
+                            <a class="big-plus--btn" href="#skill_certificate">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-skill bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle">技能證照</span>
+                            </a>
+                        </li>
+                        <li class="dashe-li mb-4">
+                            <a class="big-plus--btn" href="#autobiography">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-autobiography bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle">我的自傳</span>
+                            </a>
+                        </li>
+                        <li class="dashe-li mb-4">
+                            <a class="big-plus--btn" href="#reference">
+                                <div class="resume-icon inline-block--middle ">
+                                    <i class="icon-reference bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle">推薦人</span>
+                            </a>
+                        </li>
+                        <li class="active mb-4">
+                            <a href="#highlight">
+                                <div class="resume-icon inline-block--middle">
+                                    <i class="icon-highlight bonus-icon"></i>
+                                </div>
+                                <span class="inline-block--middle finish">加分亮點</span>
+                                <div class="toggle">
+                                    <input type="checkbox" class="toggle-checkbox">
+                                    <div class="knobs orange"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <p class="time-update">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;履歷更新時間：2018-11-20
+                        </p>
+                    </ul>
+                    <!-- 左側選單 End-->
+                </aside>
+                <!-- Side End -->
+                <!-- Main Start -->
+                <article class="main-content">
+                    <div class="mask-burger"></div>
+                    <!-- Breadcrumbs Start -->
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs-row cf">
+                            <li>
+                                <i class="jb-df-home" aria-hidden="true"></i>
+                                <a href="index.html" title="會員中心首頁">會員中心首頁</a>
+                            </li>
+                            <li>履歷管理</li>
+                            <li><a href="resume_list.html" title="履歷總覽">履歷總覽</a></li>
+                            <li>編輯我的第 1 個履歷表</li>
+                        </ul>
+                    </div>
+                    <!-- Breadcrumbs End -->
+                    <!-- Page-Content Start -->
+                    <div class="page-content">
+                        <!-- 個人資料 Start -->
+                        <a name="personal_info" id="personal_info"></a>
+                        <div class="resume-edit-item finish">
+                            <div class="resume-edit-title">
+                                <h4>個人資料</h4>
+                            </div>
+                            <div class="resume-edit-content">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="resume-panel">
+                                            <div class="resume-panel-title">
+                                                <span class="title">會員資料</span>
+                                                <a href="javascript:;" title="編輯會員資料" class="btn btn--secondary btn--sm btn--icon">
+                                                    <span>編輯會員資料</span>
+                                                    <i class="jb-db-create-thick-line" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="resume-panel-main">
+                                                <div class="profile-item-img inline-block--middle padding-8">
+                                                    <img src="img/profile.png" alt="profile">
+                                                </div>
+                                                <div class="profile-item-text inline-block--middle padding-8">
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="text--lightgrey">真實姓名：</span>
+                                                        </dt>
+                                                        <dd>
+                                                            <span>Native 洞洞人</span>
+                                                        </dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="text--lightgrey">性　　別：</span>
+                                                        </dt>
+                                                        <dd>
+                                                            <span>男性</span>
+                                                        </dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="text--lightgrey">出生日期：</span>
+                                                        </dt>
+                                                        <dd>
+                                                            <span>1990 / 02 / 08</span>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="resume-adv"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div id="Profile" class="resume_block" data-resume="profile">
+                                            <div class="resume-panel">
+                                                <div class="resume-panel-title">
+                                                    <span class="title">聯絡方式<font class="text--14 text--lightgrey"> 及 </font>身分資料</span>
+                                                    <a href="javascript:;" title="編輯資料" class="btn btn--secondary btn--square js-addResumeBlock">
+                                                        <i class="jb-df-pencil-edit" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="resume-panel-main cf">
+                                                    <div class="profile-left-box inline-block">
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">電子郵件：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>barry@face124.com</span>
+                                                                <i class="fa fa-check-circle text--success text--16 align-middle ml-4" aria-hidden="true"></i>
+                                                            </dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">聯絡時間：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>09:00 - 22:00</span>
+                                                            </dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">手機號碼：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>0987-654-321</span>
+                                                                <i class="fa fa-check-circle text--success text--16 align-middle ml-4" aria-hidden="true"></i>
+                                                            </dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">住家電話：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>02-8787-1111</span>
+                                                            </dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">聯絡地址：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span class="">台北市士林區中山北路七段114巷60弄4號</span>
+                                                            </dd>
+                                                            <dt></dt>
+                                                            <dd>
+                                                                <span class="text--secondary">※ 對徵才企業只會顯示「縣市區／路名」</span>
+                                                            </dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="profile-right-box inline-block">
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">婚姻狀況：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>單身</span>
+                                                            </dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">兵役狀況：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>役畢(退伍：2017/4)</span>
+                                                            </dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">身高體重：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>身高 170 公分 體重 60 公斤</span>
+                                                            </dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">其他身份：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>身心障礙者、原住民(阿美族)</span>
+                                                            </dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>
+                                                                <span class="text--lightgrey">身障等級：</span>
+                                                            </dt>
+                                                            <dd>
+                                                                <span>視覺障礙(中度)</span>
+                                                            </dd>
+                                                        </dl>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 駕照車輛 Start -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div id="DriversLicense" class="resume_block" data-resume="drivers_license">
+                                            <div class="resume_block-add item-background center">
+                                                <a href="javascript:;" id="AddDriversLicense" class="btn btn--lightgrey js-addResumeBlock">
+                                                    ＋　新增駕照車輛
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 駕照車輛 End -->
+                            </div>
+                        </div>
+                        <!-- 個人資料 End -->
+                        <!-- 學歷資料 Start -->
+                        <a name="academic_info" id="academic_info"></a>
+                        <div id="AcademicInfo" class="resume_block mt-16" data-resume="academic_info">
+                            <div class="resume_block-add">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="item-background center">
+                                            <p>接著讓企業了解你的學歷(校園生活)<br>
+                                                分享一些您的社團 / 留遊學經歷，可以讓履歷更機採唷！</p>
+                                            <a href="javascript:;" id="AddAcademicInfo" class="btn btn--lightgrey js-addResumeBlock">
+                                                ＋　新增學歷資料
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 學歷資料 End -->
+                        <!-- 應徵條件 Start -->
+                        <a name="condition" id="condition"></a>
+                        <div id="Condition" class="resume_block mt-16" data-resume="condition_info">
+                            <div class="resume_block-add">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="item-background center">
+                                            <p>期待什麼樣的工作呢？讓 1111 幫您配對吧！<br>
+                                                詳細的應徵條件讓您能夠更容易地找到適合自己的工作喔！</p>
+                                            <a href="javascript:;" id="AddCondition" class="btn btn--lightgrey js-addResumeBlock">
+                                                ＋　新增應徵條件
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 應徵條件 End -->
+                        <!-- 工作總年資 Start -->
+                        <a name="job_tenure" id="job_tenure"></a>
+                        <div id="JobTenure" class="resume_block mt-16" data-resume="job_tenure_info">
+                            <div class="resume_block-add">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="item-background center">
+                                            <p>讓提供新鮮人舞台的企業搶先看見您！<br>
+                                                （無工作經驗）</p>
+                                            <a href="javascript:;" id="AddJobTenure1" class="btn btn--lightgrey js-addResumeBlock">
+                                                職場新鮮人
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="item-background center">
+                                            <p>無論是全職、兼職、工讀<br>
+                                                都能讓求才企業了解您的經歷！</p>
+                                            <a href="javascript:;" id="AddJobTenure2" class="btn btn--lightgrey js-addResumeBlock">
+                                                有工作經驗
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 工作總年資 End -->
+                        <!-- 分隔線 -->
+                        <div class="resume-separator">
+                            <h3>新增您的個人加分項目</h3>
+                        </div>
+                        <!-- 分隔線 -->
+                        <!-- 個人加分項目 Start -->
+                        <div class="row">
+                            <a name="work_experience" id="work_experience"></a>
+                            <div id="WorkExperience" class="resume_block col-lg-6 mt-16" data-resume="work_experience_info">
+                                <div class="resume_block-add">
+                                    <div class="resume_block-icon bonus-icon--green inline-block--middle">
+                                        <i class="icon-job bonus-icon"></i>
+                                    </div>
+                                    <div class="resume_block-text inline-block--middle">
+                                        <h6>工作經歷</h6>
+                                        <p class="text--lightgrey mb-16">But I must explain to you how all this mistaken idea of denouncing pleasure .</p>
+                                        <a href="javascript:;" id="AddWorkExperience" class="btn btn--border--positive js-addResumeBlock">
+                                            + 新增工作經歷
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a name="language_skills" id="language_skills"></a>
+                            <div id="LanguageSkills" class="resume_block col-lg-6 mt-16" data-resume="language_skills_info">
+                                <div class="resume_block-add">
+                                    <div class="resume_block-icon bonus-icon--green inline-block--middle">
+                                        <i class="icon-language bonus-icon"></i>
+                                    </div>
+                                    <div class="resume_block-text inline-block--middle">
+                                        <h6>語言能力</h6>
+                                        <p class="text--lightgrey mb-16">But I must explain to you how all this mistaken idea of denouncing pleasure .</p>
+                                        <a href="javascript:;" id="AddWorkExperience" class="btn btn--border--positive js-addResumeBlock">
+                                            + 新增語言能力
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a name="skill_certificate" id="skill_certificate"></a>
+                            <div id="SkillCertificate" class="resume_block col-lg-6 mt-16" data-resume="language_skills_info">
+                                <div class="resume_block-add">
+                                    <div class="resume_block-icon bonus-icon--green inline-block--middle">
+                                        <i class="icon-skill bonus-icon"></i>
+                                    </div>
+                                    <div class="resume_block-text inline-block--middle">
+                                        <h6>技能證照</h6>
+                                        <p class="text--lightgrey mb-16">But I must explain to you how all this mistaken idea of denouncing pleasure .</p>
+                                        <a href="javascript:;" id="AddSkillCertificate" class="btn btn--border--positive js-addResumeBlock">
+                                            + 新增技能證照
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a name="autobiography" id="autobiography"></a>
+                            <div id="Autobiography" class="resume_block col-lg-6 mt-16" data-resume="autobiography_info">
+                                <div class="resume_block-add">
+                                    <div class="resume_block-icon bonus-icon--green inline-block--middle">
+                                        <i class="icon-autobiography bonus-icon"></i>
+                                    </div>
+                                    <div class="resume_block-text inline-block--middle">
+                                        <h6>我的自傳</h6>
+                                        <p class="text--lightgrey mb-16">But I must explain to you how all this mistaken idea of denouncing pleasure .</p>
+                                        <a href="javascript:;" id="AddAutobiography" class="btn btn--border--positive js-addResumeBlock mr-16">
+                                            + 新增我的自傳
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a name="reference" id="reference"></a>
+                            <div id="Reference" class="resume_block col-lg-6 mt-16" data-resume="reference_info">
+                                <div class="resume_block-add">
+                                    <div class="resume_block-icon bonus-icon--pink inline-block--middle">
+                                        <i class="icon-reference bonus-icon"></i>
+                                    </div>
+                                    <div class="resume_block-text inline-block--middle">
+                                        <h6>推薦人</h6>
+                                        <p class="text--lightgrey mb-16">But I must explain to you how all this mistaken idea of denouncing pleasure .</p>
+                                        <a href="javascript:;" id="AddReference" class="btn btn--border--pink js-addResumeBlock">
+                                            + 新增推薦人
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a name="highlight" id="highlight"></a>
+                            <div id="" class="resume_block col-lg-6 mt-16">
+                                <div class="resume_block-add">
+                                    <div class="resume_block-icon bonus-icon--orange inline-block--middle">
+                                        <i class="icon-highlight bonus-icon"></i>
+                                    </div>
+                                    <div class="resume_block-text inline-block--middle">
+                                        <h6>加分亮點</h6>
+                                        <p class="text--lightgrey mb-16">But I must explain to you how all this mistaken idea of denouncing pleasure .</p>
+                                        <div class="toggle">
+                                            <input type="checkbox" class="toggle-checkbox">
+                                            <div class="knobs orange"></div>
+                                            <div class="layer"></div>
+                                        </div>
+                                        <a href="#!" class="btn btn--border--negative">
+                                            編輯 "加分亮點"
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mb-0">
+                        <!-- 個人加分項目 End -->
+                    </div>
+                </article>
+            </div>
+        </div>
+        <!-- magic-images -->
+        <div class="hide">
+            <img src="img/logo-magic.svg" alt="">
+            <img src="img/guy-1.svg" alt="">
+            <img src="img/guy-2.svg" alt="">
+            <img src="img/guy-3.svg" alt="">
+            <img src="img/guy-4.svg" alt="">
+            <img src="img/guy-5.svg" alt="">
+            <img src="img/guy-6.svg" alt="">
+            <img src="img/bg-magic-lt.svg" alt="">
+            <img src="img/bg-magic-rb.svg" alt="">
+            <img src="img/bg-magic-mask.svg" alt="">
+            <img src="img/people.svg" alt="">
+        </div>
+    </main>
+    <button class="rt-fix-tools df-tools--intro" type="button">
+        <i class="jb-df-customer-feedback" aria-hidden="true"></i>
+        <font>新版介紹</font>
+    </button>
+    <button class="rt-fix-tools df-tool" type="button" onclick="location.href='guideline.html'">
+        <i class="jb-gd-compass-guide" aria-hidden="true"></i>
+        <font>設計規範</font>
+    </button>
+    <button class="rt-fix-tools go-to-top js-go-to" data-type="fixed" data-position='{"bottom": 72,"right": 24}' data-offset-top="400" data-compensation="#header" data-show-effect="zoomIn">
+        <i class="jb-de-au-linear-big"></i>
+        <font>回頂端</font>
+    </button>
+    <!-- JQuery -->
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- OwlCarousel -->
+    <script src="vender/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- Cropper -->
+    <script src="vender/cropperjs-master/dist/cropper.min.js"></script>
+    <!-- Template Custom -->
+    <script src="dist/js/gsap/TweenMax.min.js"></script>
+    <script src="js/resume-data-trans.js"></script>
+    <script src="js/resume-elm.js"></script>
+    <script src="js/resume-edit.js"></script>
+    <script src="js/resume-btn_click.js"></script>
+    <script src="dist/js/jobbankui.js"></script>
+    <!-- Go Top -->
+    <script src="js/go-to-top.js"></script>
+    <!-- Layer init -->
+    <script src="js/main-popups.js"></script>
+    <!-- Layer init -->
+    <script src="js/main.min.js"></script>
+    <script>
+    var navbar = document.getElementById("resume_nav");
+    var sticky = navbar.offsetTop;
+    $(function() {
+        $(window).scroll(function() {
+            memberCenter.resumeSideFixed();
+        });
+        // 新增區塊
+        $(".js-addResumeBlock").click(function(event) {
+            var $block = $(this).parents(".resume_block");
+            var id = $block.attr('id');
+            console.log(id);
+
+            // 元速寫在 resume-elm.js 裡
+            function callElm(id) {
+                switch (id) {
+                    case "Profile":
+                        return resumeElm.Profile("edit");
+                        break;
+                    case "DriversLicense":
+                        return resumeElm.DriversLicense("edit");
+                        break;
+                    case "AcademicInfo":
+                        return resumeElm.AcademicInfo("wrap");
+                        break;
+                    case "Condition":
+                        return resumeElm.Condition("wrap");
+                        break;
+                    case "JobTenure":
+                        return resumeElm.JobTenure("wrap");
+                        break;
+                    case "WorkExperience":
+                        return resumeElm.WorkExperience("wrap");
+                        break;
+                    case "LanguageSkills":
+                        return resumeElm.LanguageSkills("wrap");
+                        break;
+                    case "SkillCertificate":
+                        return resumeElm.SkillCertificate("wrap");
+                        break;
+                    case "Autobiography":
+                        return resumeElm.Autobiography("wrap");
+                        break;
+                    case "Reference":
+                        return resumeElm.Reference("wrap");
+                        break;
+                }
+            }
+
+            if (id == "Profile") {
+                $block.find('.resume-panel').hide();
+            }
+
+            if (id == "LanguageSkills" || id == "WorkExperience" || id == "SkillCertificate" || id == "Autobiography" || id == "Reference") {
+                $block.addClass('col-lg-12').removeClass('col-lg-6');
+            }
+
+            // 編輯框
+            $block.find('.resume_block-add').hide();
+            jobBankUI.showHideRemoveElm($block.append(callElm(id)), "show");
+
+            // 內容處理
+            if (id == "AcademicInfo") {
+                // 學歷資料
+                $block.find('.resume-edit-content').append(resumeElm.AcademicInfo("editFrm"));
+                resumeUI.AcademicInfoCnt(); //  resume-edit.js
+            } else if (id == "Condition") {
+                // 應徵條件
+                $block.find('.resume-edit-content').append(resumeElm.Condition("editFrm"));
+                resumeUI.ConditionCnt(); //  resume-edit.js
+            } else if (id == "JobTenure") {
+                // 工作經歷
+                $block.find('.resume-edit-content').append(resumeElm.JobTenure("editFrm"));
+                resumeUI.JobTenureCnt(); //  resume-edit.js
+            } else if (id == "WorkExperience") {
+                // 工作經歷
+                $block.find('.resume-edit-content').append(resumeElm.WorkExperience("editFrm"));
+                resumeUI.WorkExperienceCnt(); //  resume-edit.js
+            } else if (id == "LanguageSkills") {
+                // 語言能力
+                $block.find('.resume-edit-content').append(resumeElm.LanguageSkills("editFrm"));
+                resumeUI.LanguageSkillsCnt(); //  resume-edit.js
+            } else if (id == "SkillCertificate") {
+                // 技能證照
+                $block.find('.resume-edit-content').append(resumeElm.SkillCertificate("editFrm"));
+                resumeUI.SkillCertificateCnt(); //  resume-edit.js
+            } else if (id == "Autobiography") {
+                // 我的自傳
+                $block.find('.resume-edit-content').append(resumeElm.Autobiography("editFrm"));
+                resumeUI.AutobiographyCnt(); //  resume-edit.js
+            } else if (id == "Reference") {
+                // 我的自傳
+                $block.find('.firRf').append(resumeElm.Reference("editFrm"));
+                resumeUI.ReferenceCnt(); //  resume-edit.js
+            }
+        });
+    });
+
+    // 編輯區塊裡的儲存或取消按鈕
+    function btnClick(el) {
+        var $block = $(el).parents(".resume_block");
+        var act = $(el).data('act');
+        var blockId = $block.attr('id');
+        console.trace({ "act": act, "blockId": blockId });
+        btnClickAct($block, blockId, act);
+    }
+
+
+    // window.onload = function() {
+    //     layer.open({
+    //         skin: 'layer-negative',
+    //         type: 1,
+    //         anim: 5,
+    //         area: ['24rem', ''],
+    //         title: ['請選擇社團經歷應對的學歷資料'],
+    //         shadeClose: true,
+    //         content: '\
+    //         <div class="modal-content">\
+    //             <p class="text--danger text--13 center">您尚有未選擇應對學歷的社團經歷</p>\
+    //             <ul class="academic-list">\
+    //                 <li>\
+    //                 ● 班級幹部 / 班長 <font class="text--lightgrey">(1年1個月)</font>\
+    //                 <p class="mt-8">\
+    //                     <select name="">\
+    //                         <option value="">德明財經科技大學</option>\
+    //                     </select>\
+    //                 </p>\
+    //                 <a href="#!" title="刪除學歷" class="btn btn--sm mr-8">\
+    //                     <i class="icon-icon-trash" aria-hidden="true"></i>\
+    //                     <span>刪除</span>\
+    //                 </a>\
+    //                 </li>\
+    //                 <li>\
+    //                 ● 班級幹部 / 班長 <font class="text--lightgrey">(1年1個月)</font>\
+    //                 <p class="mt-8">\
+    //                     <select name="">\
+    //                         <option value="">德明財經科技大學</option>\
+    //                     </select>\
+    //                 </p>\
+    //                 <a href="#!" title="刪除學歷" class="btn btn--sm mr-8">\
+    //                     <i class="icon-icon-trash" aria-hidden="true"></i>\
+    //                     <span>刪除</span>\
+    //                 </a>\
+    //                 </li>\
+    //             </ul>\
+    //         </div>\
+    //         <div class="modal-btn-box">\
+    //             <a href="#!" class="btn btn--border--negative btn--md mr-8">取消</a>\
+    //             <button type="submit" class="btn btn--negative btn--md">確定</button>\
+    //         </div>'
+    //     });
+    // };
+    </script>
+</body>
+
+</html>

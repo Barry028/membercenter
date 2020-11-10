@@ -1,0 +1,44 @@
+<svg id="mercury" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff965f;
+      }
+
+      .cls-2 {
+        fill: #ff7846;
+      }
+
+      .cls-3 {
+        fill: #ffaf73;
+      }
+    </style>
+  </defs>
+  <ellipse id="Ellipse_1558" data-name="Ellipse 1558" class="cls-1" cx="10" cy="10" rx="10" ry="10" transform="translate(0)"/>
+  <path id="Path_47308" data-name="Path 47308" class="cls-2" d="M13.929,17.143A8.929,8.929,0,0,1,10.4.01C10.269,0,10.135,0,10,0a10,10,0,1,0,7.791,16.266A8.893,8.893,0,0,1,13.929,17.143Z" transform="translate(0)"/>
+  <ellipse id="Ellipse_1559" data-name="Ellipse 1559" class="cls-1" cx="0.536" cy="0.536" rx="0.536" ry="0.536" transform="translate(2.143 8.571)"/>
+  <g id="Group_38132" data-name="Group 38132" transform="translate(6.429 4.643)">
+    <path id="Path_47309" data-name="Path 47309" class="cls-3" d="M167.784,120.286h-.423a1.068,1.068,0,0,0-.649-.649v-.423a.357.357,0,1,0-.714,0v.423a1.068,1.068,0,0,0-.649.649h-.423a.357.357,0,1,0,0,.714h.423a1.068,1.068,0,0,0,.649.649v.423a.357.357,0,1,0,.714,0v-.423a1.067,1.067,0,0,0,.649-.649h.423a.357.357,0,1,0,0-.714Z" transform="translate(-164.57 -118.857)"/>
+    <path id="Path_47310" data-name="Path 47310" class="cls-3" d="M323.213,303.143h-.423a1.067,1.067,0,0,0-.649-.649v-.423a.357.357,0,1,0-.714,0v.423a1.067,1.067,0,0,0-.649.649h-.423a.357.357,0,1,0,0,.714h.423a1.067,1.067,0,0,0,.649.649v.423a.357.357,0,1,0,.714,0v-.423a1.068,1.068,0,0,0,.649-.649h.423a.357.357,0,1,0,0-.714Z" transform="translate(-313.928 -294.571)"/>
+  </g>
+  <g id="Group_38133" data-name="Group 38133" transform="translate(12.5 4.643)">
+    <ellipse id="Ellipse_1560" data-name="Ellipse 1560" class="cls-2" cx="0.536" cy="0.536" rx="0.536" ry="0.536"/>
+    <ellipse id="Ellipse_1561" data-name="Ellipse 1561" class="cls-2" cx="0.536" cy="0.536" rx="0.536" ry="0.536" transform="translate(2.857 4.286)"/>
+  </g>
+  <g id="Group_38134" data-name="Group 38134" transform="translate(4.643 3.571)">
+    <ellipse id="Ellipse_1562" data-name="Ellipse 1562" class="cls-1" cx="0.536" cy="0.536" rx="0.536" ry="0.536" transform="translate(5 13.571)"/>
+    <ellipse id="Ellipse_1563" data-name="Ellipse 1563" class="cls-1" cx="0.357" cy="0.357" rx="0.357" ry="0.357"/>
+  </g>
+  <g id="Group_38135" data-name="Group 38135" transform="translate(11.784 11.073)">
+    <ellipse id="Ellipse_1564" data-name="Ellipse 1564" class="cls-2" cx="0.357" cy="0.357" rx="0.357" ry="0.357"/>
+    <ellipse id="Ellipse_1565" data-name="Ellipse 1565" class="cls-2" cx="0.357" cy="0.357" rx="0.357" ry="0.357" transform="translate(5.359 1.07)"/>
+  </g>
+  <g id="Group_38136" data-name="Group 38136" transform="translate(2.857 12.5)">
+    <ellipse id="Ellipse_1566" data-name="Ellipse 1566" class="cls-1" cx="0.357" cy="0.357" rx="0.357" ry="0.357"/>
+    <ellipse id="Ellipse_1567" data-name="Ellipse 1567" class="cls-1" cx="0.357" cy="0.357" rx="0.357" ry="0.357" transform="translate(2.143 1.071)"/>
+  </g>
+  <g id="Group_38137" data-name="Group 38137" transform="translate(6.429 2.5)">
+    <ellipse id="Ellipse_1568" data-name="Ellipse 1568" class="cls-3" cx="0.714" cy="0.714" rx="0.714" ry="0.714" transform="translate(3.571)"/>
+    <ellipse id="Ellipse_1569" data-name="Ellipse 1569" class="cls-3" cx="0.714" cy="0.714" rx="0.714" ry="0.714" transform="translate(0 7.5)"/>
+  </g>
+</svg>

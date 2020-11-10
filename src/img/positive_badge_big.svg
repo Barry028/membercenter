@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="positive_badge_big" width="33" height="42" viewBox="0 0 33 42">
+    <defs>
+        <style>
+            .cls-1{fill:#d75a4a}.cls-2{fill:#c03b2b}.cls-3{fill:#ffd923}
+        </style>
+    </defs>
+    <g id="Group_7379" data-name="Group 7379" transform="translate(4.5)">
+        <path id="Path_9615" d="M17.75 0H5.5v26.634c0 .247.458.37.726.2l11.524-7.5 11.524 7.5c.268.174.726.051.726-.2V0z" class="cls-1" data-name="Path 9615" transform="translate(-5.5)"/>
+        <path id="Rectangle_2345" d="M0 0h24.5v5.482H0z" class="cls-2" data-name="Rectangle 2345"/>
+    </g>
+    <g id="Group_7378" data-name="Group 7378" transform="translate(0 12)">
+        <path id="Path_9616" d="M42 33l5.1 9.875 11.4 1.583-8.25 7.687L52.2 63 42 57.875 31.8 63l1.95-10.854-8.25-7.687 11.4-1.583z" class="cls-3" data-name="Path 9616" transform="translate(-25.5 -33)"/>
+    </g>
+</svg>

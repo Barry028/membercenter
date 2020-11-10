@@ -1,0 +1,8 @@
+<svg id="ruler" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24620" data-name="Rectangle 24620" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_100052" data-name="Path 100052" d="M18.62,15.25H11.38V2.75A.76.76,0,0,0,10.62,2H5.38a.76.76,0,0,0-.76.75v18.5a.76.76,0,0,0,.76.75H18.62a.76.76,0,0,0,.76-.75V16a.76.76,0,0,0-.76-.75ZM9.88,3.5V7.25H8.62v1.5H9.88v2.5H8.62v1.5H9.88v2.94L6.12,19.44V3.5Zm8,17H7.19l3.75-3.75h2.94V18h1.5V16.75h2.5Z" fill="#fff"/>
+  </g>
+</svg>

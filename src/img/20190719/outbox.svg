@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="outbox" transform="translate(-533 -536)">
+    <g id="Rectangle_23864" data-name="Rectangle 23864" transform="translate(533 536)" fill="gray" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="48" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="47" fill="none"/>
+    </g>
+    <g id="outbox-2" data-name="outbox" transform="translate(538 544)">
+      <g id="Group_84457" data-name="Group 84457" transform="translate(0 0)">
+        <path id="Path_89066" data-name="Path 89066" d="M19,7.5l-9.88,9.271h6.27V26.5h7.22V16.771h6.27ZM36.745,29.43,30.7,25.36h-3.73l6.461,4.956H26.693a.518.518,0,0,0-.455.252l-1.553,4.247H13.315l-1.553-4.247a.518.518,0,0,0-.455-.252H4.572l6.462-4.956H7.3L1.255,29.43a2.688,2.688,0,0,0-1.2,2.753l1.067,5.84A2.54,2.54,0,0,0,3.5,39.8h31a2.541,2.541,0,0,0,2.378-1.776l1.066-5.84A2.686,2.686,0,0,0,36.745,29.43Z" transform="translate(0 -7.5)" fill="gray"/>
+      </g>
+    </g>
+  </g>
+</svg>

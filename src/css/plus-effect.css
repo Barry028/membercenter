@@ -1,0 +1,1376 @@
+/*  ===========================================
+    加分亮點 -- 開始頁面
+===============================================  */
+.plus-lt {
+    padding: 0 1.5rem;
+    width: 58.33333333%
+}
+
+.plus-rt {
+    padding: 1rem 1.5rem;
+    width: 41.66666667%
+}
+
+.plus-lt .plus-start h5 {
+    border-bottom: 4px solid #0E86D4;
+    display: inline-block;
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+}
+
+.plus-lt .plus-start p {
+    color: #A7B1B6;
+    font-size: .875rem
+}
+
+.plus-lt .plus-start .btn {
+    border-radius: 2rem;
+    width: 15rem;
+}
+
+.plus-rt img {
+    user-select: none
+}
+
+/*  ===========================================
+    加分亮點 -- 列表
+===============================================  */
+
+/* Plus Item Cards */
+.plus-effect-item.sortable-chosen {
+    opacity: .4
+}
+
+.plus-effect-item {
+    background-color: #fff;
+    border: #eee 1px solid;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .08);
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.plus-effect-item-cnt {
+    margin: .25rem 1rem .25rem .5rem
+}
+
+.plus-effect-item-cnt .version_block.complete .cus_cnt-title {
+    margin: .375rem 0
+}
+
+.plus-effect-item-cnt .version_block.complete .cus_cnt-subtitle {
+    margin: .25rem 0
+}
+
+.plus-effect-item-cnt .version_block.complete .cus_cnt-content {
+    margin: .125rem 0
+}
+
+.plus-effect-item-cnt .vc-col {
+    margin: .25rem 0
+}
+
+/* Toggle Tools */
+.ps-toggle-btn,
+.ps-toggle-tools {
+    background-color: rgba(0, 0, 0, .87);
+    position: absolute;
+    transition: .25s all ease-in-out;
+    z-index: 1
+}
+
+.ps-toggle-btn {
+    right: 3.5rem;
+    top: .75rem;
+    height: 3rem;
+    width: 1.5rem;
+    border: none;
+    border-radius: 3rem 0 0 3rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.ps-toggle-btn:hover,
+.ps-toggle-btn:hover + .ps-toggle-tools {
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.ps-toggle-btn i {
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+    transition: inherit;
+}
+
+.ps-toggle-btn:hover i {
+    color: #fff200
+}
+
+.ps-toggle-btn.close {
+    right: .5rem
+}
+
+.ps-toggle-btn.close i {
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(0)
+}
+
+.ps-toggle-tools.close {
+    right: -3rem
+}
+
+/* Tools Btn */
+.ps-toggle-tools {
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: .75rem;
+}
+
+.ps-toggle-tools .btn--move {
+    cursor: move
+}
+
+.ps-toggle-tools > button {
+    display: block
+}
+
+.ps-toggle-tools > button:nth-child(2) {
+    margin: .5rem 0
+}
+
+/* Right Add Block */
+.add-ps-version--card {
+    background-color: #fff;
+    border-radius: 4px;
+    border-top: .25rem solid #a3d1ef;
+    overflow: hidden;
+    padding: 1rem;
+    transition: all .25s ease-in-out;
+}
+
+.add-ps-version--card:hover {
+    border-top-color: #0E86D4;
+    box-shadow: -2px 9px 18px 0 rgba(75, 81, 91, .12);
+    transform: translateY(-.5rem);
+}
+
+.add-ps-version--card h6 {
+    font-size: 1.25rem;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 70%;
+}
+
+.add-ps-version--card h6:before {
+    content: '';
+    background-color: #0E86D4;
+    height: 1px;
+    width: 3rem;
+    position: absolute;
+    bottom: -.125rem;
+    left: 0;
+}
+
+.add-ps-version--card .version-sample {
+    display: inline-block;
+    padding: .5rem 0;
+    width: 30%;
+}
+
+.add-ps-version--card .version-sample > img {
+    opacity: .6;
+    transition: all .25s ease-in-out;
+}
+
+.add-ps-version--card:hover .version-sample > img {
+    opacity: 1;
+    transform: scale(1.125)
+}
+
+.add-ps-version--card .box-circle-lg,
+.add-ps-version--card .box-circle-sm {
+    position: absolute;
+    background: rgba(117, 185, 231, .16);
+    border-radius: 50%;
+    transition: all .25s ease-in-out;
+}
+
+.add-ps-version--card .box-circle-lg {
+    right: 4.5rem;
+    top: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.add-ps-version--card .box-circle-sm {
+    left: .5rem;
+    top: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.add-ps-version--card:hover .box-circle-lg,
+.add-ps-version--card:hover .box-circle-sm {
+    background: rgba(117, 185, 231, .24);
+    transform: scale(1.25)
+}
+
+.add-ps-version--card p {
+    color: #A7B1B6;
+    font-size: .9375rem;
+    margin: .75rem 0 1rem;
+}
+
+/*  ===========================================
+    加分亮點 - 編輯頁面 --> 選擇版型
+===============================================  */
+.version_select + .page-content {
+    margin-top: 0
+}
+
+.version_select {
+    background-color: #293039;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    padding: 1rem 0 0 1rem;
+}
+
+.version_select .title,
+.version_preview .title {
+    font-size: .875rem;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
+
+.version_select .title {
+    color: #fff
+}
+
+.version_select_list {
+
+    /* padding-bottom: 1rem; */
+}
+
+.version_select_list ul {
+    padding: .25rem .25rem 1rem;
+}
+
+.version_select_list ul:focus,
+.mCS-light {
+    outline: 0;
+}
+
+.version_select_item {
+    cursor: pointer;
+    float: left;
+    opacity: .36;
+    transition: all .25s ease-in-out;
+    width: 11.875rem;
+}
+
+.version_select_item:not(:first-of-type) {
+    margin-left: 1rem
+}
+
+.version_select_item > .inner:before {
+    content: '';
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    border: 3px solid #66D9E8;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all .25s ease-in-out;
+}
+
+.version_select_item:hover,
+.version_select_item.js-active,
+.version_select_item.js-active > .inner:before {
+    opacity: 1
+}
+
+.version_select_item.js-active .version_block {
+    background-color: #394350
+}
+
+.version_select_item .version_block {
+    background-color: #8a93a0
+}
+
+.version_select_item .version_wrap {
+    box-shadow: 0 0 8px 0 rgba(255, 255, 255, .24)
+}
+
+.version_select_item .version_wrap > .inner {
+    padding: .625rem;
+    background-color: #fff;
+}
+
+.version_select_item .version_wrap-ver1 .version_block {
+    height: 4.375rem
+}
+
+.version_select_item .version_container-hd {
+    margin-bottom: .375rem
+}
+
+.version_select_item .version_container-hd .version_block {
+    height: 2.875rem
+}
+
+.version_select_item .version_container-bd .version_block {
+    height: 1.125rem
+}
+
+.version_wrap-col-8,
+.version_wrap-col-6,
+.version_wrap-col-4 {
+    float: left;
+    padding: 0 .25rem;
+}
+
+.version_wrap-col-4 {
+    width: 33.33333333%
+}
+
+.version_wrap-col-8 {
+    width: 66.66666667%
+}
+
+.version_wrap-col-6 {
+    width: 50%
+}
+
+/*  ===========================================
+加分亮點 - 編輯頁面 --> 版型預覽 (Sample)
+===============================================  */
+.plus_effect-container .member-panel {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding-top: .75rem
+}
+
+.version_preview {
+    border-bottom: 1px dotted #cdd8e3;
+    margin-bottom: .75rem;
+    padding-bottom: .75rem;
+}
+
+.version_preview_list {
+    margin-right: -.5rem;
+    margin-left: -.5rem
+}
+
+.version_preview_list .version_preview_item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 .5rem;
+    width: 33.33333333%;
+}
+
+.version_preview_item > .inner {
+    background: url('../img/pluseffect-prew-1.png') center center no-repeat;
+    background-size: cover;
+    display: block;
+    height: 7.5rem;
+}
+
+.version_preview_item > .inner > i {
+    background-color: rgba(0, 0, 0, .44);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: .125rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*  ===========================================
+加分亮點 - 編輯頁面 --> 版型編輯
+===============================================  */
+
+/*  version_wrap-ver1 版型1  */
+.version_edit-container .version_wrap-ver1 .version_block:not(.editing):not(.view):not(.add) {
+    min-height: 22.5rem
+}
+
+/*  version_wrap-ver2 版型2  */
+.version_edit-container .version_container-row {
+    margin-bottom: .5rem
+}
+
+/*  version_wrap-ver2 ~ 5 版型2 ~ 5  */
+.version_edit-container .version_container-bd .version_block:not(.editing):not(.view):not(.add) {
+    min-height: 5.75rem
+}
+
+.version_edit-container .version_container-hd .version_block:not(.editing):not(.view):not(.add) {
+    min-height: 15rem;
+    height: 100%;
+}
+
+/*  加分亮點 編輯 - 編輯區塊  */
+.version_edit-container .version_block:not(.editing):not(.view):not(.add) {
+    background: #f3f3f3 url('../img/img-pluseffect-1.svg') center center no-repeat;
+    background-size: 50% 75%;
+    border: 1px #ccc dashed;
+    border-radius: 4px;
+    transition: all .25s ease-in-out;
+}
+
+.version_edit-container .version_block.js-showEditTool.js-showEditTool.js-showEditTool:not(.add) {
+    background-color: #d6d6d6
+}
+
+.version_edit-container .version_block.editing {
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  按鈕
+===============================================  */
+.version_edit .btn--edit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.version_edit .btn--edit:hover {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .16), 0 4px 12px 0 rgba(0, 0, 0, .12);
+}
+
+.version_edit .btn--edit:active,
+.version_block.js-showEditTool .btn--edit {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .18), 0 6px 18px 0 rgba(0, 0, 0, .16);
+}
+
+.version_block.js-showEditTool .btn--edit {
+    background-color: #727b85;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  新增區塊
+===============================================  */
+.version_edit-container .version_block.add {
+    background: #454545;
+    border: none;
+    border-radius: 4px;
+    height: 4px;
+    min-height: 4px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    transition: all .125s ease-in-out;
+}
+
+.version_edit .btn--add--block {
+    position: absolute;
+    top: -15.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 36px;
+    background-color: #364146;
+    border-radius: 50%;
+    border: none;
+    user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+.version_block.add.js-showEditTool,
+.version_block.js-showEditTool .btn--add--block {
+    background-color: #959595;
+}
+
+.version_edit .btn--add--block > .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.version_edit .btn--add--block > .inner:before,
+.version_edit .btn--add--block > .inner:after {
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.version_edit .btn--add--block > .inner:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  底部按鈕
+===============================================  */
+.version_edit-ft {
+    padding-top: .5rem;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  按鈕彈出選項框
+===============================================  */
+.editor_tool {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #364146;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.16);
+    opacity: 0;
+    transform: translate(-50%, 1.75rem);
+    user-select: none;
+    width: 12.75rem;
+    z-index: 99;
+}
+
+.editor_tool:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    z-index: 2;
+    border-bottom: 14.4px solid #364146;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+}
+
+.editor_tool_list {
+    width: 100%;
+    padding: .75rem .5rem 0;
+}
+
+.editor_tool_list ul {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+
+.editor_tool_list p {
+    margin: 0 0 .75rem .75rem;
+    font-size: .8125rem;
+}
+
+.editor_tool_list .editor_tool_item {
+    float: left;
+    width: 33.33333333%;
+    padding: 0 .375rem;
+    margin-bottom: .75rem;
+}
+
+.editor_tool_item .editor_tool-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    text-align: center;
+    transition: background-color .25s ease-in-out;
+    width: 100%;
+}
+
+.editor_tool_item .editor_tool-btn:hover {
+    background-color: #636363;
+}
+
+.editor_tool-btn .icon_wrap {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.editor_tool-btn .icon_wrap i {
+    font-size: 1.5rem;
+}
+
+.editor_tool-btn .txt {
+    font-size: .8125rem;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  編輯時候狀態
+===============================================  */
+.version_block.editing .cus_cnt {
+    padding: .625rem .625rem 1.125rem;
+}
+
+.version_block.editing .cus_cnt:not(.cus_cnt_text) {
+    background-color: #364146;
+    border-radius: 4px;
+}
+
+.version_block.editing .cus_cnt-bd {
+    margin-top: .5rem;
+}
+
+.version_block.editing .cus_cnt-ft {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  標題、副標題、內文
+===============================================  */
+.cus_cnt-title-input.cus_cnt-title-input,
+.cus_cnt-title .cus_cnt_data,
+.cus_cnt-subtitle-input.cus_cnt-subtitle-input,
+.cus_cnt-subtitle .cus_cnt_data {
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.cus_cnt-title-input.cus_cnt-title-input,
+.cus_cnt-title .cus_cnt_data {
+    font-size: 1.25rem;
+}
+
+.version_block:not(.complete) .cus_cnt-title-input.cus_cnt-title-input,
+.version_block:not(.complete) .cus_cnt-title .cus_cnt_data {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cus_cnt-subtitle-input.cus_cnt-subtitle-input,
+.cus_cnt-subtitle .cus_cnt_data {
+    font-size: 1rem;
+}
+
+.version_block:not(.complete) .cus_cnt-subtitle-input.cus_cnt-subtitle-input,
+.version_block:not(.complete) .cus_cnt-subtitle .cus_cnt_data {
+    padding-top: .675rem;
+    padding-bottom: .675rem;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+
+.cus_cnt-content-input.cus_cnt-content-input,
+.cus_cnt-content .cus_cnt_data {
+    font-size: .875rem;
+    color: #A7B1B6;
+}
+
+.version_block:not(.editing) .cus_cnt-ft,
+.version_block:not(.editing) .cus_cnt-txt_tool,
+.version_block:not(.editing) .cus_cnt_text .cus_cnt-field textarea,
+.version_block:not(.editing) .cus_cnt_text .cus_cnt-field input {
+    display: none;
+}
+
+.cus_cnt-txt_tool .left,
+.cus_cnt .txt_tool {
+    float: left;
+}
+
+.cus_cnt .txt_tool .txt_tool-btn {
+    height: 1.75rem;
+    width: 1.75rem;
+    border: 1px solid currentcolor;
+    color: #fff;
+    cursor: pointer;
+    transition: .25s all ease-in-out;
+}
+
+.cus_cnt .txt_tool:not(.active) .txt_tool-btn {
+    background-color: #A7B1B6;
+}
+
+.cus_cnt .txt_tool.active .txt_tool-btn,
+.cus_cnt .txt_tool:hover .txt_tool-btn {
+    background-color: #176da4
+}
+
+.cus_cnt .txt_tool-btn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+}
+
+.cus_cnt .txt_tool:active .txt_tool-btn {
+    transform: translate(2px, 2px);
+}
+
+.cus_cnt_text .cus_cnt-field {
+    overflow: hidden;
+}
+
+.cus_cnt_text .cus_cnt-field input,
+.cus_cnt_text .cus_cnt-field textarea {
+    border: transparent 1px solid;
+    box-shadow: none;
+    background-color: #eaedef;
+    caret-color: #0E86D4;
+    width: 100%;
+}
+
+.cus_cnt_text .cus_cnt-field textarea {
+    resize: none;
+    height: 8.75rem;
+}
+
+.cus_cnt_text .cus_cnt-field input:focus,
+.cus_cnt_text .cus_cnt-field textarea:focus {
+    background-color: #f5f7f8;
+}
+
+.cus_cnt_text .cus_cnt-field .bt-line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #0E86D4;
+    transition: .25s all linear;
+}
+
+.cus_cnt_text .cus_cnt-field input:focus ~ .bt-line,
+.cus_cnt_text .cus_cnt-field textarea:focus~ .bt-line {
+    width: 100%;
+    transform: translateX(0);
+}
+
+/* WebKit browsers */
+.cus_cnt_text .cus_cnt-field::-webkit-input-placeholder {
+    color: #8fa2ad;
+    letter-spacing: 1px;
+}
+
+/* Mozilla Firefox 4 to 18 */
+.cus_cnt_text .cus_cnt-field:-moz-placeholder {
+    color: #8fa2ad;
+    letter-spacing: 1px;
+}
+
+/* Mozilla Firefox 19+ */
+.cus_cnt_text .cus_cnt-field::-moz-placeholder {
+    color: #8fa2ad;
+    letter-spacing: 1px;
+    opacity: 1
+}
+
+/* Internet Explorer 10+ */
+.cus_cnt_text .cus_cnt-field:-ms-input-placeholder {
+    color: #8fa2ad;
+    letter-spacing: 1px;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  編輯完成 - 預覽
+===============================================  */
+.version_block.view .cus_cnt-content-field .cus_cnt_data {
+    padding: .875rem;
+}
+
+.version_block.view .cus_cnt_data {
+    border-radius: 4px;
+    border: 1px dashed transparent;
+    transition: .25s all ease-in-out;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.version_block.view .cus_cnt_data:hover {
+    border-color: #68BBE3;
+    background-color: rgba(28, 132, 198, .06);
+    color: #0E86D4;
+}
+
+/*  ===========================================
+加分亮點 - 列表模式
+===============================================  */
+.version_block.complete .cus_cnt-title .cus_cnt_data {
+    padding: 0 .375rem;
+}
+
+.version_block.complete .cus_cnt-subtitle .cus_cnt_data {
+    padding: 0 .25rem;
+}
+
+.version_block.complete .cus_cnt-content .cus_cnt_data.align-left {
+    padding: 0 .125rem 0 .5rem;
+}
+
+.version_block.complete .cus_cnt-content .cus_cnt_data.align-right {
+    padding: 0 .5rem 0 .125rem;
+}
+
+.version_block.complete .cus_cnt-content .cus_cnt_data.align-left:before,
+.version_block.complete .cus_cnt-content .cus_cnt_data.align-right:before {
+    content: '';
+    position: absolute;
+    top: 2.5%;
+    height: 95%;
+    width: 2px;
+    background-color: #c3e3f7;
+}
+
+.version_block.complete .cus_cnt-content .cus_cnt_data.align-left:before {
+    left: 0;
+}
+
+.version_block.complete .cus_cnt-content .cus_cnt_data.align-right:before {
+    right: 0;
+}
+
+.version_block.complete .cus_cnt-content .cus_cnt_data:first-letter {
+    color: #364146;
+    font-size: 112.5%;
+    font-weight: bolder;
+    margin-right: 1px;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  新增連結
+===============================================  */
+.cus_cnt-link .cus_cnt-field {
+    margin-bottom: .5rem;
+}
+
+.cus_cnt-field .cus_cnt-field_group {
+    display: table;
+    color: #fff;
+    width: 100%;
+}
+
+.cus_cnt-field_group .cus_cnt-field_group-label {
+    display: block;
+    background-color: #A7B1B6;
+    border-radius: 2px 0 0 2px;
+    padding: .4375rem .5rem;
+    text-align: justify;
+    text-align-last: justify;
+    user-select: none;
+}
+
+.cus_cnt-field_group-label > span,
+.cus_cnt-field_group-label > i {
+    vertical-align: middle;
+}
+
+.cus_cnt-field_group-label > i {
+    font-size: 1.125rem;
+}
+
+.cus_cnt-field_group-input.cus_cnt-field_group-input {
+    background-color: #494f54;
+    border: 1px solid #60686f;
+    border-left: transparent;
+    border-radius: 0 2px 2px 0;
+    color: #fff;
+    padding: .425rem .5rem;
+    width: 100%;
+    transition: .125s all ease-in-out;
+}
+
+.cus_cnt-field_group-input.cus_cnt-field_group-input:focus {
+    background-color: #40454a;
+    border-color: #51575d;
+    box-shadow: none;
+}
+
+.cus_cnt-link-label {
+    width: 6.25rem;
+}
+
+.cus_cnt-link-color_item {
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    float: left;
+    margin-left: .375rem;
+    transition: .25s ease-in-out all;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.cus_cnt-link-color_item.color-blue,
+.cus_cnt-link-view.color-blue {
+    background-color: #68BBE3;
+    border-color: #68BBE3;
+}
+
+.cus_cnt-link-color_item.color-green,
+.cus_cnt-link-view.color-green {
+    background-color: #75e7dc;
+    border-color: #75e7dc;
+}
+
+.cus_cnt-link-color_item.color-red,
+.cus_cnt-link-view.color-red {
+    background-color: #e77580;
+    border-color: #e77580;
+}
+
+.cus_cnt-link-color_item.color-orange,
+.cus_cnt-link-view.color-orange {
+    background-color: #e7a375;
+    border-color: #e7a375;
+}
+
+.cus_cnt-link-color_item.color-purple,
+.cus_cnt-link-view.color-purple {
+    background-color: #7580e7;
+    border-color: #7580e7;
+}
+
+.cus_cnt-link-color_item.active {
+    border-color: #fff;
+}
+
+.cus_cnt-link-view {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    transition: all .25s ease-in-out;
+}
+
+.cus_cnt-link-view a {
+    color: currentColor;
+    display: block;
+    letter-spacing: 1px;
+    padding: .75rem 0;    /* Let the link Not click */
+    pointer-events: none;
+}
+
+.cus_cnt-link-view:hover {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .16), 0 4px 12px 0 rgba(0, 0, 0, .12);
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  新增圖片、附件
+===============================================  */
+.cus_cnt-video-cover,
+.cus_cnt-pic-upload,
+.cus_cnt-annex-upload {
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #5a5a5a;
+    border-radius: 4px;
+    transition: .25s all ease-in-out
+}
+
+.cus_cnt-video-cover:hover,
+.cus_cnt-pic-upload:hover,
+.cus_cnt-annex-upload:hover {
+    background-color: #787878;
+}
+
+.cus_cnt-pic-upload:not(.view),
+.cus_cnt-annex-upload:not(.view) {
+    padding-bottom: 50%;
+}
+
+.cus_cnt-video-cover {
+    padding-bottom: 56.45161%;
+}
+
+.cus_cnt-pic-upload + .cus_cnt-pic-preview {
+    background-color: #fff;
+}
+
+.cus_cnt-pic-upload > .inner,
+.cus_cnt-annex-upload > .inner,
+.cus_cnt-video-cover > .inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.cus_cnt-pic-upload > .inner i,
+.cus_cnt-annex-upload> .inner i,
+.cus_cnt-video-cover > .inner i {
+    display: block;
+    font-size: 2.5rem;
+}
+
+.cus_cnt-pic-figure {
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.cus_cnt-pic-preview img {
+    width: 100%;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  新增影片
+===============================================  */
+.cus_cnt-video-cover > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.cus_cnt-video-cover > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cus_cnt-video-label {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*  ===========================================
+加分亮點 - 編輯區塊  -->  底端按鈕
+===============================================  */
+.btn-cuscnt {
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: .875rem;
+    padding: .375rem 1.75rem;
+    transition: .25s all ease-in-out;
+    user-select: none;
+}
+
+.btn-cuscnt-cancel {
+    background-color: #ABBAC3;
+}
+
+.btn-cuscnt-cancel:hover {
+    background-color: #bac6ce;
+}
+
+.btn-cuscnt-cancel:active {
+    background-color: #9caeb8;
+}
+
+.btn-cuscnt-save {
+    background-color: #66BFAE;
+    margin-left: .5rem;
+}
+
+.btn-cuscnt-save:hover {
+    background-color: #8acec1;
+}
+
+.btn-cuscnt-save:active {
+    background-color: #47ab98
+}
+
+/* .btn-cuscnt-addcnt {
+background-color: #5a5a5a
+}
+
+.btn-cuscnt-addcnt > i {
+font-size: 1.125rem;
+}
+
+.btn-cuscnt-addcnt > i,
+.btn-cuscnt-addcnt > span {
+vertical-align: middle;
+}
+
+.btn-cuscnt-addcnt:hover {
+background-color: #6e6e6e
+}
+
+.btn-cuscnt-addcnt:active {
+background-color: #474747
+}
+ */
+
+/* cusCntTextView jQuery 隱藏方式 改成使用 Css:not 選擇器 */
+
+.version_block.view .cus_cnt_view i {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+.version_block.view .cus_cnt_view:hover i {
+    display: block
+}
+
+.version_block.view .cus_cnt_view:hover {
+    padding: .25rem;
+    transition: .125s all ease-in-out;
+}
+
+.version_block.view .cus_cnt_view:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(19, 87, 131, .78);
+    border: 1px dashed #68BBE3;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0;
+    transition: inherit;
+    z-index: 1
+}
+
+.version_block.view .cus_cnt_view:hover:after {
+    opacity: 1;
+}
+
+/******************************************/
+
+/* > Popup
+/******************************************/
+.popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.popup_wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.popup_bg {
+    background-color: rgba(0, 0, 0, .3);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.popup_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 2px;
+    width: 30rem;
+}
+
+.popup_content {
+    color: #364146;
+}
+
+.popup_content-hd {
+    padding: .625rem 1rem;
+    background-color: #0E86D4;
+    color: #fff;
+    font-size: .875rem;
+    letter-spacing: 1px;
+}
+
+.popup_content-hd .popup-close {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.popup_content-hd .popup-close:before,
+.popup_content-hd .popup-close:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.popup_content-hd .popup-close:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.popup_content-bd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+}
+
+.ie .popup_content-bd {
+    display: block;
+}
+
+.popup_content-ft {
+    padding: 1rem;
+    padding-top: 0;
+    text-align: right;
+}
+
+.popup_content-label {
+    padding-right: 0.5em;
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+.popup_content-field {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 400px;
+    flex: 1 0 400px;
+    text-align: right;
+}
+
+.popup_textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+    border: solid 1px #cdd8e3;
+    resize: none;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.popup_btn {
+    border-radius: 4px;
+    border: 1px solid #0E86D4;
+    padding: 13px 25px;
+    background-color: #fff;
+    color: #0E86D4;
+    box-shadow: 1px 1px 3px rgba(28, 132, 198, 0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.popup_btn:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.popup_btn.confirm-cancel {
+    margin-right: .75rem;
+}
+
+.popup_btn.confirm-yes {
+    padding: .75rem 2.25rem;
+    border-color: #217dbb;
+    background-color: #0E86D4;
+    color: #fff;
+}
+
+.popup_upload .popup-title {
+    font-size: .875rem;
+    font-weight: normal;
+}
+
+.popup_upload .popup_content-bd > .inner {
+    width: 100%;
+    padding: 1.5rem 0;
+    border: 1px dashed #cdd8e3;
+}
+
+.popup_upload .popup_content-bd > .inner.is-dragover {
+    border: 1px dashed #6b8cac;
+    background-color: #cdd8e3;
+}
+
+.popup_upload .drop_txt {
+    color: #A7B1B6;
+}
+
+.popup_upload .or_txt {
+    padding: .25rem 0;
+    color: #A7B1B6;
+    font-size: .875rem
+}
+
+.popup_upload .upload_file-label {
+    width: 8rem;
+    font-size: .875rem;
+    padding: .375rem 0
+}
+
+.popup_upload .upload_file-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.popup_upload .file_url-input {
+    display: inline-block;
+    width: 270px;
+    border: 1px solid #cdd8e3;
+    border-radius: 4px;
+}
+
+.popup_upload .file_url-btn {
+    display: inline-block;
+}
+
+.popup_upload .exp {
+    padding-top: 6px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    color: #A7B1B6
+
+    d;
+    line-height: 1.5;
+}
+
+.popup_upload .preview_file {
+    display: none;
+    max-width: 300px;
+    margin: 0 auto 1rem;
+}
+
+.popup_upload .preview_file .pic {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 96.21212%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.popup_upload .preview_file .pic img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

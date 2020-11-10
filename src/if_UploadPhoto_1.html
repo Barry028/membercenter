@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>裁切圖片</title>
+    
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/iconmoon/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>
+        body {
+        background: #fff;
+    }
+    </style>
+    <!--[if lte IE 9]>
+    <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="vender/respond/dest/respond.min.js"></script>
+    <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <section id="photoStep_1" class="mt-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-4">
+                    <div class="uploadPhoto-content">
+                        <h1 class="uploadPhoto-lt-title">上傳後照片將同步更新至您所有履歷</h1>
+                        <form class="file-upload mt-8" action="/file-upload" enctype="multipart/form-data">
+                            <img id="resultPhoto" src="img/img-profile-replace.svg" alt="大頭照">
+                            <input id="inputPhoto" type="file" accept="image/jpeg, image/png" class="input-file">
+                        </form>
+                        <div class="uploadPhoto-btn-block">
+                            <label class="btn btn--secondary" for="inputPhoto">選擇照片</label>
+                            <button type="button" class="btn">刪除照片</button>
+                        </div>
+                        <p class="center text--lightgrey text--14">( 限PNG、JPG檔案 ； 建議尺寸 220x280 pixel )</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-8 uploadPhoto-separate">
+                    <div class="uploadPhoto-content">
+                        <h1 class="uploadPhoto-rt-title">掌握以下重點，<br>讓您的履歷更加分！</h1>
+                        <div class="uploadPhoto-rt-ltbox">
+                            <img src="img/img-profile-default.svg" alt="profile">
+                        </div>
+                        <div class="uploadPhoto-rt-rtbox">
+                            <div class="mt-4 mb-8">
+                                <img src="img/icon-upload-check.svg" alt="check" class="check-img">
+                                <span class="inline-block--middle">頭像清晰 / 正面</span>
+                            </div>
+                            <div class="mt-4 mb-8">
+                                <img src="img/icon-upload-check.svg" alt="check" class="check-img">
+                                <span class="inline-block--middle">臉部未被裁切</span>
+                            </div>
+                            <div class="mt-4 mb-8">
+                                <img src="img/icon-upload-check.svg" alt="check" class="check-img">
+                                <span class="inline-block--middle">本人獨照</span>
+                            </div>
+                        </div>
+                        <strong class="block text--16 text--danger mt-8">*** 切勿使用以下照片 ***</strong>
+                        <div class="er-img-block">
+                            <img src="img/img-profile-animal.png" alt="animal" class="er-img">
+                            <i class="fa fa-times text--16" aria-hidden="true"></i>
+                            <span>非人類照</span>
+                        </div>
+                        <div class="er-img-block">
+                            <img src="img/img-profile-couple.png" alt="couple" class="er-img">
+                            <i class="fa fa-times text--16" aria-hidden="true"></i>
+                            <span>團體照</span>
+                        </div>
+                        <div class="er-img-block">
+                            <img src="img/img-profile-blur.png" alt="blur" class="er-img">
+                            <i class="fa fa-times text--16" aria-hidden="true"></i>
+                            <span>照片模糊</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="photoStep_2" class="mt-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="user_photo_cropper">
+                        <div class="inner">
+                            <img src="" id="profilePhoto">
+                        </div>
+                        <p class="text--13 center mt-8 mb-8">滑鼠滾輪可縮放</p>
+                        <div class="center mb-8">
+                            <button type="button" id="leftRotate" class="btn btn-primary btn--md" title="向左轉">
+                                <span class="fa fa-rotate-left"></span>
+                            </button>
+                            <button class="btn btn--default btn--md" id="btnRestore">重新裁切</button>
+                            <button type="button" id="rightRotate" class="btn btn-primary btn--md" title="向右轉">
+                                <span class="fa fa-rotate-right"></span>
+                            </button>
+                        </div>
+                        <div class="align-right">
+                            <a class="text--14 mr-8" id="return">回上一步重選</a>
+                            <button class="btn btn--primary btn--md" id="crop">確定裁切</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="uploadPhoto-bt-txt center">違反照片上傳規定者，1111人力銀行得於任何時候、無需預先通知即自行移除該內容。</div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/cropper/3.1.3/cropper.min.js"></script>
+    <script>
+    var initCropper = function(img, input) {
+        var $image = img;
+        var options = {
+            dragMode: 'move',
+            aspectRatio: 220 / 280,
+            viewMode: 1,
+            cropBoxMovable: false,
+            cropBoxResizable: false,
+        };
+        // 回上一頁
+        $("#return").click(function() {
+            $("#photoStep_2").hide();
+            $("#photoStep_1").show();
+        });
+        // 照片旋轉
+        $("#rightRotate").click(function() {
+            $image.cropper('rotate', 90);
+        });
+        $("#leftRotate").click(function() {
+            $image.cropper('rotate', -90);
+        });
+        // 重新裁切
+        $("#btnRestore").click(function(event) {
+            $image.cropper('reset');
+        });
+        $image.cropper(options);
+        var $inputImage = input;
+        var uploadedImageURL;
+        if (URL) {
+            // 给input 添加監聽
+            $inputImage.change(function() {
+                var files = this.files;
+                var allowed = ["jpg", "jpeg", "png"];
+                var file;
+                if (!$image.data('cropper')) {
+                    return;
+                }
+                if (files && files.length) {
+                    file = files[0];
+                    if (file.size > 102400 * 100) {
+                        alert("檔案大小超過 10MB 的限制了!");
+                        return false;
+                    }
+                    // 判斷是否是圖像文件
+                    if (/^image\/\w+$/.test(file.type)) {
+                        // 如果URL已存在就先釋放
+                        if (uploadedImageURL) {
+                            URL.revokeObjectURL(uploadedImageURL);
+                        }
+                        uploadedImageURL = URL.createObjectURL(file);
+                        $("#photoStep_1").hide();
+                        $("#photoStep_2").show();
+                        // 銷毀cropper後更改src屬性再重新創建cropper
+                        $image.cropper('destroy').attr('src', uploadedImageURL).cropper(options);
+                        $inputImage.val('');
+                    } else {
+                        alert('上傳檔案有誤，請換一張照片試試看!');
+                    }
+                }
+            });
+        } else {
+            $inputImage.prop('disabled', true).addClass('disabled');
+        }
+    }
+    // 確定裁切
+    $("#crop").click(function() {
+        var $image = $('#profilePhoto');
+        var $target = $('#resultPhoto');
+        $image.cropper('getCroppedCanvas', {
+            // 裁剪後的長寬
+            width: 220,
+            height: 280
+        }).toBlob(function(blob) {
+            // 裁剪後將圖片放到指定標籤
+            $target.attr('src', URL.createObjectURL(blob));
+        });
+        $("#photoStep_2").hide();
+        $("#photoStep_1").show();
+    });
+
+    $(function() {
+        initCropper($('#profilePhoto'), $('#inputPhoto'));
+    });
+    </script>
+</body>
+
+</html>

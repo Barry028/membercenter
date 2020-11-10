@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/**
+ * ==   Pages > Resume Video
+ */
+.video-upload {
+    background-color: #EBEBEB;
+    background-image: url("img/bg-video.svg");
+    border: #BDC3C7 1px dashed;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+.video-upload-content {
+    padding: 3rem;
+
+    p > font {
+        font-size: 2.25rem;
+    }
+
+    i {
+        color: #75B9E7;
+        font-size: 5rem;
+    }
+}
+
+.video-remark {
+    background-color: #d1e6f3;
+    border-color: #badaed;
+    color: #135c8a;
+    line-height: 1.75;
+    margin-top: 1rem;
+    padding: .75rem 1rem;
+
+    li {
+        font-size: 0.875rem;
+    }
+}
+
+.panel-content .video {
+    width: 100%;
+}
+
+.video-btn-block {
+    margin-top: 1rem;
+}
+
+.video-upload-btn, .video-trash-btn {
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    transition: 0.25s ease-in-out all;
+}
+
+.video-upload-btn {
+    background-color: #75B9E7;
+
+    &:hover {
+        background-color: #5EB0E8;
+    }
+
+    &:active {
+        background-color: #489ADB;
+    }
+}
+
+.video-trash-btn {
+    background-color: #F57373;
+
+    &:hover {
+        background-color: #f78b8b;
+    }
+
+    &:active {
+        background-color: #f35b5b;
+    }
+}
+
+.video-upload-btn i, .video-trash-btn i {
+    font-size: 2rem;
+    padding-right: .5rem;
+}
+
+.video-upload-btn span, .video-trash-btn span {
+    font-size: 1rem;
+}

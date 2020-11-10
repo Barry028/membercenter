@@ -1,0 +1,9 @@
+<svg id="protection" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24609" data-name="Rectangle 24609" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_100019" data-name="Path 100019" d="M20,5,12.23,2a.72.72,0,0,0-.54,0L4,5a.75.75,0,0,0-.48.7v6.38A10.24,10.24,0,0,0,11.85,22h.3a10.24,10.24,0,0,0,8.37-9.9V5.71A.75.75,0,0,0,20,5Zm-1,7.08a8.72,8.72,0,0,1-7,8.4,8.72,8.72,0,0,1-7-8.4V6.23l7-2.68,7,2.68Z" fill="#fff"/>
+    <path id="Path_100020" data-name="Path 100020" d="M7.23,7.66a.75.75,0,0,0-.48.7v3.69a6.24,6.24,0,0,0,5.09,6H12a.75.75,0,0,0,.75-.75V6.65A.75.75,0,0,0,12.42,6a.74.74,0,0,0-.69,0Zm1,4.39V8.88l3-1.14v8.61a4.68,4.68,0,0,1-2.98-4.3Z" fill="#fff"/>
+  </g>
+</svg>

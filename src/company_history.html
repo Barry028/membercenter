@@ -1,0 +1,845 @@
+<!-- AuOzzy -->
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 會員中心 - 企業瀏覽紀錄</title>
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/iconmoon/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/loading.js"></script>
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <main class="wrapper">
+        <!-- Header Star -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header">
+                        <div class="header-left">
+                            <a id="burger" class="toggle-menu" href="javascript:;">
+                                <span></span>
+                            </a>
+                            <a href="index.html" class="header-logo">
+                                <img src="img/jobbank-logo.svg" alt="1111-會員中心">
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <div class="searchlist">
+                                <a href="javascript:;" class="btn btn--watergrey opt--84" id="searchLog">
+                                    <i class="jb-df-seo-global-search"  aria-hidden="true"></i>
+                                    搜尋紀錄
+                                </a>
+                                <div class="search-log" id="searchLogCnt">
+                                    <div class="search-log-title">最近搜尋紀錄
+                                        <a href="javascript:;" class="close-btn" id="searchLogColse">
+                                            <i class="jb-de-close-s" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                    <div class="search-log-content">
+                                        <ul>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                                <a href="javascript:;">uX</a>
+                                                <a href="javascript:;">UiuX</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找公司</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                        </ul>
+                                        <div class="search-log-footer">
+                                            <a href="javascript:;" class="btn btn--border--danger btn--xs">
+                                                <i class="jb-db-clear mr-4" aria-hidden="true"></i>清除搜尋紀錄
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-bar-box">
+                                <div class="search-bar">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <input type="text" name="keywords" value="" placeholder="請輸入關鍵字">
+                                            <i class="icon-search search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="city" value="" placeholder="請選擇縣市區域">
+                                            <i class="icon-area search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="duty" value="" placeholder="請選擇職務類別">
+                                            <i class="icon-job search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <i class="jb-df-search"></i>
+                                            <input type="button" name="" value="找工作" class="btn btn--primary btn--block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        <div class="main">
+            <div class="content">
+                <!-- Side Start -->
+                <aside class="side-nav">
+                    <div class="side-nav-menu">
+                        <div class="profile-box">
+                            <div class="profile-box-lt">
+                                <figure class="profile-pic">
+                                    <img src="img/profile.png" alt="profile" class="profile">
+                                    <i class="icon-camera" aria-hidden="true"></i>
+                                    <figcaption>
+                                        <p class="upload"><i class="icon-camera" aria-hidden="true"></i>上傳照片</p>
+                                    </figcaption>
+                                    <a href="javascript:;" class="UploadPhoto"></a>
+                                </figure>
+                            </div>
+                            <div class="profile-box-rt">
+                                <div class="name">天母克里斯伊凡</div>
+                                <div class="age">
+                                    <strong>27</strong>
+                                    <span>歲</span>
+                                </div>
+                                <dl>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dt class="inline-block--middle not-verify">
+                                        <label class="verify-tag" data-tooltip="您的手機尚未認證！" data-flow="right">
+                                            <i class="jb-df-appliances-smartphone"></i>
+                                            <font>未認證</font>
+                                        </label>
+                                    </dt>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dd class="inline-block--middle">
+                                        <label class="verify-tag" data-tooltip="您的手機已認證！" data-flow="right">
+                                            <i class="jb-df-mail-envelope"></i>
+                                            <font>已認證</font>
+                                        </label>
+                                    </dd>
+                                </dl>
+                                <div class="settip">
+                                    <a class="btn btn--border--secondary btn--sm setting-btn">個人設定</a>
+                                    <div class="setting-tip">
+                                        <h3>
+                                            <!-- 九大職能星 圖片 -->
+                                            <!-- <embed src="img/assessment/mercury.svg" alt="Mercury水星" /> -->
+                                            <!-- <embed src="img/assessment/neptune.svg" alt="Neptune海王星" /> -->
+                                            <!-- <embed src="img/assessment/pluto.svg" alt="Pluto冥王星" /> -->
+                                            <!-- <embed src="img/assessment/Venus.svg" alt="Venus金星" /> -->
+                                            <!-- <embed src="img/assessment/Mars.svg" alt="Mars火星" /> -->
+                                            <!-- <embed src="img/assessment/Saturn.svg" alt="Saturn土星" /> -->
+                                            <!-- <embed src="img/assessment/Jupiter.svg" alt="Jupiter木星" /> -->
+                                            <!-- <embed src="img/assessment/earth.svg" alt="Earth地球" /> -->
+                                            <embed src="img/assessment/uranus.svg" alt="Uranus天王星" />
+                                            天王星 研究型 66%
+                                        </h3>
+                                        <!-- 超過183天請顯示立即重測 -->
+                                        <!-- <a href="#!"> [立即重測] </a> -->
+                                        <a href="javascript:;"> [測驗報告] </a>
+                                        <dl>
+                                            <dt>會員編號</dt>
+                                            <dd>091234567</dd>
+                                            <dt>會員姓名</dt>
+                                            <dd>天母克里斯伊凡</dd>
+                                            <dt>手機號碼</dt>
+                                            <dd>0987654321</dd>
+                                            <dt>電子郵件</dt>
+                                            <dd>barry@face124.com</dd>
+                                            <dt>聯絡時間</dt>
+                                            <dd>09:00 - 22:00</dd>
+                                        </dl>
+                                        <div class="footer">
+                                            <a href="#!" class="btn btn--border--secondary btn--sm">編輯個人資料</a>
+                                            <a href="#!" class="btn btn--border--secondary btn--sm">修改密碼</a>
+                                            <a href="#!" class="btn btn--border--negative btn--sm">封鎖設定</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-list">
+                            <div class="resume-heading">
+                                <a href="javascript:;" class="title">
+                                    <i class="jb-mn-resume" aria-hidden="true"></i>
+                                    <font class="align-middle">履歷總覽</font>
+                                </a>
+                                <a href="javascript:;" class="add-resume" title="新增履歷">
+                                    <i class="jb-df-add-rectangular" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">我的第 1 個履歷</a>
+                                    <span class="status-label label--open">開啟中</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 2 個履歷</a>
+                                    <span class="status-label label--unfinish">未完成</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 3 個履歷</a>
+                                    <span class="status-label label--close">關閉中</span>
+                                </li>
+                            </ul>
+                            <p class="upload-date"><i class="jb-df-calendar-schedule-calendar"></i>履歷最後更新日：2018/08/31 18:00</p>
+                        </div>
+                    </div>
+                    <ul class="menu-list" id="mainMenu">
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-home"></i>
+                                <span>會員中心首頁</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-resume"></i>
+                                <span>履歷管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li class="">
+                                    <a href="resume_list.html">
+                                        <i class="menu-icon"></i>
+                                        <span>履歷總覽</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="resume_video.html">
+                                        <i class="menu-icon"></i>
+                                        <span>影音履歷</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="plus_effect.html">
+                                        <i class="menu-icon"></i>
+                                        <span>加分亮點</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="recommendation.html">
+                                        <i class="menu-icon"></i>
+                                        <span>自我推薦函</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-hiring"></i>
+                                <span>求職管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="candidate_alerts_inbox.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業通知</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="company_history.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業瀏覽紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="apply_record.html">
+                                        <i class="menu-icon"></i>
+                                        <span>主動應徵紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="matchset.html">
+                                        <i class="menu-icon"></i>
+                                        <span>配對工作</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_corp.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_job.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的職缺</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-point"></i>
+                                <span>紅利專區</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="menu-icon"></i>
+                                        <span>會員紅利管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利領取紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利兌換紀錄</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-account"></i>
+                                <span>帳號管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="member_edit.html">
+                                        <i class="menu-icon"></i>
+                                        <span>會員資料</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_password.html">
+                                        <i class="menu-icon"></i>
+                                        <span>變更密碼</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_epaper.html">
+                                        <i class="menu-icon"></i>
+                                        <span>電子報管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="industry.html">
+                                        <i class="menu-icon"></i>
+                                        <span>封鎖產業及公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="positive.html">
+                                        <i class="menu-icon"></i>
+                                        <span>守約會員管理</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="icon-m-rocket"></i>
+                                <span>求職秘笈</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="javascript:;"><i class="menu-icon"></i>
+                                        <span>XXXXXX</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="double-line"></div>
+                    <div class="side-advertising-box">
+                        <figure>
+                            <div class="mask-assessment"></div>
+                            <figcaption>
+                                <img src="img/assessment-white.svg" alt="九大職能星">
+                                <span>九大職能星</span>
+                            </figcaption>
+                            <p>找出您的職能類型！</p>
+                            <img src="img/astronaut.svg" alt="astronaut" class="astronaut">
+                            <a href="javascript:;" class="btn btn--yellow btn--sm">立即測驗</a>
+                        </figure>
+                        <p class="footer"><a href="#!" class="text--dark">幫助中心</a> | <a href="#!" class="text--dark"> 線上客服</a></p>
+                    </div>
+                </aside>
+                <!-- Side End -->
+                <article class="main-content company_history">
+                    <div class="mask-burger"></div>
+                    <!-- Breadcrumbs Start -->
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs-row cf">
+                            <li>
+                                <i class="jb-df-home" aria-hidden="true"></i>
+                                <a href="index.html" title="會員中心首頁">會員中心首頁</a>
+                            </li>
+                            <li>求職管理</li>
+                            <li>企業瀏覽紀錄</li>
+                        </ul>
+                    </div>
+                    <!-- Breadcrumbs End -->
+                    <!-- Page-Header Start -->
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>企業瀏覽紀錄<i class="jb-df-right-double-arrow"></i></h1>
+                            <div class="header-title-txt">
+                                建議您可針對不同職缺設定不同應徵條件，可提升您的配對率唷！
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Page-Header End -->
+                    <!-- Page-Content Start -->
+                    <div class="page-content company_history_wrap">
+                        <div class="set_industry alert-block alert-primary text--16">
+                            <span class="set_industry-title">不想被看到？可至封鎖公司設定</span>
+                            <button class="btn-setting" id="setting"><i class="jb-db-add"></i></button>
+                            <div id="setting-content" class="setting-content">
+                                <span class="text--grey">已封鎖的產業</span> - 直銷、保險、殯葬、人力派遣、房仲　<a href="javascript:;">[設定]</a><br>
+                                <span class="text--grey">已封鎖的公司</span> - 電子科技╱資訊╱軟體╱半導體　<a href="javascript:;">[設定]</a><br>
+                                若您封鎖產業或公司後仍被瀏覽，請盡速與我們<a href="javascript:;">連繫</a>
+                            </div>&nbsp;
+                        </div>
+                        <div class="panel cf">
+                            <div class="panel-content company_history_container">
+                                <div class="company_history_content">
+                                    <div class="company_history_content-hd">
+                                        <div class="inline-block">
+                                            <span class="txt text--grey">每頁顯示</span>
+                                            <span class="show_page">
+                                                <select name="" id="" class="show_page-select">
+                                                    <option value="10">10</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                        <div class="push-right cf">
+                                            <button class="btn btn--border--danger modal_history_delete" id="block" style="display:none;">刪除已選取紀錄 (<span id="totaldelete">0</span>)</button>
+                                            <button class="btn btn--border--danger modal_collect_delete">刪除全部紀錄</button>
+                                        </div>
+                                    </div>
+                                    <div class="company_history_content-bd">
+                                        <div id="sortdelete">
+                                            <ul class="ch_list lis-n">
+                                                <!-- 一般狀態(預設) -->
+                                                <li class="ch_item inner-table">
+                                                    <div class="ch_item-img inner-tablecell">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('img/company.svg')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ch_item-text inner-tablecell">
+                                                        <div class="ch-time">2018/12/12</div>
+                                                        <div class="ch-corp_name">
+                                                            <a href="" target="_blank" class="txt text--18" title="INOTECH INTERACTIVE GLOBAL CONSULTANCY INC.">INOTECH INTERACTIVE GLOBAL CONSULTANCY INC.</a>
+                                                        </div>
+                                                        <div class="ch-corp_addr">台北市 北投區</div>
+                                                        <div class="ch-corp_other">空調╱水機電工程 | 資本額 50 萬元 | 員工 10 人</div>
+                                                    </div>
+                                                    <div class="ch_item-link inner-tablecell">
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                    <div class="ch_item-btns inner-tablecell">
+                                                        <div class="btns-wrap">
+                                                            <div class="heart-item">
+                                                                <input type="checkbox" id="collect" name="collect" value="collect">
+                                                                <label for="collect" class="btn btn--border--danger btn--square">
+                                                                    <i class="jb-db-favorite"></i>
+                                                                </label>
+                                                                <div class="checkbox-text">
+                                                                    <p class="text-collect">
+                                                                        <span class="already">已收藏</span>
+                                                                        <span class="none">收藏</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="del-item">
+                                                                <input type="checkbox" name="del" id="del" value="del" onclick="block()">
+                                                                <label for="del" class="btn btn--border--danger btn--square">
+                                                                    <i class="jb-df-trash-bin"></i>
+                                                                </label>
+                                                                <div class="checkbox-text">
+                                                                    <p>刪除</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- 無職缺狀態 -->
+                                                <li class="ch_item inner-table noJob">
+                                                    <div class="ch_item-img inner-tablecell">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('img/company.svg')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ch_item-text inner-tablecell">
+                                                        <div class="ch-time text--grey text--12">2018/12/12</div>
+                                                        <div class="ch-corp_name">
+                                                            <a href="" target="_blank" class="txt text--18" title="INOTECH INTERACTIVE GLOBAL CONSULTANCY INC.">INOTECH INTERACTIVE GLOBAL CONSULTANCY INC.</a>
+                                                        </div>
+                                                        <div class="ch-corp_addr text--lightgrey">台北市 北投區</div>
+                                                        <div class="ch-corp_other text--dark">空調╱水機電工程 | 資本額 50 萬元 | 員工 10 人</div>
+                                                    </div>
+                                                    <div class="ch_item-link inner-tablecell">
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block btn--disabled">暫無職缺</a>
+                                                    </div>
+                                                    <div class="ch_item-btns inner-tablecell">
+                                                        <div class="btns-wrap">
+                                                            <div class="heart-item">
+                                                                <input type="checkbox" id="collect2" name="collect" value="collect2">
+                                                                <label for="collect2" class="btn btn--border--danger btn--square mb-8">
+                                                                    <i class="jb-db-favorite"></i>
+                                                                </label>
+                                                                <div class="checkbox-text">
+                                                                    <p class="text-collect">
+                                                                        <span class="already">已收藏</span>
+                                                                        <span class="none">收藏</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="del-item">
+                                                                <input type="checkbox" name="del" id="del2" value="del" onclick="block()">
+                                                                <label for="del2" class="btn btn--border--danger btn--square mb-8">
+                                                                    <i class="jb-df-trash-bin"></i>
+                                                                </label>
+                                                                <div class="checkbox-text">
+                                                                    <p>刪除</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- 在收藏裡的狀態 -->
+                                                <li class="ch_item inner-table collection">
+                                                    <div class="ch_item-img inner-tablecell">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('img/company.svg')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ch_item-text inner-tablecell">
+                                                        <div class="ch-time text--grey text--12">2018/12/12</div>
+                                                        <div class="ch-corp_name"><a href="" target="_blank" class="txt text--18" title="INOTECH INTERACTIVE GLOBAL CONSULTANCY INC.">INOTECH INTERACTIVE GLOBAL CONSULTANCY INC.</a></div>
+                                                        <div class="ch-corp_addr text--lightgrey">台北市 北投區</div>
+                                                        <div class="ch-corp_other text--dark">空調╱水機電工程 | 資本額 50 萬元 | 員工 10 人</div>
+                                                    </div>
+                                                    <div class="ch_item-link inner-tablecell">
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                    <div class="ch_item-btns inner-tablecell">
+                                                        <div class="btns-wrap">
+                                                            <div class="heart-item">
+                                                                <input type="checkbox" id="collect3" name="collect" value="collect3">
+                                                                <label for="collect3" class="btn btn--border--danger btn--square mb-8">
+                                                                    <i class="jb-db-favorite"></i>
+                                                                </label>
+                                                                <div class="checkbox-text">
+                                                                    <p class="text-collect">
+                                                                        <span class="already">已收藏</span>
+                                                                        <span class="none">收藏</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="del-item">
+                                                                <input type="checkbox" name="del" id="del3" value="del" onclick="block()">
+                                                                <label for="del3" class="btn btn--border--danger btn--square mb-8">
+                                                                    <i class="jb-df-trash-bin"></i>
+                                                                </label>
+                                                                <div class="checkbox-text">
+                                                                    <p>刪除</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- 一般狀態(預設) -->
+                                                <li class="ch_item inner-table">
+                                                    <div class="ch_item-img inner-tablecell">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('img/company.svg')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ch_item-text inner-tablecell">
+                                                        <div class="ch-time text--grey text--12">2018/12/12</div>
+                                                        <div class="ch-corp_name"><a href="" target="_blank" class="txt text--18" title="INOTECH INTERACTIVE GLOBAL CONSULTANCY INC.">INOTECH INTERACTIVE GLOBAL CONSULTANCY INC.</a></div>
+                                                        <div class="ch-corp_addr text--lightgrey">台北市 北投區</div>
+                                                        <div class="ch-corp_other text--dark">空調╱水機電工程 | 資本額 50 萬元 | 員工 10 人</div>
+                                                    </div>
+                                                    <div class="ch_item-link inner-tablecell">
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                    <div class="ch_item-btns inner-tablecell">
+                                                        <div class="btns-wrap">
+                                                            <div class="heart-item">
+                                                                <input type="checkbox" id="collect4" name="collect" value="collect4">
+                                                                <label for="collect4" class="btn btn--border--danger btn--square mb-8">
+                                                                    <i class="jb-db-favorite"></i>
+                                                                </label>
+                                                                <div class="checkbox-text">
+                                                                    <p class="text-collect">
+                                                                        <span class="already">已收藏</span>
+                                                                        <span class="none">收藏</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="del-item">
+                                                                <input type="checkbox" name="del" id="del4" value="del" onclick="block()">
+                                                                <label for="del4" class="btn btn--border--danger btn--square mb-8">
+                                                                    <i class="jb-df-trash-bin"></i>
+                                                                </label>
+                                                                <div class="checkbox-text">
+                                                                    <p>刪除</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="company_history_content-ft cf">
+                                        <ul class="pagination">
+                                            <li><a href="javascript:;">&laquo;</a></li>
+                                            <li class="active"><a href="javascript:;">1</a></li>
+                                            <li><a href="javascript:;">2</a></li>
+                                            <li><a href="javascript:;">3</a></li>
+                                            <li><a href="javascript:;">4</a></li>
+                                            <li><a href="javascript:;">5</a></li>
+                                            <li><a href="javascript:;">6</a></li>
+                                            <li><a href="javascript:;">&raquo;</a></li>
+                                        </ul>
+                                        <div class="ft-btn">
+                                            <button class="btn btn--border--danger modal_history_deleteAll">刪除全部紀錄</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="company_history_maybe"></div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="heading">
+                                <span class="heading-icon-block">
+                                    <i class="jb-gd-personal-desk heading-icon" aria-hidden="true"></i>
+                                    <i class="dot dot-3"></i>
+                                    <i class="dot dot-4"></i>
+                                </span>
+                                <h3>你可能感興趣的職缺</h3>
+                            </div>
+                            <a href="javascript:;" class="rt-tools link-h-underline">更多
+                                <i class="jb-df-right-double-arrow"></i>
+                            </a>
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <a class="logo-img-container" href="javascript:;">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </a>
+                                        <div class="list-group-content">
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--dark link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--dark link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--dark link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--dark link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--dark link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="logo-img-container">
+                                            <div class="image" style="background-image: url('img/img-testlogo.svg');">
+                                            </div>
+                                        </div>
+                                        <div class="list-group-content">
+                                            <div class="sub-title text-ellipsis">
+                                                <a href="javascript:;" class="link--dark link-h-underline">滿心企業股份有限公司</a>
+                                            </div>
+                                            <div class="title text-ellipsis">
+                                                <a href="javascript:;" class="link-h-underline">服飾專櫃銷售人員(高雄地區)</a>
+                                            </div>
+                                            <div class="description text-ellipsis">
+                                                <font>高雄市苓雅區</font>
+                                                <font>2年工作經驗以上</font>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="advertisement">
+                            <a href="javascript:;">
+                                <img src="img/dcresume.svg" alt="履歷健診" class="hidden-xs">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Page-Content End -->
+                </article>
+            </div>
+        </div>
+    </main>
+    <button class="rt-fix-tools df-tools--intro" type="button">
+        <i class="jb-df-customer-feedback" aria-hidden="true"></i>
+        <font>新版介紹</font>
+    </button>
+    <button class="rt-fix-tools df-tool" type="button" onclick="location.href='guideline.html'">
+        <i class="jb-gd-compass-guide" aria-hidden="true"></i>
+        <font>設計規範</font>
+    </button>
+    <button class="rt-fix-tools go-to-top js-go-to" data-type="fixed" data-position='{"bottom": 72,"right": 24}' data-offset-top="400" data-compensation="#header" data-show-effect="zoomIn">
+        <i class="jb-de-au-linear-big"></i>
+        <font>回頂端</font>
+    </button>
+    <!-- Js -->
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- OwlCarousel -->
+    <script src="vender/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- Cropper -->
+    <script src="vender/cropperjs-master/dist/cropper.min.js"></script>
+    <!-- Template Custom -->
+    <script src="dist/js/gsap/TweenMax.min.js"></script>
+    <script src="dist/js/jobbankui.js"></script>
+    <!-- <script src="js/company_history.js"></script> -->
+    <!-- Go Top -->
+    <script src="js/go-to-top.js"></script>
+    <!-- Layer init -->
+    <script src="js/main-popups.js"></script>
+    <!-- Main -->
+    <script src="js/main.min.js"></script>
+    <script>
+    $(function() {
+        memberCenter.sideMenuOpen(2, 1);
+    });
+    (function($) {
+        $("#setting").click(function() {
+            var ArrowId = $(this).attr('id');
+            if (ArrowId == 'up') {
+                $(".btn-setting").html('+');
+                $(this).attr('id', 'down');
+            } else {
+                $(".btn-setting").html('-');
+                $(this).attr('id', 'up');
+            }
+            $("#setting-content").slideToggle("slow");
+        });
+    })(jQuery);
+
+    //刪除按鈕計數
+    $(document).ready(function() {
+        $("input[name='del']").on('change', function() {
+            var delnum = $("input[name='del']:checked").length;
+            $('#totaldelete').html(delnum);
+            //console.log(delnum);
+        });
+    });
+
+    function block() {
+        $('#block').addClass('inline-block');
+    }
+    </script>
+</body>
+
+</html>

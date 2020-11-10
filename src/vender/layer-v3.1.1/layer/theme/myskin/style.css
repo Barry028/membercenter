@@ -1,0 +1,41 @@
+.layui-layer-ico {
+	background: url(icon.png) no-repeat
+}
+
+.layui-layer-title {
+	color: #fff;
+	background-color: #0e86d4;
+}
+
+.layer-delete .layui-layer-title {
+	background-color: #fa626b;
+}
+
+.layui-layer {
+	max-width: 50rem
+}
+
+.layer-negative {
+	max-width: 44rem
+}
+
+.layer-magic {
+	max-width: 40rem
+}
+
+.layer-negative .layui-layer-title {
+	background-color: #ff9149;
+}
+
+.layer-magic .layui-layer-title {
+	background-color: #22B8CF;
+}
+
+.layui-layer-setwin .layui-layer-min:hover cite {
+	background-color: #1984c9
+}
+
+.layui-layer-setwin .layui-layer-close1 {
+	background-position: -80px -40px;
+	cursor: pointer
+}

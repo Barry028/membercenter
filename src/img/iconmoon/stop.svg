@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="stop" transform="translate(-8809 272)">
+    <rect id="Rectangle_23914" data-name="Rectangle 23914" width="48" height="48" transform="translate(8809 -272)" fill="none" opacity="0"/>
+    <g id="cancel" transform="translate(8815 -266)">
+      <path id="Union_24" data-name="Union 24" d="M-8812,287a18,18,0,0,1,18-18,18,18,0,0,1,18,18,18,18,0,0,1-18,18A18,18,0,0,1-8812,287Zm4.568,0A13.446,13.446,0,0,0-8794,300.432a13.35,13.35,0,0,0,7.742-2.46l-18.713-18.712a13.341,13.341,0,0,0-2.469,7.74Zm24.4,7.744A13.352,13.352,0,0,0-8780.57,287,13.444,13.444,0,0,0-8794,273.572a13.359,13.359,0,0,0-7.744,2.461Z" transform="translate(8812 -269)" fill="gray"/>
+    </g>
+  </g>
+</svg>

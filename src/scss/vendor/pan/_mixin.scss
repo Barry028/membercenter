@@ -1,0 +1,32 @@
+@import "mixin/gradient";
+@import "mixin/media";
+@import "mixin/spaing";
+@import "mixin/clearfix";
+@import "mixin/text";
+@import "mixin/position";
+@import "mixin/rem";
+@import "mixin/shape";
+@import "mixin/rwd";
+
+
+
+// Name vAlign
+@mixin align($dir) {
+	@if ($dir == 'x' or $dir == 'h') {
+		// 水平置中
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+	@else if ($dir == 'y' or $dir == 'v') {
+		// 垂直置中
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	@else if ($dir == 'c') {
+		// 垂直、水平置中
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

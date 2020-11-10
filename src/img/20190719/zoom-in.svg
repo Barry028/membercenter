@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="zoom-in" transform="translate(-697 -153)">
+    <rect id="Rectangle_23863" data-name="Rectangle 23863" width="48" height="48" transform="translate(696.999 153)" fill="#fff" opacity="0"/>
+    <g id="zoom-in-2" data-name="zoom-in" transform="translate(703.003 159.001)">
+      <path id="Union_135" data-name="Union 135" d="M33.518,35.574l-7-7A16.163,16.163,0,0,1,0,16.162,16.161,16.161,0,0,1,27.59,4.735a16.165,16.165,0,0,1,.983,21.782l7,7a1.454,1.454,0,0,1-2.057,2.057ZM2.91,16.162a13.246,13.246,0,0,0,22.489,9.5,1.471,1.471,0,0,1,.259-.259A13.25,13.25,0,1,0,2.91,16.162Zm11.8,5.515V17.617H10.647a1.454,1.454,0,1,1,0-2.909h4.061V10.647a1.454,1.454,0,1,1,2.909,0v4.061h4.061a1.454,1.454,0,0,1,0,2.909H17.617v4.061a1.454,1.454,0,0,1-2.909,0Z" transform="translate(-0.002 -0.002)" fill="gray"/>
+    </g>
+  </g>
+</svg>

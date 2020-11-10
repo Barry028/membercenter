@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/**
+ * ==   Components > _opacitys.scss
+ */
+@for $i from 0 through 16 {
+    .opt--#{$i * 6}.opt--#{$i * 6}.opt--#{$i * 6} {
+        opacity: #{$i * 6}% !important;
+    }
+
+}

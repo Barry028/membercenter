@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>1111 人力銀行 - 會員中心 - 收藏的公司</title>
+   <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/iconmoon/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/loading.js"></script>
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <main class="wrapper">
+        <!-- Header Star -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header">
+                        <div class="header-left">
+                            <a id="burger" class="toggle-menu" href="javascript:;">
+                                <span></span>
+                            </a>
+                            <a href="index.html" class="header-logo">
+                                <img src="img/jobbank-logo.svg" alt="1111-會員中心">
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <div class="searchlist">
+                                <a href="javascript:;" class="btn btn--watergrey opt--84" id="searchLog">
+                                    <i class="jb-df-seo-global-search"  aria-hidden="true"></i>
+                                    搜尋紀錄
+                                </a>
+                                <div class="search-log" id="searchLogCnt">
+                                    <div class="search-log-title">最近搜尋紀錄
+                                        <a href="javascript:;" class="close-btn" id="searchLogColse">
+                                            <i class="jb-de-close-s" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                    <div class="search-log-content">
+                                        <ul>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                                <a href="javascript:;">uX</a>
+                                                <a href="javascript:;">UiuX</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找公司</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">uI</a>
+                                            </li>
+                                            <li>
+                                                <span class="type">找工作</span>
+                                                <a href="javascript:;">全球華人</a>
+                                            </li>
+                                        </ul>
+                                        <div class="search-log-footer">
+                                            <a href="javascript:;" class="btn btn--border--danger btn--xs">
+                                                <i class="jb-db-clear mr-4" aria-hidden="true"></i>清除搜尋紀錄
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-bar-box">
+                                <div class="search-bar">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <input type="text" name="keywords" value="" placeholder="請輸入關鍵字">
+                                            <i class="icon-search search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="city" value="" placeholder="請選擇縣市區域">
+                                            <i class="icon-area search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="text" name="duty" value="" placeholder="請選擇職務類別">
+                                            <i class="icon-job search-icon" aria-hidden="true"></i>
+                                            <span class="right-border"></span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <i class="jb-df-search"></i>
+                                            <input type="button" name="" value="找工作" class="btn btn--primary btn--block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        <div class="main">
+            <div class="content">
+                <!-- Side Start -->
+                <aside class="side-nav">
+                    <div class="side-nav-menu">
+                        <div class="profile-box">
+                            <div class="profile-box-lt">
+                                <figure class="profile-pic">
+                                    <img src="img/profile.png" alt="profile" class="profile">
+                                    <i class="icon-camera" aria-hidden="true"></i>
+                                    <figcaption>
+                                        <p class="upload"><i class="icon-camera" aria-hidden="true"></i>上傳照片</p>
+                                    </figcaption>
+                                    <a href="javascript:;" class="UploadPhoto"></a>
+                                </figure>
+                            </div>
+                            <div class="profile-box-rt">
+                                <div class="name">天母克里斯伊凡</div>
+                                <div class="age">
+                                    <strong>27</strong>
+                                    <span>歲</span>
+                                </div>
+                                <dl>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dt class="inline-block--middle not-verify">
+                                        <label class="verify-tag" data-tooltip="您的手機尚未認證！" data-flow="right">
+                                            <i class="jb-df-appliances-smartphone"></i>
+                                            <font>未認證</font>
+                                        </label>
+                                    </dt>
+                                    <!-- 沒認證加上not-verify -->
+                                    <dd class="inline-block--middle">
+                                        <label class="verify-tag" data-tooltip="您的手機已認證！" data-flow="right">
+                                            <i class="jb-df-mail-envelope"></i>
+                                            <font>已認證</font>
+                                        </label>
+                                    </dd>
+                                </dl>
+                                <div class="settip">
+                                    <a class="btn btn--border--secondary btn--sm setting-btn">個人設定</a>
+                                    <div class="setting-tip">
+                                        <h3>
+                                            <!-- 九大職能星 圖片 -->
+                                            <!-- <embed src="img/assessment/mercury.svg" alt="Mercury水星" /> -->
+                                            <!-- <embed src="img/assessment/neptune.svg" alt="Neptune海王星" /> -->
+                                            <!-- <embed src="img/assessment/pluto.svg" alt="Pluto冥王星" /> -->
+                                            <!-- <embed src="img/assessment/Venus.svg" alt="Venus金星" /> -->
+                                            <!-- <embed src="img/assessment/Mars.svg" alt="Mars火星" /> -->
+                                            <!-- <embed src="img/assessment/Saturn.svg" alt="Saturn土星" /> -->
+                                            <!-- <embed src="img/assessment/Jupiter.svg" alt="Jupiter木星" /> -->
+                                            <!-- <embed src="img/assessment/earth.svg" alt="Earth地球" /> -->
+                                            <embed src="img/assessment/uranus.svg" alt="Uranus天王星" />
+                                            天王星 研究型 66%
+                                        </h3>
+                                        <!-- 超過183天請顯示立即重測 -->
+                                        <!-- <a href="javascript:;"> [立即重測] </a> -->
+                                        <a href="javascript:;"> [測驗報告] </a>
+                                        <dl>
+                                            <dt>會員編號</dt>
+                                            <dd>091234567</dd>
+                                            <dt>會員姓名</dt>
+                                            <dd>天母克里斯伊凡</dd>
+                                            <dt>手機號碼</dt>
+                                            <dd>0987654321</dd>
+                                            <dt>電子郵件</dt>
+                                            <dd>barry@face124.com</dd>
+                                            <dt>聯絡時間</dt>
+                                            <dd>09:00 - 22:00</dd>
+                                        </dl>
+                                        <div class="footer">
+                                            <a href="javascript:;" class="btn btn--border--secondary btn--sm">編輯個人資料</a>
+                                            <a href="javascript:;" class="btn btn--border--secondary btn--sm">修改密碼</a>
+                                            <a href="javascript:;" class="btn btn--border--negative btn--sm">封鎖設定</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-list">
+                            <div class="resume-heading">
+                                <a href="javascript:;" class="title">
+                                    <i class="jb-mn-resume" aria-hidden="true"></i>
+                                    <font class="align-middle">履歷總覽</font>
+                                </a>
+                                <a href="javascript:;" class="add-resume" title="新增履歷">
+                                    <i class="jb-df-add-rectangular" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">我的第 1 個履歷</a>
+                                    <span class="status-label label--open">開啟中</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 2 個履歷</a>
+                                    <span class="status-label label--unfinish">未完成</span>
+                                </li>
+                                <li class="unclose">
+                                    <a href="javascript:;">我的第 3 個履歷</a>
+                                    <span class="status-label label--close">關閉中</span>
+                                </li>
+                            </ul>
+                            <p class="upload-date"><i class="jb-df-calendar-schedule-calendar"></i>履歷最後更新日：2018/08/31 18:00</p>
+                        </div>
+                    </div>
+                    <ul class="menu-list" id="mainMenu">
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-home"></i>
+                                <span>會員中心首頁</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-resume"></i>
+                                <span>履歷管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li class="">
+                                    <a href="resume_list.html">
+                                        <i class="menu-icon"></i>
+                                        <span>履歷總覽</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="resume_video.html">
+                                        <i class="menu-icon"></i>
+                                        <span>影音履歷</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="plus_effect.html">
+                                        <i class="menu-icon"></i>
+                                        <span>加分亮點</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="recommendation.html">
+                                        <i class="menu-icon"></i>
+                                        <span>自我推薦函</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-hiring"></i>
+                                <span>求職管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="candidate_alerts_inbox.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業通知</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="company_history.html">
+                                        <i class="menu-icon"></i>
+                                        <span>企業瀏覽紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="apply_record.html">
+                                        <i class="menu-icon"></i>
+                                        <span>主動應徵紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="matchset.html">
+                                        <i class="menu-icon"></i>
+                                        <span>配對工作</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_corp.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="collect_job.html">
+                                        <i class="menu-icon"></i>
+                                        <span>收藏的職缺</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-point"></i>
+                                <span>紅利專區</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>會員紅利管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利領取紀錄</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="menu-icon"></i>
+                                        <span>紅利兌換紀錄</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="jb-mn-account"></i>
+                                <span>帳號管理</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="member_edit.html">
+                                        <i class="menu-icon"></i>
+                                        <span>會員資料</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_password.html">
+                                        <i class="menu-icon"></i>
+                                        <span>變更密碼</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="member_epaper.html">
+                                        <i class="menu-icon"></i>
+                                        <span>電子報管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="industry.html">
+                                        <i class="menu-icon"></i>
+                                        <span>封鎖產業及公司</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="positive.html">
+                                        <i class="menu-icon"></i>
+                                        <span>守約會員管理</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a class="menu-list-header">
+                                <i class="icon-m-rocket"></i>
+                                <span>求職秘笈</span>
+                                <i class="jb-de-cd-linear arrow"></i>
+                            </a>
+                            <ul class="sub-menu-list">
+                                <li>
+                                    <a href="#"><i class="menu-icon"></i>
+                                        <span>XXXXXX</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="double-line"></div>
+                    <div class="side-advertising-box">
+                        <figure>
+                            <div class="mask-assessment"></div>
+                            <figcaption>
+                                <img src="img/assessment-white.svg" alt="九大職能星">
+                                <span>九大職能星</span>
+                            </figcaption>
+                            <p>找出您的職能類型！</p>
+                            <img src="img/astronaut.svg" alt="astronaut" class="astronaut">
+                            <a href="javascript:;" class="btn btn--yellow btn--sm">立即測驗</a>
+                        </figure>
+                        <p class="footer"><a href="javascript:;" class="text--black">幫助中心</a> | <a href="javascript:;" class="text--black"> 線上客服</a></p>
+                    </div>
+                </aside>
+                <!-- Side End -->
+                <!-- Main Start -->
+                <article class="main-content">
+                    <div class="mask-burger"></div>
+                    <!-- Breadcrumbs Start -->
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs-row cf">
+                            <li>
+                                <i class="jb-df-home" aria-hidden="true"></i>
+                                <a href="index.html" title="會員中心首頁">會員中心首頁</a>
+                            </li>
+                            <li>求職管理</li>
+                            <li>收藏的公司</li>
+                        </ul>
+                    </div>
+                    <!-- Breadcrumbs End -->
+                    <!-- Page-Header Start -->
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>收藏的公司<i class="jb-df-right-double-arrow"></i></h1>
+                            <div class="header-title-txt">
+                                訂閱已收藏公司的【新職缺通知信】，搶先接收最新的職缺消息！
+                            </div>
+                        </div>
+                        <div class="alert-block alert-warning mb-16">
+                            <i class="fa fa-envelope text--22 mr-8" aria-hidden="true"></i>
+                            <font>我們會將最新職缺資訊寄送至您的收件信箱</font>
+                            <font class="edit-mail">新工作通知信會發送到：<a href="javascript:;" class="mail">1111@staff.1111.com.tw</a> <a href="javascript:;" class="edit">[修改]</a></font>
+                        </div>
+                    </div>
+                    <!-- Page-Header End -->
+                    <!-- Page-Content Start -->
+                    <div class="page-content">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="panel no-padding cf">
+                                    <div class="panel-content">
+                                        <div class="aside-tab">
+                                            <ul>
+                                                <li class="tablinks" onclick="openTab(event, 'tab1')" id="opentab1">
+                                                    <span>未分類(16)</span>
+                                                </li>
+                                                <li class="tablinks" onclick="openTab(event, 'tab2')" id="opentab2">
+                                                    <span>製造業(0)</span>
+                                                    <i class="icon-icon-edit modal_collect_edit_category" title="編輯分類名稱"></i>
+                                                    <i class="icon-icon-trash modal_collect_delete_category" title="刪除分類"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-btn-block">
+                                                <a href="javascript:;" class="btn btn--primary modal_collect_add_category btn--icon">
+                                                    <span>新增自訂分類</span>
+                                                    <i class="jb-db-add" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="txt">您已啟用 <strong>1/5</strong> 份自訂分類</div>
+                                            </div>
+                                        </div>
+                                        <div id="tab1" class="tabcontent">
+                                            <div class="collect-controller">
+                                                <div class="check-wrap">
+                                                    <input class="checkbox-van-inp" id="corp" type="checkbox">
+                                                    <label class="checkbox-van-lab" for="corp" onclick="check_all(this,'corps')">
+                                                        <i class="checkbox" aria-hidden="true"></i>
+                                                        <a href="javascript:;" title="刪除收藏" class="modal_collect_delete">刪除收藏</a>
+                                                        <font class="text--lightgrey">|</font>
+                                                        <a href="javascript:;" title="移入分類" class="modal_collect_move_category">移入分類</a>
+                                                    </label>
+                                                    <a href="javascript:;" title="刪除已停刊公司" class="delete modal_collect_delete_colse"><span>【刪除已停刊公司】</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp1" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp1">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle">
+                                                                <i class="icon-icon-note modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="淇筌大圖印製有限公司" class="canel-title">淇筌大圖印製有限公司</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp1_receive" class="check_input">
+                                                            <label for="corp1_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block btn--disabled">暫無職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp2" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp2">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('img/company.svg')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle" data-tooltip="已經應徵過了！">
+                                                                <i class="icon-icon-note active modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="全球華人股份有限公司(1111人力銀行)">全球華人股份有限公司(1111人力銀行)</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp2_receive" class="check_input" checked="">
+                                                            <label for="corp2_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已取消新職缺通知信','error',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp3" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp3">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle">
+                                                                <i class="icon-icon-note modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="淇筌大圖印製有限公司" class="canel-title">淇筌大圖印製有限公司</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp3_receive" class="check_input">
+                                                            <label for="corp3_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block btn--disabled">暫無職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp4" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp4">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle" data-tooltip="已經應徵過了！">
+                                                                <i class="icon-icon-note active modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="全球華人股份有限公司(1111人力銀行)">全球華人股份有限公司(1111人力銀行)</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp4_receive" class="check_input" checked="">
+                                                            <label for="corp4_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp5" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp5">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle">
+                                                                <i class="icon-icon-note modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="淇筌大圖印製有限公司" class="canel-title">淇筌大圖印製有限公司</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp5_receive" class="check_input">
+                                                            <label for="corp5_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block btn--disabled">暫無職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp6" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp6">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle" data-tooltip="已經應徵過了！">
+                                                                <i class="icon-icon-note active modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="全球華人股份有限公司(1111人力銀行)">全球華人股份有限公司(1111人力銀行)</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp6_receive" class="check_input" checked="">
+                                                            <label for="corp6_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp7" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp7">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle">
+                                                                <i class="icon-icon-note modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="淇筌大圖印製有限公司" class="canel-title">淇筌大圖印製有限公司</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp7_receive" class="check_input">
+                                                            <label for="corp7_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block btn--disabled">暫無職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp8" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp8">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle" data-tooltip="已經應徵過了！">
+                                                                <i class="icon-icon-note active modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="全球華人股份有限公司(1111人力銀行)">全球華人股份有限公司(1111人力銀行)</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp8_receive" class="check_input" checked="">
+                                                            <label for="corp8_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp9" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp9">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle">
+                                                                <i class="icon-icon-note modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="淇筌大圖印製有限公司" class="canel-title">淇筌大圖印製有限公司</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp9_receive" class="check_input">
+                                                            <label for="corp9_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block btn--disabled">暫無職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp10" type="checkbox" name="corps">
+                                                        <label class="checkbox-van-lab" for="corp10">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle" data-tooltip="已經應徵過了！">
+                                                                <i class="icon-icon-note active modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="全球華人股份有限公司(1111人力銀行)">全球華人股份有限公司(1111人力銀行)</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp10_receive" class="check_input" checked="">
+                                                            <label for="corp10_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-footer">
+                                                <span class="collect-all">已使用 <strong>16/200</strong> 筆</span>
+                                                <span class="collect-remark">職缺自收藏日起保存一年，總共可收藏 200 筆公司</span>
+                                            </div>
+                                            <ul class="pagination">
+                                                <li><a href="#">&laquo;</a></li>
+                                                <li><a class="active" href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <li><a href="#">4</a></li>
+                                                <li><a href="#">5</a></li>
+                                                <li><a href="#">6</a></li>
+                                                <li><a href="#">&raquo;</a></li>
+                                            </ul>
+                                        </div>
+                                        <div id="tab2" class="tabcontent">
+                                            <div class="collect-controller">
+                                                <div class="check-wrap">
+                                                    <input class="checkbox-van-inp" id="corps" type="checkbox" name="all" onclick="check_all(this,'corps_2')">
+                                                    <label class="checkbox-van-lab" for="corps">
+                                                        <i class="checkbox" aria-hidden="true"></i>
+                                                        <a href="javascript:;" title="刪除收藏" class="modal_collect_delete">刪除收藏</a>
+                                                        <font class="text--lightgrey">|</font>
+                                                        <a href="javascript:;" title="移入分類" class="modal_collect_move_category">移入分類</a>
+                                                    </label>
+                                                    <a href="javascript:;" title="刪除已關閉職缺" class="delete modal_collect_delete_colse"><span>【刪除已關閉職缺】</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp11" type="checkbox" name="corps_2">
+                                                        <label class="checkbox-van-lab" for="corp11">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle">
+                                                                <i class="icon-icon-note modal_collect_job_remark"></i>
+                                                                <!-- <span class="bt-tooltiptext">已經應徵過了！</span> -->
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="淇筌大圖印製有限公司" class="canel-title">淇筌大圖印製有限公司</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp11_receive" class="check_input">
+                                                            <label for="corp11_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block btn--disabled">暫無職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="collect-item">
+                                                <div class="collect-item-content">
+                                                    <div class="collect-item-check">
+                                                        <input class="checkbox-van-inp" id="corp12" type="checkbox" name="corps_2">
+                                                        <label class="checkbox-van-lab" for="corp12">
+                                                            <i class="checkbox" aria-hidden="true"></i>
+                                                        </label>
+                                                    </div>
+                                                    <div class="collect-item-img">
+                                                        <div class="corp-img-container">
+                                                            <a href="javascript:;" style="background-image: url('https://images.1111.com.tw/oad/1355006.jpg?2019/4/25%20%E4%B8%8B%E5%8D%88%2002:33:3')" class="image"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="collect-item-text">
+                                                        <p>
+                                                            <span>收藏日期：2018/12/12</span>
+                                                            <sapn class="ml-8 inline-block--middle" data-tooltip="已經應徵過了！">
+                                                                <i class="icon-icon-note active modal_collect_job_remark"></i>
+                                                            </sapn>
+                                                        </p>
+                                                        <a href="javascript:;" title="全球華人股份有限公司(1111人力銀行)">全球華人股份有限公司(1111人力銀行)</a>
+                                                    </div>
+                                                    <div class="collect-item-btn">
+                                                        <div class="radio_wrap">
+                                                            <input type="checkbox" id="corp12_receive" class="check_input" checked="">
+                                                            <label for="corp12_receive" class="check_wrap-label" onclick="memberCenter.noticeToast('已接收新職缺通知信','success',1000);">
+                                                                <span class="check_mark"></span>
+                                                                <span class="txt">接收新職缺通知</span>
+                                                            </label>
+                                                        </div>
+                                                        <a href="javascript:;" class="btn btn--border--secondary btn--block">1111 筆職缺</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-footer">
+                                                <span class="collect-all">已使用 <strong>16/200</strong> 筆</span>
+                                                <span class="collect-remark">職缺自收藏日起保存一年，總共可收藏 200 筆職缺</span>
+                                            </div>
+                                            <ul class="pagination">
+                                                <li><a href="#">&laquo;</a></li>
+                                                <li><a class="active" href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <li><a href="#">4</a></li>
+                                                <li><a href="#">5</a></li>
+                                                <li><a href="#">6</a></li>
+                                                <li><a href="#">&raquo;</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="advertisement">
+                                    <a href="javascript:;">
+                                        <img src="img/dcresume.svg" alt="履歷健診" class="hidden-xs">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Page-Content End -->
+                </article>
+                <!-- Main End -->
+            </div>
+        </div>
+    </main>
+    <button class="rt-fix-tools df-tools--intro" type="button">
+        <i class="jb-df-customer-feedback" aria-hidden="true"></i>
+        <font>新版介紹</font>
+    </button>
+    <button class="rt-fix-tools df-tool" type="button" onclick="location.href='guideline.html'">
+        <i class="jb-gd-compass-guide" aria-hidden="true"></i>
+        <font>設計規範</font>
+    </button>
+    <button class="rt-fix-tools go-to-top js-go-to" data-type="fixed" data-position='{"bottom": 72,"right": 24}' data-offset-top="400" data-compensation="#header" data-show-effect="zoomIn">
+        <i class="jb-de-au-linear-big"></i>
+        <font>回頂端</font>
+    </button>
+    <!-- Jquery -->
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- OwlCarousel -->
+    <script src="vender/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- Cropper -->
+    <script src="vender/cropperjs-master/dist/cropper.min.js"></script>
+    <!-- Go Top -->
+    <script src="js/go-to-top.js"></script>
+    <!-- Layer init -->
+    <script src="js/main-popups.js"></script>
+    <!-- Main -->
+    <script src="js/main.min.js"></script>
+    <script>
+    $(function() {
+        memberCenter.sideMenuOpen(2 , 4);
+    });
+    </script>
+</body>
+
+</html>

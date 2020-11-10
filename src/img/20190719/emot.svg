@@ -1,0 +1,11 @@
+<svg id="emot" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect id="Rectangle_24528" data-name="Rectangle 24528" width="24" height="24" fill="#fff" opacity="0"/>
+  </g>
+  <g id="icon">
+    <path id="Path_99846" data-name="Path 99846" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18.5A8.5,8.5,0,1,1,20.5,12,8.5,8.5,0,0,1,12,20.5Z" fill="#fff"/>
+    <path id="Path_99847" data-name="Path 99847" d="M15,14.25a4.26,4.26,0,0,1-6,0,.77.77,0,0,0-1.07,0,.75.75,0,0,0,0,1.06,5.77,5.77,0,0,0,8.14,0A.753.753,0,1,0,15,14.25Z" fill="#fff"/>
+    <circle id="Ellipse_2186" data-name="Ellipse 2186" cx="1" cy="1" r="1" transform="translate(7.97 8)" fill="#fff"/>
+    <circle id="Ellipse_2187" data-name="Ellipse 2187" cx="1" cy="1" r="1" transform="translate(14 8)" fill="#fff"/>
+  </g>
+</svg>
